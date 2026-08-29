@@ -1,0 +1,18 @@
+{
+  "raw_random_forest": {
+    "accuracy": 0.7,
+    "precision": 0.6,
+    "recall": 0.4825174825174825,
+    "f1": 0.5348837209302325,
+    "roc_auc": 0.7323882343337595,
+    "brier_score": 0.21026699131266835
+  },
+  "calibrated_random_forest": {
+    "accuracy": 0.6975,
+    "precision": 0.671875,
+    "recall": 0.3006993006993007,
+    "f1": 0.41545893719806765,
+    "roc_auc": 0.7285379989660145,
+    "brier_score": 0.19787047435826183
+  }
+}

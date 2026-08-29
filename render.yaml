@@ -1,0 +1,47 @@
+services:
+  - type: web
+    name: triguard-planner
+    runtime: docker
+    region: singapore
+    plan: standard
+    healthCheckPath: /health
+    envVars:
+      - key: TRIGUARD_ENV
+        value: production
+      - key: TRIGUARD_ALLOW_SELF_SIGNUP
+        value: "true"
+      - key: TRIGUARD_DATABASE_URL
+        fromDatabase:
+          name: triguard-postgres
+          property: connectionString
+      - key: TRIGUARD_SESSION_SECRET
+        generateValue: true
+      - key: TRIGUARD_API_KEY
+        generateValue: true
+      - key: TRIGUARD_EMAIL_DELIVERY
+        value: smtp
+      - key: TRIGUARD_SMTP_PORT
+        value: "587"
+      - key: TRIGUARD_SMTP_STARTTLS
+        value: "true"
+      - key: TRIGUARD_VERIFICATION_TTL_MINUTES
+        value: "1440"
+      - key: TRIGUARD_ADMIN_EMAIL
+        sync: false
+      - key: TRIGUARD_ADMIN_PASSWORD
+        sync: false
+      - key: TRIGUARD_PUBLIC_BASE_URL
+        sync: false
+      - key: TRIGUARD_EMAIL_FROM
+        sync: false
+      - key: TRIGUARD_SMTP_HOST
+        sync: false
+      - key: TRIGUARD_SMTP_USERNAME
+        sync: false
+      - key: TRIGUARD_SMTP_PASSWORD
+        sync: false
+
+databases:
+  - name: triguard-postgres
+    region: singapore
+    plan: basic-1gb

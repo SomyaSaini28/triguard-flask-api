@@ -1,0 +1,13 @@
+{
+  "recommended_change": "Remove safety_stock_gap",
+  "reason": "It is deterministically derived from current_stock_days and removing it slightly improved accuracy, precision, F1, ROC-AUC and Brier score on the fixed holdout split.",
+  "metrics": {
+    "n_features": 14.0,
+    "accuracy": 0.71,
+    "precision": 0.7213114754098361,
+    "recall": 0.3076923076923077,
+    "f1": 0.43137254901960786,
+    "roc_auc": 0.7285924192538978,
+    "brier": 0.19705771533185498
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "best_f1_candidate": {
+    "threshold": 0.3,
+    "accuracy": 0.645,
+    "precision": 0.5022421524663677,
+    "recall": 0.7832167832167832,
+    "f1": 0.6120218579234973,
+    "false_negatives": 31.0,
+    "false_positives": 111.0
+  },
+  "best_accuracy_candidate": {
+    "threshold": 0.4,
+    "accuracy": 0.7225,
+    "precision": 0.626984126984127,
+    "recall": 0.5524475524475524,
+    "f1": 0.587360594795539,
+    "false_negatives": 64.0,
+    "false_positives": 47.0
+  }
+}

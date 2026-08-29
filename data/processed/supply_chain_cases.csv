@@ -1,0 +1,2001 @@
+case_id,medicine_name,medicine_criticality,cold_chain_required,supplier_id,destination_facility,supplier_on_time_rate,supplier_fill_rate,lead_time_days,lead_time_variability,route_delay_days,weather_risk_score,demand_spike_factor,current_stock_days,warehouse_utilization,safety_stock_gap,disruption_within_7d
+C1,Pentavalent Vaccine,5,1,S4,District Hospital Ajmer,0.885,0.798,6,2.15,1.08,10,0.5,8,73,0,1
+C2,Oxytocin,5,0,S2,District Hospital Jodhpur,0.761,0.813,6,3.31,4.13,8,1.54,17,76,0,1
+C3,Iron Folic Acid,2,0,S3,Medical College Kota,0.99,0.899,4,3.13,3.0,8,0.79,20,77,0,0
+C4,Pentavalent Vaccine,5,1,S8,PHC Alwar,0.785,0.821,3,0.76,0.0,5,1.38,22,91,0,0
+C5,Amoxicillin,4,0,S10,Medical College Kota,0.909,0.877,9,3.68,6.28,7,1.17,15,73,0,0
+C6,Adrenaline Injection,5,0,S9,District Hospital Ajmer,0.899,0.918,4,3.83,2.36,9,1.46,7,90,1,1
+C7,Salbutamol,4,0,S8,Medical College Kota,0.762,0.841,8,4.32,3.72,7,1.16,3,86,5,0
+C8,Ceftriaxone,4,0,S1,District Hospital Ajmer,0.618,1.0,8,3.01,1.23,2,0.66,7,98,1,0
+C9,ORS,3,0,S5,PHC Alwar,0.925,1.0,5,2.7,2.59,2,1.18,6,77,2,0
+C10,Adrenaline Injection,5,0,S4,CHC Udaipur,0.959,0.826,8,3.63,0.94,0,1.24,1,76,7,0
+C11,ORS,3,0,S9,PHC Sikar,0.821,0.837,10,5.42,1.22,9,1.16,22,81,0,0
+C12,Salbutamol,4,0,S4,District Hospital Jaipur,0.8,0.858,8,2.46,0.0,0,0.99,24,66,0,0
+C13,Amoxicillin,4,0,S2,Medical College Kota,0.797,0.89,3,0.0,4.16,5,1.27,11,66,0,1
+C14,Paracetamol Injection,3,0,S5,Medical College Kota,0.682,0.855,2,2.83,1.55,2,0.58,20,85,0,0
+C15,Ceftriaxone,4,0,S3,Medical College Kota,0.693,0.907,2,3.14,0.0,7,0.86,18,72,0,0
+C16,Iron Folic Acid,2,0,S3,PHC Alwar,0.714,0.964,10,3.29,0.0,0,1.04,16,61,0,0
+C17,Anti-snake Venom,5,1,S7,District Hospital Jaipur,0.936,0.754,4,2.07,3.42,0,0.76,8,85,0,0
+C18,ORS,3,0,S3,District Hospital Jodhpur,0.848,0.889,3,1.43,1.81,5,0.57,3,65,5,1
+C19,ORS,3,0,S1,Medical College Kota,0.73,0.747,5,4.51,0.18,2,1.29,12,100,0,0
+C20,Rabies Vaccine,5,1,S6,CHC Udaipur,0.99,0.948,3,2.14,3.84,0,0.53,5,97,3,1
+C21,Ceftriaxone,4,0,S1,District Hospital Jodhpur,0.805,0.934,6,3.0,1.59,3,0.7,23,82,0,0
+C22,Amoxicillin,4,0,S9,CHC Bikaner,0.638,0.877,9,3.08,0.0,10,1.49,10,51,0,0
+C23,Paracetamol Injection,3,0,S1,District Hospital Jaipur,0.705,0.998,11,3.27,2.42,8,0.74,7,85,1,1
+C24,Insulin,5,1,S8,District Hospital Jodhpur,0.843,0.804,4,2.31,0.0,1,0.5,23,71,0,0
+C25,Iron Folic Acid,2,0,S6,CHC Bikaner,0.77,0.92,11,1.79,3.46,4,1.55,12,93,0,0
+C26,ORS,3,0,S6,District Hospital Ajmer,0.835,0.823,4,0.56,3.95,1,1.29,10,79,0,0
+C27,Paracetamol Injection,3,0,S3,Medical College Kota,0.717,0.944,11,1.34,4.49,9,0.96,22,97,0,1
+C28,Oxytocin,5,0,S1,District Hospital Jodhpur,0.92,1.0,6,2.84,0.0,9,1.65,16,100,0,1
+C29,Salbutamol,4,0,S5,PHC Alwar,0.792,1.0,11,3.55,2.58,3,0.91,23,59,0,1
+C30,ORS,3,0,S2,Medical College Kota,0.67,1.0,11,0.35,7.24,3,1.03,16,73,0,1
+C31,Amoxicillin,4,0,S1,Medical College Kota,0.898,0.873,9,3.62,4.76,0,1.75,5,61,3,0
+C32,Insulin,5,1,S8,CHC Bikaner,0.586,0.793,3,1.2,1.7,6,0.85,17,75,0,0
+C33,Iron Folic Acid,2,0,S10,CHC Bikaner,0.671,0.778,8,3.04,0.25,10,1.13,21,85,0,0
+C34,Salbutamol,4,0,S8,District Hospital Jodhpur,0.89,1.0,5,3.29,3.8,7,0.79,23,81,0,1
+C35,Insulin,5,1,S7,District Hospital Ajmer,0.716,0.939,2,2.01,7.36,8,1.24,17,85,0,1
+C36,Salbutamol,4,0,S3,Medical College Kota,0.783,0.899,5,2.31,4.94,4,1.37,5,84,3,0
+C37,ORS,3,0,S5,Medical College Kota,0.99,0.9,10,3.42,3.94,5,1.09,10,58,0,1
+C38,Iron Folic Acid,2,0,S2,District Hospital Ajmer,0.759,0.702,9,2.62,0.0,3,0.51,17,56,0,1
+C39,ORS,3,0,S4,CHC Udaipur,0.8,1.0,7,0.97,3.0,2,0.99,13,99,0,0
+C40,Iron Folic Acid,2,0,S4,Medical College Kota,0.7,0.925,8,3.3,2.43,8,1.54,17,74,0,1
+C41,Rabies Vaccine,5,1,S5,CHC Udaipur,0.592,0.92,7,3.77,0.0,8,1.8,14,64,0,0
+C42,Oxytocin,5,0,S6,CHC Udaipur,0.869,1.0,11,1.45,5.44,7,0.72,4,75,4,1
+C43,Adrenaline Injection,5,0,S2,Medical College Kota,0.59,0.896,5,0.23,2.72,2,1.26,2,59,6,0
+C44,Amoxicillin,4,0,S5,PHC Alwar,0.99,1.0,3,1.83,0.0,5,1.47,17,62,0,0
+C45,Salbutamol,4,0,S3,PHC Alwar,0.807,0.854,7,3.01,4.94,4,1.0,5,86,3,1
+C46,Ceftriaxone,4,0,S1,District Hospital Ajmer,0.826,0.753,4,2.29,0.0,0,0.77,17,89,0,0
+C47,Adrenaline Injection,5,0,S8,PHC Alwar,0.849,1.0,7,1.72,3.11,0,1.72,17,97,0,0
+C48,Pentavalent Vaccine,5,1,S5,District Hospital Ajmer,0.99,0.975,8,3.29,3.41,10,0.5,19,83,0,1
+C49,Rabies Vaccine,5,1,S1,District Hospital Jodhpur,0.788,0.913,11,0.0,1.4,7,1.04,2,62,6,0
+C50,Anti-snake Venom,5,1,S3,PHC Alwar,0.762,0.75,9,3.23,3.29,10,0.92,18,100,0,1
+C51,Oxytocin,5,0,S2,Medical College Kota,0.792,0.852,7,2.34,0.0,9,0.57,15,71,0,0
+C52,Anti-snake Venom,5,1,S1,CHC Bikaner,0.681,0.878,9,2.55,5.77,6,0.89,14,73,0,0
+C53,Iron Folic Acid,2,0,S8,PHC Sikar,0.889,0.891,3,4.79,0.0,8,0.73,7,66,1,0
+C54,Iron Folic Acid,2,0,S9,District Hospital Jaipur,0.889,0.825,11,0.0,1.49,3,1.52,15,71,0,0
+C55,Paracetamol Injection,3,0,S8,District Hospital Jaipur,0.579,0.967,6,4.59,0.0,1,1.0,6,86,2,1
+C56,Oxytocin,5,0,S6,District Hospital Ajmer,0.623,0.814,5,1.56,2.94,5,1.05,22,98,0,0
+C57,Rabies Vaccine,5,1,S3,CHC Udaipur,0.832,0.935,9,4.36,1.35,4,0.8,19,69,0,0
+C58,Insulin,5,1,S1,CHC Bikaner,0.7,0.839,5,2.71,3.09,5,0.5,18,59,0,1
+C59,Iron Folic Acid,2,0,S2,District Hospital Ajmer,0.75,0.886,6,6.08,0.41,2,1.2,12,99,0,0
+C60,Paracetamol Injection,3,0,S9,CHC Bikaner,0.796,0.909,9,4.87,2.46,2,1.24,21,86,0,0
+C61,Anti-snake Venom,5,1,S10,CHC Udaipur,0.925,0.827,10,1.75,4.93,7,0.76,6,82,2,0
+C62,Insulin,5,1,S9,District Hospital Jaipur,0.552,0.836,6,3.73,1.92,2,1.27,6,55,2,0
+C63,Ceftriaxone,4,0,S8,CHC Bikaner,0.861,0.818,2,3.95,1.65,3,1.34,1,53,7,1
+C64,Iron Folic Acid,2,0,S5,PHC Sikar,0.906,0.819,5,2.89,5.56,7,0.67,5,78,3,0
+C65,Adrenaline Injection,5,0,S2,PHC Sikar,0.986,0.961,5,3.58,4.32,3,0.5,15,75,0,1
+C66,Adrenaline Injection,5,0,S10,District Hospital Ajmer,0.99,0.947,5,1.1,0.42,8,1.46,22,100,0,1
+C67,Paracetamol Injection,3,0,S9,CHC Udaipur,0.745,0.81,5,2.58,3.47,7,0.5,21,58,0,0
+C68,Salbutamol,4,0,S5,CHC Bikaner,0.99,0.759,10,0.02,0.0,10,0.5,17,92,0,0
+C69,Anti-snake Venom,5,1,S3,CHC Udaipur,0.819,0.728,7,1.42,3.13,9,0.91,8,98,0,1
+C70,Pentavalent Vaccine,5,1,S3,PHC Sikar,0.687,0.803,2,4.19,1.44,7,0.81,19,67,0,0
+C71,Ceftriaxone,4,0,S2,CHC Bikaner,0.636,1.0,7,1.97,1.93,7,0.51,14,83,0,0
+C72,Pentavalent Vaccine,5,1,S7,Medical College Kota,0.727,0.982,4,0.0,2.8,7,0.6,22,96,0,1
+C73,Ceftriaxone,4,0,S1,Medical College Kota,0.778,0.837,9,3.57,2.3,10,0.9,23,97,0,0
+C74,Iron Folic Acid,2,0,S7,District Hospital Jaipur,0.693,0.893,3,0.62,0.0,1,0.71,3,72,5,0
+C75,ORS,3,0,S5,District Hospital Ajmer,0.97,0.643,3,1.95,2.35,9,0.81,10,79,0,0
+C76,Pentavalent Vaccine,5,1,S1,CHC Bikaner,0.868,1.0,8,3.51,2.61,3,0.58,13,83,0,0
+C77,Anti-snake Venom,5,1,S6,CHC Bikaner,0.982,0.873,10,3.11,0.0,8,1.63,21,91,0,0
+C78,Anti-snake Venom,5,1,S9,PHC Alwar,0.817,0.886,10,3.97,6.47,0,0.92,21,77,0,1
+C79,Amoxicillin,4,0,S6,PHC Sikar,0.793,0.981,5,1.04,3.4,2,0.96,24,71,0,1
+C80,Insulin,5,1,S10,Medical College Kota,0.887,0.737,5,2.72,1.49,10,0.77,2,58,6,0
+C81,Oxytocin,5,0,S9,District Hospital Jaipur,0.694,0.682,9,0.16,0.78,2,0.89,17,66,0,1
+C82,Pentavalent Vaccine,5,1,S1,PHC Alwar,0.741,0.929,2,4.43,3.82,5,1.37,8,74,0,0
+C83,Adrenaline Injection,5,0,S10,District Hospital Jaipur,0.872,0.881,8,0.62,6.19,6,1.16,18,72,0,1
+C84,ORS,3,0,S7,PHC Sikar,0.794,0.954,2,1.73,0.0,1,1.49,3,86,5,0
+C85,Iron Folic Acid,2,0,S7,PHC Alwar,0.798,0.816,2,5.56,2.37,1,0.5,12,51,0,0
+C86,Iron Folic Acid,2,0,S2,CHC Udaipur,0.908,0.924,8,2.24,6.18,8,0.77,10,79,0,0
+C87,Pentavalent Vaccine,5,1,S4,District Hospital Ajmer,0.597,0.83,3,0.99,0.12,8,1.16,15,58,0,0
+C88,Salbutamol,4,0,S8,Medical College Kota,0.79,0.958,9,2.18,5.66,8,0.77,7,53,1,0
+C89,ORS,3,0,S6,District Hospital Ajmer,0.805,0.81,10,3.33,0.38,5,1.18,23,98,0,0
+C90,ORS,3,0,S10,District Hospital Jaipur,0.963,0.823,3,0.74,1.81,2,1.0,3,87,5,0
+C91,Salbutamol,4,0,S9,Medical College Kota,0.719,0.876,10,0.26,0.21,8,0.98,5,60,3,0
+C92,Paracetamol Injection,3,0,S6,District Hospital Jodhpur,0.797,0.836,3,2.65,0.57,0,1.08,18,89,0,0
+C93,Ceftriaxone,4,0,S10,PHC Sikar,0.979,0.747,2,2.86,2.05,7,0.78,16,90,0,0
+C94,Salbutamol,4,0,S5,CHC Bikaner,0.763,0.892,8,1.56,3.37,9,0.97,10,81,0,0
+C95,Pentavalent Vaccine,5,1,S2,Medical College Kota,0.99,0.894,8,3.48,0.0,7,1.26,24,94,0,1
+C96,Rabies Vaccine,5,1,S3,CHC Udaipur,0.658,0.855,3,2.01,3.68,4,0.5,22,53,0,1
+C97,ORS,3,0,S2,Medical College Kota,0.949,0.757,7,2.15,4.82,5,0.83,18,63,0,1
+C98,Adrenaline Injection,5,0,S4,PHC Sikar,0.835,0.897,8,1.71,3.55,10,0.84,23,75,0,0
+C99,Amoxicillin,4,0,S4,District Hospital Jaipur,0.976,0.871,5,3.2,2.54,3,0.55,17,93,0,0
+C100,Oxytocin,5,0,S5,PHC Sikar,0.925,0.675,11,1.65,1.07,2,1.12,17,74,0,1
+C101,Amoxicillin,4,0,S8,Medical College Kota,0.852,0.837,6,2.26,0.0,1,1.22,12,73,0,1
+C102,Ceftriaxone,4,0,S4,CHC Udaipur,0.979,1.0,5,4.75,0.0,8,0.89,22,51,0,1
+C103,Anti-snake Venom,5,1,S1,District Hospital Jodhpur,0.99,0.821,3,6.21,0.61,10,1.28,6,90,2,0
+C104,Rabies Vaccine,5,1,S3,District Hospital Jodhpur,0.871,0.828,7,2.57,4.21,9,1.31,8,81,0,0
+C105,Insulin,5,1,S2,District Hospital Jaipur,0.79,0.792,2,1.79,3.44,6,1.07,14,99,0,0
+C106,Iron Folic Acid,2,0,S7,Medical College Kota,0.692,0.888,4,1.3,1.88,8,1.31,7,80,1,0
+C107,Amoxicillin,4,0,S8,District Hospital Jodhpur,0.927,0.924,8,3.48,5.06,5,0.93,3,90,5,1
+C108,Anti-snake Venom,5,1,S2,CHC Udaipur,0.978,1.0,10,4.11,0.92,6,1.15,14,85,0,0
+C109,Pentavalent Vaccine,5,1,S5,PHC Alwar,0.881,0.66,4,2.24,0.13,5,1.38,24,69,0,0
+C110,Adrenaline Injection,5,0,S4,Medical College Kota,0.807,0.704,6,5.5,4.32,1,0.5,4,55,4,1
+C111,Ceftriaxone,4,0,S3,CHC Bikaner,0.99,0.998,2,3.1,0.27,6,0.52,2,86,6,1
+C112,Salbutamol,4,0,S6,Medical College Kota,0.99,1.0,8,0.03,3.57,5,0.5,17,74,0,1
+C113,Amoxicillin,4,0,S3,District Hospital Ajmer,0.822,0.851,9,0.39,0.51,10,0.95,16,59,0,0
+C114,Adrenaline Injection,5,0,S9,District Hospital Jaipur,0.939,1.0,2,0.61,0.16,8,0.54,11,86,0,0
+C115,Adrenaline Injection,5,0,S5,District Hospital Jaipur,0.866,0.903,7,2.11,1.15,1,0.57,5,54,3,0
+C116,Ceftriaxone,4,0,S10,Medical College Kota,0.896,0.952,9,3.02,0.0,5,2.03,20,72,0,0
+C117,ORS,3,0,S2,CHC Bikaner,0.732,0.911,6,2.91,0.33,5,0.93,2,50,6,1
+C118,Iron Folic Acid,2,0,S10,CHC Udaipur,0.846,1.0,9,2.41,2.17,10,1.18,8,74,0,0
+C119,Insulin,5,1,S1,PHC Sikar,0.921,1.0,3,2.4,2.09,8,0.91,11,53,0,1
+C120,Rabies Vaccine,5,1,S4,CHC Udaipur,0.759,0.95,10,2.29,2.92,0,0.86,24,56,0,0
+C121,Insulin,5,1,S10,PHC Alwar,0.578,0.967,10,4.1,5.54,2,1.57,10,51,0,1
+C122,Ceftriaxone,4,0,S5,CHC Bikaner,0.941,0.697,5,2.76,3.99,5,1.2,14,99,0,0
+C123,Anti-snake Venom,5,1,S5,PHC Alwar,0.93,0.844,6,2.12,2.21,10,0.57,13,71,0,0
+C124,ORS,3,0,S5,Medical College Kota,0.762,0.912,4,2.81,0.01,1,1.06,2,98,6,1
+C125,Iron Folic Acid,2,0,S9,CHC Udaipur,0.886,0.763,11,1.69,2.42,7,0.8,24,85,0,0
+C126,Rabies Vaccine,5,1,S7,CHC Udaipur,0.883,0.802,11,2.6,1.95,8,1.79,9,64,0,0
+C127,Iron Folic Acid,2,0,S9,District Hospital Ajmer,0.841,0.887,2,3.62,0.24,1,1.24,7,59,1,0
+C128,Ceftriaxone,4,0,S4,CHC Bikaner,0.875,1.0,2,0.64,2.64,6,1.14,21,66,0,0
+C129,Oxytocin,5,0,S3,Medical College Kota,0.887,0.741,10,4.69,0.0,8,0.72,22,88,0,1
+C130,Anti-snake Venom,5,1,S7,District Hospital Jodhpur,0.99,0.917,8,4.94,0.15,4,1.3,1,85,7,1
+C131,Paracetamol Injection,3,0,S1,PHC Sikar,0.959,0.705,2,3.24,3.24,10,0.53,8,99,0,0
+C132,Adrenaline Injection,5,0,S10,PHC Sikar,0.919,0.71,4,0.51,1.03,7,1.6,22,93,0,1
+C133,Oxytocin,5,0,S9,PHC Alwar,0.71,0.868,10,0.0,0.6,6,0.62,5,69,3,1
+C134,Adrenaline Injection,5,0,S1,District Hospital Jaipur,0.782,0.795,7,2.91,1.85,0,0.89,21,65,0,0
+C135,ORS,3,0,S2,District Hospital Ajmer,0.726,0.727,6,0.67,0.21,0,0.7,23,75,0,0
+C136,Pentavalent Vaccine,5,1,S6,PHC Sikar,0.628,0.897,6,4.6,1.55,0,0.5,10,87,0,1
+C137,Ceftriaxone,4,0,S8,CHC Bikaner,0.852,0.892,8,1.74,1.07,4,1.25,2,74,6,0
+C138,Insulin,5,1,S4,PHC Alwar,0.834,1.0,7,2.05,0.57,2,1.33,9,55,0,0
+C139,Oxytocin,5,0,S2,District Hospital Jodhpur,0.934,0.521,5,2.86,0.0,3,0.67,6,81,2,0
+C140,Amoxicillin,4,0,S7,PHC Sikar,0.803,0.974,3,0.0,0.26,10,0.98,18,80,0,0
+C141,Salbutamol,4,0,S7,PHC Sikar,0.735,0.945,8,1.92,1.81,3,0.55,5,88,3,0
+C142,ORS,3,0,S4,Medical College Kota,0.895,0.907,6,3.6,1.27,2,1.35,7,76,1,0
+C143,Pentavalent Vaccine,5,1,S5,District Hospital Ajmer,0.751,0.601,7,3.08,3.96,6,1.04,1,62,7,1
+C144,Amoxicillin,4,0,S5,District Hospital Ajmer,0.686,0.761,6,2.45,0.0,3,0.99,16,67,0,0
+C145,Salbutamol,4,0,S4,District Hospital Ajmer,0.99,0.839,2,4.21,0.0,0,0.97,11,83,0,0
+C146,Rabies Vaccine,5,1,S8,District Hospital Jaipur,0.931,0.796,9,2.75,1.45,7,1.09,13,57,0,0
+C147,Anti-snake Venom,5,1,S1,District Hospital Ajmer,0.805,0.869,2,0.48,0.0,10,0.79,5,54,3,0
+C148,Paracetamol Injection,3,0,S10,CHC Udaipur,0.963,0.863,2,1.23,3.29,8,0.74,9,51,0,0
+C149,Ceftriaxone,4,0,S1,Medical College Kota,0.979,0.916,10,2.46,2.53,1,0.73,8,51,0,0
+C150,Oxytocin,5,0,S2,PHC Sikar,0.776,0.777,9,2.8,0.0,8,0.5,18,71,0,0
+C151,ORS,3,0,S5,Medical College Kota,0.845,0.844,9,3.62,0.85,8,1.75,21,57,0,0
+C152,Pentavalent Vaccine,5,1,S7,Medical College Kota,0.903,0.845,7,1.95,2.22,10,0.77,18,80,0,0
+C153,Pentavalent Vaccine,5,1,S8,Medical College Kota,0.857,1.0,2,0.0,1.64,2,1.35,5,96,3,0
+C154,Iron Folic Acid,2,0,S8,District Hospital Jaipur,0.845,0.914,5,3.01,1.12,9,0.7,2,92,6,0
+C155,Oxytocin,5,0,S7,PHC Sikar,0.758,0.749,10,2.3,1.53,9,1.11,14,63,0,1
+C156,Oxytocin,5,0,S9,Medical College Kota,0.858,0.771,8,1.84,1.92,9,0.5,4,96,4,1
+C157,ORS,3,0,S10,District Hospital Jodhpur,0.765,0.824,7,5.02,0.15,4,0.85,17,56,0,0
+C158,Ceftriaxone,4,0,S8,District Hospital Ajmer,0.678,1.0,5,5.51,1.46,1,0.77,19,80,0,0
+C159,Ceftriaxone,4,0,S1,PHC Alwar,0.954,0.795,7,3.33,0.61,2,0.6,23,98,0,0
+C160,Amoxicillin,4,0,S4,District Hospital Jaipur,0.797,1.0,10,3.45,1.84,0,1.2,6,53,2,0
+C161,Anti-snake Venom,5,1,S6,PHC Alwar,0.775,0.969,10,3.03,1.59,2,0.82,17,94,0,0
+C162,Ceftriaxone,4,0,S10,PHC Sikar,0.913,0.963,6,2.21,0.0,4,0.72,4,55,4,1
+C163,Pentavalent Vaccine,5,1,S7,CHC Bikaner,0.832,0.875,5,1.6,2.34,8,1.27,4,70,4,1
+C164,Adrenaline Injection,5,0,S10,CHC Udaipur,0.967,0.949,11,1.46,3.14,9,0.72,13,55,0,0
+C165,ORS,3,0,S8,PHC Sikar,0.832,0.747,2,2.25,1.7,1,1.12,24,64,0,1
+C166,Oxytocin,5,0,S10,CHC Bikaner,0.99,0.704,10,1.71,2.24,4,1.0,3,72,5,1
+C167,Paracetamol Injection,3,0,S1,PHC Sikar,0.857,0.847,10,1.59,4.43,8,1.07,17,73,0,0
+C168,Amoxicillin,4,0,S10,PHC Sikar,0.958,0.878,2,1.95,0.0,1,1.19,1,59,7,0
+C169,Amoxicillin,4,0,S6,District Hospital Jodhpur,0.796,0.846,4,3.43,5.2,7,0.89,10,84,0,0
+C170,Insulin,5,1,S7,District Hospital Ajmer,0.847,0.812,5,1.07,0.0,4,1.03,15,71,0,0
+C171,Anti-snake Venom,5,1,S9,District Hospital Jodhpur,0.926,0.852,2,4.4,0.67,6,1.36,18,92,0,1
+C172,Ceftriaxone,4,0,S8,Medical College Kota,0.881,0.677,10,2.8,4.87,6,1.38,9,96,0,1
+C173,Paracetamol Injection,3,0,S2,CHC Bikaner,0.99,0.677,3,3.75,0.73,2,1.89,23,57,0,1
+C174,Adrenaline Injection,5,0,S5,Medical College Kota,0.842,0.774,2,4.21,1.98,4,0.98,13,83,0,0
+C175,Rabies Vaccine,5,1,S10,PHC Alwar,0.717,0.896,6,4.28,6.16,8,0.82,5,84,3,1
+C176,Salbutamol,4,0,S4,CHC Udaipur,0.887,1.0,10,3.03,3.87,8,0.96,21,73,0,0
+C177,Ceftriaxone,4,0,S10,District Hospital Jodhpur,0.921,0.915,2,1.65,0.76,8,0.73,11,72,0,0
+C178,Rabies Vaccine,5,1,S1,District Hospital Ajmer,0.893,0.903,4,3.07,0.93,7,0.76,15,88,0,0
+C179,ORS,3,0,S1,District Hospital Jodhpur,0.924,0.822,7,1.61,1.15,8,1.36,14,85,0,1
+C180,Pentavalent Vaccine,5,1,S9,PHC Sikar,0.662,0.946,8,3.02,0.82,5,0.6,14,85,0,0
+C181,Ceftriaxone,4,0,S3,CHC Udaipur,0.808,1.0,2,2.17,2.26,8,1.18,10,68,0,1
+C182,ORS,3,0,S7,CHC Udaipur,0.789,0.766,8,4.13,5.46,3,1.19,14,87,0,0
+C183,ORS,3,0,S8,District Hospital Jaipur,0.594,0.83,6,0.92,0.0,8,1.15,14,71,0,1
+C184,Pentavalent Vaccine,5,1,S1,District Hospital Jodhpur,0.928,0.868,3,1.8,4.85,3,1.3,5,52,3,1
+C185,Oxytocin,5,0,S9,District Hospital Ajmer,0.686,0.849,4,2.29,3.22,7,0.97,19,53,0,0
+C186,Adrenaline Injection,5,0,S4,CHC Udaipur,0.896,0.77,8,1.1,3.13,1,0.92,17,61,0,1
+C187,Anti-snake Venom,5,1,S8,PHC Sikar,0.794,0.653,9,0.0,0.0,3,1.03,6,98,2,0
+C188,Paracetamol Injection,3,0,S4,Medical College Kota,0.645,0.829,6,0.0,2.36,10,1.96,22,90,0,0
+C189,Oxytocin,5,0,S1,District Hospital Jaipur,0.836,0.993,8,1.85,1.62,10,0.98,14,94,0,0
+C190,Adrenaline Injection,5,0,S3,Medical College Kota,0.749,0.894,2,3.65,0.63,6,1.05,17,96,0,1
+C191,Amoxicillin,4,0,S2,Medical College Kota,0.72,0.639,3,2.79,0.03,7,0.95,19,64,0,0
+C192,Amoxicillin,4,0,S9,CHC Bikaner,0.829,0.978,11,0.0,0.0,8,1.0,7,77,1,0
+C193,Rabies Vaccine,5,1,S5,CHC Bikaner,0.974,0.872,9,3.34,3.15,2,0.71,15,75,0,1
+C194,Insulin,5,1,S9,PHC Alwar,0.808,0.965,5,2.0,0.0,4,1.32,6,79,2,0
+C195,Amoxicillin,4,0,S3,PHC Sikar,0.602,0.791,11,2.09,1.37,0,1.49,5,56,3,1
+C196,Paracetamol Injection,3,0,S1,District Hospital Jaipur,0.99,0.845,11,3.15,3.86,10,1.49,15,80,0,1
+C197,Anti-snake Venom,5,1,S1,District Hospital Jaipur,0.936,1.0,3,2.91,3.58,5,1.66,13,99,0,1
+C198,Paracetamol Injection,3,0,S8,PHC Sikar,0.765,0.749,11,2.65,0.0,1,0.87,6,64,2,0
+C199,Iron Folic Acid,2,0,S5,CHC Bikaner,0.904,0.827,5,2.52,1.78,10,0.96,13,81,0,0
+C200,ORS,3,0,S5,District Hospital Ajmer,0.874,1.0,7,0.0,2.68,2,0.83,10,83,0,0
+C201,Ceftriaxone,4,0,S10,District Hospital Jaipur,0.99,0.869,6,2.59,2.39,2,1.1,3,62,5,0
+C202,Anti-snake Venom,5,1,S4,PHC Sikar,0.678,0.931,3,3.78,3.48,9,1.69,19,86,0,1
+C203,Paracetamol Injection,3,0,S5,District Hospital Jaipur,0.883,0.887,6,0.0,3.56,5,1.11,5,66,3,0
+C204,Salbutamol,4,0,S10,Medical College Kota,0.773,0.769,5,2.54,1.96,9,1.37,4,87,4,1
+C205,Paracetamol Injection,3,0,S7,PHC Alwar,0.909,0.879,4,4.08,1.9,10,1.42,15,53,0,1
+C206,Ceftriaxone,4,0,S9,District Hospital Jodhpur,0.78,0.841,2,4.2,0.0,5,0.72,3,54,5,0
+C207,Pentavalent Vaccine,5,1,S2,District Hospital Jodhpur,0.829,0.968,6,4.22,0.54,7,1.07,15,84,0,1
+C208,Paracetamol Injection,3,0,S10,District Hospital Jaipur,0.99,0.848,6,1.97,0.35,7,1.15,8,54,0,0
+C209,Salbutamol,4,0,S1,Medical College Kota,0.746,0.891,8,1.27,1.46,3,0.76,3,57,5,1
+C210,Adrenaline Injection,5,0,S2,District Hospital Ajmer,0.803,0.863,3,3.41,1.5,9,0.71,16,87,0,0
+C211,Amoxicillin,4,0,S10,District Hospital Ajmer,0.688,0.924,3,3.81,0.37,7,1.29,7,88,1,0
+C212,Salbutamol,4,0,S5,District Hospital Ajmer,0.797,0.695,10,4.3,0.24,6,1.2,23,81,0,0
+C213,Iron Folic Acid,2,0,S4,District Hospital Jodhpur,0.99,0.942,3,3.71,0.0,3,0.62,4,62,4,1
+C214,Paracetamol Injection,3,0,S2,Medical College Kota,0.698,0.677,3,2.46,2.5,8,1.28,12,98,0,1
+C215,Insulin,5,1,S10,District Hospital Ajmer,0.781,0.876,3,0.0,0.73,8,0.94,9,76,0,1
+C216,ORS,3,0,S4,CHC Bikaner,0.838,0.844,2,3.92,2.59,2,0.94,5,66,3,0
+C217,Iron Folic Acid,2,0,S1,Medical College Kota,0.99,0.953,11,1.88,0.4,10,1.07,12,60,0,1
+C218,Salbutamol,4,0,S9,District Hospital Ajmer,0.828,1.0,6,1.88,1.25,6,0.84,9,84,0,0
+C219,Amoxicillin,4,0,S3,Medical College Kota,0.846,0.727,5,1.91,2.37,8,1.14,22,82,0,1
+C220,Pentavalent Vaccine,5,1,S2,District Hospital Jaipur,0.896,0.898,3,1.15,1.75,5,0.88,22,50,0,1
+C221,Adrenaline Injection,5,0,S3,District Hospital Ajmer,0.611,0.872,6,0.88,2.92,5,0.92,3,96,5,1
+C222,Adrenaline Injection,5,0,S6,Medical College Kota,0.701,0.858,5,2.11,1.3,0,0.83,20,77,0,0
+C223,Insulin,5,1,S8,Medical College Kota,0.791,0.879,7,0.0,0.19,8,1.04,20,61,0,0
+C224,Anti-snake Venom,5,1,S5,Medical College Kota,0.99,0.963,4,2.7,2.71,7,1.24,13,71,0,0
+C225,Paracetamol Injection,3,0,S3,District Hospital Ajmer,0.731,0.78,8,3.77,4.69,7,1.01,15,81,0,1
+C226,Salbutamol,4,0,S1,PHC Sikar,0.848,0.937,10,4.67,3.81,2,1.2,11,62,0,1
+C227,Paracetamol Injection,3,0,S4,PHC Alwar,0.873,0.757,2,3.46,1.07,7,1.11,9,95,0,0
+C228,Insulin,5,1,S2,District Hospital Ajmer,0.99,0.703,9,2.48,0.0,9,1.06,21,95,0,0
+C229,Rabies Vaccine,5,1,S6,CHC Udaipur,0.99,0.671,4,2.2,0.0,10,0.71,11,62,0,0
+C230,Adrenaline Injection,5,0,S6,District Hospital Jaipur,0.868,0.865,6,3.0,5.14,6,0.52,6,67,2,1
+C231,ORS,3,0,S3,District Hospital Ajmer,0.823,0.917,3,2.36,2.22,9,1.63,15,79,0,0
+C232,Pentavalent Vaccine,5,1,S1,PHC Sikar,0.797,0.891,6,4.08,0.0,7,1.21,2,57,6,0
+C233,Rabies Vaccine,5,1,S5,PHC Sikar,0.818,0.811,11,7.74,0.0,6,0.53,21,79,0,1
+C234,Insulin,5,1,S7,PHC Sikar,0.628,0.938,5,0.34,3.74,1,0.5,4,50,4,1
+C235,Iron Folic Acid,2,0,S10,District Hospital Ajmer,0.878,0.926,6,1.89,2.74,3,0.5,19,70,0,0
+C236,Iron Folic Acid,2,0,S3,PHC Sikar,0.99,0.838,8,0.83,4.04,9,0.86,20,64,0,0
+C237,Paracetamol Injection,3,0,S9,District Hospital Jodhpur,0.926,0.818,10,0.39,0.0,2,0.5,24,76,0,0
+C238,ORS,3,0,S2,District Hospital Ajmer,0.844,0.928,4,4.29,0.0,4,1.44,24,72,0,1
+C239,Oxytocin,5,0,S9,District Hospital Jaipur,0.742,0.873,7,1.4,0.0,3,1.24,15,90,0,1
+C240,Pentavalent Vaccine,5,1,S10,CHC Bikaner,0.682,0.775,10,1.11,2.91,5,0.91,4,88,4,1
+C241,Rabies Vaccine,5,1,S5,CHC Udaipur,0.99,0.958,8,5.2,2.19,10,1.05,17,60,0,1
+C242,Rabies Vaccine,5,1,S9,District Hospital Jaipur,0.61,0.701,10,3.69,1.81,0,0.63,1,74,7,1
+C243,Insulin,5,1,S9,PHC Alwar,0.884,0.949,8,3.72,1.37,6,0.93,9,78,0,0
+C244,Rabies Vaccine,5,1,S6,Medical College Kota,0.812,0.966,8,3.91,0.0,9,1.17,15,85,0,0
+C245,ORS,3,0,S2,District Hospital Jaipur,0.813,0.905,5,2.58,6.76,5,1.18,19,50,0,0
+C246,Rabies Vaccine,5,1,S8,District Hospital Ajmer,0.826,0.879,5,2.84,0.0,5,1.36,19,86,0,0
+C247,Paracetamol Injection,3,0,S7,PHC Sikar,0.659,0.928,9,2.6,0.35,4,0.64,17,55,0,0
+C248,Salbutamol,4,0,S5,CHC Udaipur,0.658,0.787,3,0.58,4.76,4,0.77,2,79,6,1
+C249,ORS,3,0,S1,District Hospital Ajmer,0.904,0.946,8,1.96,0.0,5,1.15,9,57,0,0
+C250,Iron Folic Acid,2,0,S1,CHC Bikaner,0.8,1.0,11,1.58,0.0,0,1.13,12,56,0,0
+C251,Iron Folic Acid,2,0,S2,District Hospital Jaipur,0.909,0.996,9,2.81,1.62,10,0.58,15,87,0,0
+C252,Salbutamol,4,0,S6,Medical College Kota,0.861,1.0,3,4.51,3.64,5,1.35,9,85,0,0
+C253,Amoxicillin,4,0,S4,District Hospital Jaipur,0.804,0.759,6,2.18,2.0,5,0.5,13,77,0,0
+C254,ORS,3,0,S7,District Hospital Jaipur,0.99,0.93,11,2.6,3.52,9,0.88,6,97,2,1
+C255,Iron Folic Acid,2,0,S2,PHC Sikar,0.716,0.846,6,2.3,2.99,3,1.59,19,77,0,0
+C256,Salbutamol,4,0,S9,CHC Bikaner,0.761,0.764,8,3.47,2.03,3,0.92,15,82,0,0
+C257,Oxytocin,5,0,S2,District Hospital Jodhpur,0.703,0.672,11,4.89,4.44,6,1.14,19,85,0,0
+C258,Paracetamol Injection,3,0,S3,CHC Bikaner,0.874,0.692,9,2.64,1.17,8,0.78,6,92,2,0
+C259,Insulin,5,1,S1,CHC Udaipur,0.77,0.996,11,3.75,0.0,9,2.14,11,86,0,1
+C260,Amoxicillin,4,0,S2,PHC Alwar,0.814,0.812,10,0.0,2.21,6,0.54,11,73,0,1
+C261,Insulin,5,1,S7,PHC Sikar,0.99,0.758,2,4.73,1.65,4,1.3,15,69,0,0
+C262,ORS,3,0,S5,District Hospital Jaipur,0.935,0.751,9,1.26,0.0,9,1.12,20,73,0,1
+C263,Pentavalent Vaccine,5,1,S7,District Hospital Jodhpur,0.888,0.983,2,3.56,1.52,0,1.22,6,100,2,1
+C264,Pentavalent Vaccine,5,1,S6,District Hospital Jaipur,0.786,0.902,2,3.77,0.58,8,0.5,22,58,0,0
+C265,Oxytocin,5,0,S7,District Hospital Ajmer,0.728,1.0,8,4.89,0.66,4,1.34,18,79,0,0
+C266,Insulin,5,1,S1,CHC Udaipur,0.93,0.789,4,0.61,1.69,10,0.5,14,88,0,0
+C267,Rabies Vaccine,5,1,S3,CHC Udaipur,0.943,1.0,2,4.51,0.0,9,1.52,18,83,0,0
+C268,Rabies Vaccine,5,1,S1,CHC Bikaner,0.758,0.856,8,5.4,2.28,6,0.72,13,54,0,1
+C269,Ceftriaxone,4,0,S7,CHC Bikaner,0.498,0.886,2,4.04,2.08,10,1.92,21,92,0,0
+C270,Adrenaline Injection,5,0,S9,CHC Udaipur,0.687,0.888,2,5.14,3.42,8,0.97,19,93,0,1
+C271,Salbutamol,4,0,S7,CHC Udaipur,0.98,0.864,10,2.36,3.34,4,1.62,18,100,0,0
+C272,Amoxicillin,4,0,S8,CHC Udaipur,0.691,0.726,9,2.37,0.41,1,1.07,13,94,0,0
+C273,ORS,3,0,S10,District Hospital Ajmer,0.73,0.851,9,2.22,0.39,10,0.84,11,81,0,0
+C274,Anti-snake Venom,5,1,S2,CHC Udaipur,0.804,0.821,3,4.08,1.98,8,1.53,4,57,4,1
+C275,Iron Folic Acid,2,0,S5,District Hospital Jodhpur,0.91,0.922,11,3.5,0.0,10,0.84,6,78,2,0
+C276,Pentavalent Vaccine,5,1,S3,District Hospital Ajmer,0.762,0.938,6,2.97,4.36,9,1.09,13,60,0,1
+C277,Paracetamol Injection,3,0,S8,PHC Sikar,0.867,0.737,3,3.78,1.22,10,0.68,23,67,0,1
+C278,Insulin,5,1,S6,District Hospital Jaipur,0.99,0.87,2,2.42,3.84,4,1.04,14,62,0,1
+C279,Pentavalent Vaccine,5,1,S6,CHC Bikaner,0.945,0.914,5,3.02,1.45,7,1.09,12,82,0,0
+C280,Insulin,5,1,S5,PHC Alwar,0.755,0.804,4,0.15,2.3,1,1.39,16,55,0,0
+C281,Anti-snake Venom,5,1,S8,District Hospital Jodhpur,0.767,1.0,7,2.85,0.81,0,0.75,16,76,0,1
+C282,Anti-snake Venom,5,1,S10,PHC Sikar,0.835,0.85,2,1.74,0.97,4,1.38,3,71,5,0
+C283,Paracetamol Injection,3,0,S2,District Hospital Jaipur,0.866,0.969,4,2.31,2.69,9,0.77,19,92,0,0
+C284,Anti-snake Venom,5,1,S9,Medical College Kota,0.8,0.965,3,2.8,2.16,10,0.5,5,100,3,0
+C285,Amoxicillin,4,0,S4,CHC Udaipur,0.895,0.949,10,3.48,1.51,1,1.33,24,72,0,1
+C286,Adrenaline Injection,5,0,S5,PHC Alwar,0.777,0.971,10,4.12,1.67,0,0.74,7,53,1,0
+C287,Paracetamol Injection,3,0,S6,CHC Udaipur,0.662,1.0,3,4.83,3.04,7,0.66,13,62,0,0
+C288,Insulin,5,1,S6,CHC Bikaner,0.99,0.875,9,3.65,1.85,3,0.71,8,78,0,0
+C289,Insulin,5,1,S4,Medical College Kota,0.917,0.752,8,3.16,1.5,7,1.22,24,58,0,1
+C290,ORS,3,0,S5,CHC Bikaner,0.723,0.947,10,4.91,3.65,3,0.96,7,61,1,1
+C291,Iron Folic Acid,2,0,S3,CHC Udaipur,0.74,0.842,11,2.23,0.0,5,1.43,5,89,3,0
+C292,Adrenaline Injection,5,0,S8,PHC Alwar,0.516,0.799,9,4.08,0.69,3,1.38,13,81,0,0
+C293,Iron Folic Acid,2,0,S6,Medical College Kota,0.77,0.767,9,0.0,1.23,4,1.53,14,73,0,0
+C294,Adrenaline Injection,5,0,S7,District Hospital Jaipur,0.806,0.891,11,2.44,0.0,8,0.5,16,67,0,0
+C295,Paracetamol Injection,3,0,S1,PHC Alwar,0.841,0.756,10,0.0,5.08,8,0.5,19,56,0,0
+C296,Amoxicillin,4,0,S7,PHC Alwar,0.644,1.0,9,2.09,1.97,8,0.56,14,80,0,0
+C297,Adrenaline Injection,5,0,S7,District Hospital Jodhpur,0.99,0.743,7,2.85,1.1,2,1.15,22,81,0,1
+C298,Paracetamol Injection,3,0,S7,District Hospital Jodhpur,0.768,0.985,4,1.66,3.73,4,0.69,20,74,0,0
+C299,Oxytocin,5,0,S10,Medical College Kota,0.719,0.771,11,3.3,3.71,0,0.95,15,62,0,1
+C300,Iron Folic Acid,2,0,S8,CHC Bikaner,0.678,0.93,8,2.77,3.06,5,1.53,18,66,0,1
+C301,Amoxicillin,4,0,S2,District Hospital Ajmer,0.956,0.935,8,0.67,2.68,8,1.54,21,72,0,0
+C302,Insulin,5,1,S9,Medical College Kota,0.799,0.925,10,3.64,0.73,8,0.5,8,57,0,1
+C303,Adrenaline Injection,5,0,S1,PHC Sikar,0.766,0.986,8,2.99,0.7,9,1.24,23,55,0,0
+C304,Rabies Vaccine,5,1,S5,District Hospital Ajmer,0.99,0.87,10,4.44,0.39,7,0.5,17,70,0,1
+C305,Paracetamol Injection,3,0,S3,PHC Alwar,0.903,0.714,4,1.59,0.0,5,0.69,11,85,0,1
+C306,ORS,3,0,S10,District Hospital Jodhpur,0.935,0.654,4,3.37,0.0,7,0.55,24,77,0,0
+C307,Amoxicillin,4,0,S8,District Hospital Jaipur,0.897,0.841,10,3.7,0.0,7,0.77,2,52,6,0
+C308,Rabies Vaccine,5,1,S10,District Hospital Jaipur,0.581,0.942,11,3.72,0.5,2,0.69,16,98,0,0
+C309,Adrenaline Injection,5,0,S9,District Hospital Ajmer,0.921,0.763,8,2.09,2.57,6,0.95,2,79,6,0
+C310,Oxytocin,5,0,S9,Medical College Kota,0.706,0.883,7,5.07,2.07,3,1.05,15,95,0,1
+C311,Paracetamol Injection,3,0,S9,CHC Bikaner,0.929,0.871,8,3.32,1.86,2,1.67,3,89,5,0
+C312,Salbutamol,4,0,S4,District Hospital Jaipur,0.917,0.842,6,2.04,0.18,5,0.91,5,58,3,1
+C313,Amoxicillin,4,0,S1,District Hospital Jodhpur,0.829,0.839,8,2.89,0.0,5,1.48,7,80,1,0
+C314,Paracetamol Injection,3,0,S2,PHC Alwar,0.777,0.71,6,2.69,0.0,9,1.23,22,91,0,1
+C315,Insulin,5,1,S6,CHC Udaipur,0.837,0.879,2,0.88,0.35,0,0.85,13,55,0,0
+C316,Paracetamol Injection,3,0,S6,District Hospital Ajmer,0.945,0.781,6,0.0,0.54,6,1.08,2,75,6,1
+C317,Iron Folic Acid,2,0,S4,CHC Udaipur,0.874,0.762,3,3.31,1.12,6,0.66,19,92,0,0
+C318,Ceftriaxone,4,0,S1,PHC Sikar,0.795,0.931,11,0.0,2.23,0,1.15,7,92,1,1
+C319,Ceftriaxone,4,0,S4,District Hospital Ajmer,0.99,1.0,6,2.25,0.28,3,0.84,16,53,0,0
+C320,Adrenaline Injection,5,0,S2,PHC Alwar,0.827,0.832,10,1.55,3.11,6,0.83,24,93,0,1
+C321,Iron Folic Acid,2,0,S9,District Hospital Jodhpur,0.99,0.804,3,0.75,0.0,6,1.05,14,93,0,0
+C322,Pentavalent Vaccine,5,1,S6,District Hospital Jodhpur,0.971,0.703,11,1.88,0.0,3,1.05,6,97,2,1
+C323,Ceftriaxone,4,0,S10,PHC Sikar,0.94,0.968,5,1.42,0.3,5,0.92,1,69,7,0
+C324,Pentavalent Vaccine,5,1,S10,PHC Sikar,0.974,0.626,10,0.45,1.15,3,1.33,23,79,0,1
+C325,Amoxicillin,4,0,S8,District Hospital Jodhpur,0.987,0.833,11,2.21,0.14,6,0.84,10,84,0,0
+C326,Oxytocin,5,0,S5,CHC Udaipur,0.706,0.909,10,1.96,0.43,10,0.96,16,98,0,0
+C327,Ceftriaxone,4,0,S5,PHC Sikar,0.798,0.863,11,0.0,4.19,6,1.85,8,56,0,0
+C328,Pentavalent Vaccine,5,1,S8,Medical College Kota,0.976,0.981,2,2.1,0.24,3,0.63,21,57,0,1
+C329,ORS,3,0,S6,District Hospital Ajmer,0.647,0.946,8,3.52,0.1,3,0.5,3,64,5,0
+C330,ORS,3,0,S3,District Hospital Ajmer,0.775,0.993,8,2.97,1.19,5,0.94,4,51,4,0
+C331,Amoxicillin,4,0,S5,CHC Udaipur,0.808,0.818,8,1.56,2.84,5,1.18,20,96,0,0
+C332,Pentavalent Vaccine,5,1,S3,PHC Sikar,0.781,0.946,10,3.01,1.76,1,0.6,18,54,0,0
+C333,Anti-snake Venom,5,1,S5,CHC Udaipur,0.676,0.949,3,2.42,0.66,6,1.43,21,80,0,0
+C334,Oxytocin,5,0,S2,PHC Sikar,0.736,0.706,9,0.0,3.56,6,1.07,21,80,0,0
+C335,Insulin,5,1,S7,District Hospital Ajmer,0.706,0.792,11,3.19,3.86,3,0.84,10,76,0,1
+C336,Amoxicillin,4,0,S1,District Hospital Jodhpur,0.927,0.759,11,1.98,0.0,7,1.27,9,91,0,0
+C337,Rabies Vaccine,5,1,S6,District Hospital Jaipur,0.718,0.985,11,0.11,4.55,8,0.89,2,97,6,1
+C338,Adrenaline Injection,5,0,S2,District Hospital Jaipur,0.817,0.979,7,3.88,3.31,1,0.56,15,61,0,0
+C339,ORS,3,0,S7,District Hospital Jodhpur,0.906,0.649,6,0.0,3.41,9,0.63,4,94,4,1
+C340,ORS,3,0,S8,District Hospital Jaipur,0.786,0.947,5,1.75,1.29,10,1.09,16,54,0,0
+C341,Paracetamol Injection,3,0,S3,CHC Udaipur,0.752,0.853,2,3.5,4.99,6,1.07,17,90,0,0
+C342,Adrenaline Injection,5,0,S2,District Hospital Ajmer,0.791,0.838,9,1.19,0.0,10,0.63,1,80,7,0
+C343,Adrenaline Injection,5,0,S3,CHC Udaipur,0.823,0.83,9,2.68,3.16,8,1.55,5,76,3,0
+C344,Pentavalent Vaccine,5,1,S1,Medical College Kota,0.69,0.78,4,2.22,1.34,9,1.34,21,96,0,1
+C345,Amoxicillin,4,0,S4,CHC Udaipur,0.99,0.939,2,1.12,2.09,10,1.07,20,58,0,1
+C346,Ceftriaxone,4,0,S6,PHC Sikar,0.701,0.935,10,4.66,0.67,4,0.5,13,71,0,0
+C347,Paracetamol Injection,3,0,S4,District Hospital Jodhpur,0.99,0.796,10,2.79,0.0,6,1.23,11,87,0,0
+C348,Ceftriaxone,4,0,S6,CHC Udaipur,0.668,1.0,2,4.13,1.57,3,1.14,22,96,0,0
+C349,Anti-snake Venom,5,1,S7,District Hospital Ajmer,0.736,0.976,4,1.94,1.22,8,0.82,20,53,0,0
+C350,Insulin,5,1,S7,CHC Udaipur,0.925,0.762,10,0.32,0.57,10,0.88,15,75,0,1
+C351,Ceftriaxone,4,0,S1,Medical College Kota,0.703,0.86,5,1.11,1.07,7,1.53,22,87,0,0
+C352,Salbutamol,4,0,S10,PHC Alwar,0.99,0.9,10,2.7,0.47,1,0.73,6,76,2,0
+C353,Insulin,5,1,S5,Medical College Kota,0.881,0.787,7,2.62,0.27,1,1.07,24,68,0,0
+C354,ORS,3,0,S9,CHC Bikaner,0.943,0.966,5,2.75,2.38,9,1.83,16,88,0,0
+C355,Rabies Vaccine,5,1,S2,Medical College Kota,0.792,0.928,11,2.79,1.32,0,0.66,12,57,0,0
+C356,Ceftriaxone,4,0,S5,CHC Bikaner,0.626,0.928,10,2.69,2.45,6,1.45,9,70,0,0
+C357,Insulin,5,1,S5,PHC Alwar,0.784,0.867,7,2.17,1.02,1,0.55,1,93,7,0
+C358,Iron Folic Acid,2,0,S4,PHC Sikar,0.756,0.682,9,4.1,3.78,5,1.07,10,74,0,0
+C359,Oxytocin,5,0,S7,PHC Sikar,0.826,0.918,4,4.15,4.98,5,1.05,10,81,0,1
+C360,Anti-snake Venom,5,1,S7,CHC Bikaner,0.746,0.849,4,1.29,0.57,2,0.81,6,61,2,0
+C361,Ceftriaxone,4,0,S3,District Hospital Jodhpur,0.721,0.798,5,4.08,6.45,2,1.05,13,56,0,1
+C362,Rabies Vaccine,5,1,S2,District Hospital Jaipur,0.943,0.866,2,3.89,3.14,7,0.5,24,98,0,1
+C363,Adrenaline Injection,5,0,S9,District Hospital Jaipur,0.897,0.934,10,4.16,3.16,8,0.88,14,77,0,0
+C364,Adrenaline Injection,5,0,S9,Medical College Kota,0.699,0.749,10,5.16,0.85,0,0.98,4,95,4,0
+C365,Ceftriaxone,4,0,S10,District Hospital Jodhpur,0.883,0.866,8,0.41,0.48,8,1.05,18,51,0,0
+C366,Amoxicillin,4,0,S2,PHC Alwar,0.757,0.978,4,1.56,3.65,5,0.61,13,93,0,0
+C367,Insulin,5,1,S3,PHC Sikar,0.748,0.968,8,3.91,0.0,0,1.15,17,86,0,0
+C368,Amoxicillin,4,0,S3,District Hospital Jodhpur,0.877,0.639,8,4.16,0.3,2,1.04,13,95,0,0
+C369,Pentavalent Vaccine,5,1,S7,CHC Udaipur,0.984,0.743,8,3.48,1.74,1,0.59,7,72,1,0
+C370,Adrenaline Injection,5,0,S2,District Hospital Jodhpur,0.852,0.98,5,1.56,0.0,4,1.43,13,80,0,0
+C371,Paracetamol Injection,3,0,S1,PHC Alwar,0.891,0.834,2,1.11,2.52,9,1.0,6,55,2,0
+C372,Amoxicillin,4,0,S8,PHC Sikar,0.793,0.849,9,0.55,0.0,2,0.89,1,85,7,0
+C373,Insulin,5,1,S2,District Hospital Jaipur,0.942,0.712,8,4.84,0.71,2,0.71,1,83,7,1
+C374,Paracetamol Injection,3,0,S7,CHC Bikaner,0.679,0.912,7,0.0,0.26,8,1.05,16,92,0,0
+C375,Iron Folic Acid,2,0,S10,CHC Udaipur,0.893,1.0,9,4.36,0.79,3,1.47,9,75,0,1
+C376,Ceftriaxone,4,0,S9,Medical College Kota,0.962,0.959,3,4.39,1.61,3,1.03,10,94,0,1
+C377,Salbutamol,4,0,S8,PHC Sikar,0.787,0.905,4,1.91,0.0,4,1.27,20,56,0,0
+C378,Paracetamol Injection,3,0,S7,PHC Alwar,0.725,0.863,8,2.67,0.0,4,0.51,23,80,0,0
+C379,Amoxicillin,4,0,S4,Medical College Kota,0.811,0.909,11,1.28,3.99,2,1.66,5,68,3,0
+C380,Adrenaline Injection,5,0,S3,CHC Udaipur,0.706,0.92,9,1.55,2.37,6,1.19,3,63,5,1
+C381,Rabies Vaccine,5,1,S4,PHC Alwar,0.788,0.906,4,1.28,0.0,3,2.02,13,62,0,1
+C382,Iron Folic Acid,2,0,S2,Medical College Kota,0.71,0.904,8,1.26,0.73,6,1.31,17,95,0,1
+C383,Iron Folic Acid,2,0,S3,CHC Udaipur,0.939,0.798,7,2.48,1.27,4,0.62,8,100,0,1
+C384,Rabies Vaccine,5,1,S7,District Hospital Jaipur,0.911,0.863,9,2.75,0.0,10,1.29,3,94,5,1
+C385,Anti-snake Venom,5,1,S1,PHC Sikar,0.813,0.856,8,3.01,0.9,4,0.57,5,90,3,0
+C386,Insulin,5,1,S3,District Hospital Jodhpur,0.99,0.898,5,3.07,1.23,0,1.23,24,72,0,0
+C387,Rabies Vaccine,5,1,S2,PHC Alwar,0.796,0.802,3,0.42,2.93,2,1.34,2,73,6,0
+C388,ORS,3,0,S1,District Hospital Ajmer,0.861,0.854,10,2.83,0.83,6,0.87,23,80,0,0
+C389,Salbutamol,4,0,S6,CHC Udaipur,0.846,0.804,9,0.0,5.34,4,1.15,11,66,0,0
+C390,Pentavalent Vaccine,5,1,S2,Medical College Kota,0.925,0.658,7,2.72,3.05,4,0.84,20,65,0,1
+C391,Oxytocin,5,0,S8,District Hospital Jaipur,0.651,0.819,10,3.54,6.69,5,0.75,6,95,2,0
+C392,Pentavalent Vaccine,5,1,S1,PHC Alwar,0.883,0.76,5,2.23,1.35,10,0.98,1,77,7,1
+C393,Pentavalent Vaccine,5,1,S4,Medical College Kota,0.807,0.815,3,4.99,0.9,10,1.04,15,67,0,1
+C394,Ceftriaxone,4,0,S10,CHC Bikaner,0.99,0.888,9,2.47,2.67,5,0.5,22,50,0,1
+C395,Insulin,5,1,S4,CHC Bikaner,0.855,0.804,10,3.5,0.5,3,0.63,24,96,0,0
+C396,Rabies Vaccine,5,1,S9,PHC Alwar,0.725,0.798,7,0.63,1.98,0,1.59,16,67,0,1
+C397,Insulin,5,1,S6,CHC Udaipur,0.929,0.906,9,2.97,0.0,2,0.97,21,65,0,0
+C398,Rabies Vaccine,5,1,S8,CHC Bikaner,0.665,1.0,11,2.6,0.89,10,1.0,23,56,0,0
+C399,Pentavalent Vaccine,5,1,S2,CHC Udaipur,0.99,0.734,3,1.73,0.0,4,1.17,9,69,0,0
+C400,Oxytocin,5,0,S10,CHC Udaipur,0.942,0.797,2,3.5,0.81,6,0.96,5,51,3,1
+C401,Insulin,5,1,S7,CHC Udaipur,0.978,0.803,11,3.44,3.84,1,1.54,7,52,1,0
+C402,Amoxicillin,4,0,S7,District Hospital Jaipur,0.522,0.735,7,0.84,0.0,1,0.86,4,70,4,1
+C403,Insulin,5,1,S1,CHC Bikaner,0.829,0.881,4,4.27,4.51,8,1.56,17,95,0,1
+C404,Iron Folic Acid,2,0,S2,PHC Alwar,0.839,0.99,7,0.84,1.74,10,0.74,10,74,0,0
+C405,Anti-snake Venom,5,1,S5,CHC Udaipur,0.846,0.719,9,0.19,1.95,8,1.0,24,58,0,0
+C406,Insulin,5,1,S5,CHC Bikaner,0.794,0.892,8,4.98,0.74,0,0.92,18,91,0,0
+C407,Oxytocin,5,0,S2,District Hospital Jaipur,0.979,0.795,5,3.93,1.94,8,1.0,5,68,3,0
+C408,Iron Folic Acid,2,0,S9,CHC Bikaner,0.581,0.89,3,2.35,0.72,0,1.16,10,68,0,0
+C409,Insulin,5,1,S1,District Hospital Jodhpur,0.724,0.669,8,3.19,3.86,3,1.15,1,98,7,1
+C410,Rabies Vaccine,5,1,S10,District Hospital Jodhpur,0.866,0.786,5,4.44,2.55,10,0.74,14,56,0,1
+C411,Salbutamol,4,0,S4,PHC Alwar,0.829,0.763,11,2.37,2.49,0,1.02,13,63,0,0
+C412,Amoxicillin,4,0,S10,District Hospital Ajmer,0.934,0.935,3,0.72,2.35,2,0.75,23,61,0,0
+C413,ORS,3,0,S3,CHC Bikaner,0.823,0.933,5,1.98,0.11,10,0.5,8,56,0,0
+C414,Ceftriaxone,4,0,S6,Medical College Kota,0.943,0.914,4,3.14,2.43,4,0.71,9,64,0,0
+C415,Rabies Vaccine,5,1,S1,CHC Bikaner,0.809,0.836,7,3.12,3.08,2,0.62,10,61,0,0
+C416,Pentavalent Vaccine,5,1,S2,District Hospital Jaipur,0.712,0.918,2,3.32,5.13,1,1.45,10,70,0,1
+C417,ORS,3,0,S2,District Hospital Ajmer,0.72,0.918,4,1.83,1.48,8,0.5,21,85,0,0
+C418,ORS,3,0,S8,Medical College Kota,0.74,0.847,7,1.26,2.86,1,1.22,7,69,1,1
+C419,Pentavalent Vaccine,5,1,S9,District Hospital Jaipur,0.912,0.911,7,3.4,1.08,9,1.05,6,73,2,0
+C420,Paracetamol Injection,3,0,S8,District Hospital Ajmer,0.759,1.0,8,3.07,0.0,7,0.78,20,81,0,0
+C421,Iron Folic Acid,2,0,S10,CHC Udaipur,0.77,0.972,11,1.02,1.86,1,0.5,23,78,0,0
+C422,Pentavalent Vaccine,5,1,S8,District Hospital Jaipur,0.595,0.812,2,3.54,4.35,2,0.5,18,67,0,1
+C423,Paracetamol Injection,3,0,S8,District Hospital Ajmer,0.785,0.901,8,4.9,2.94,3,1.16,19,72,0,0
+C424,Insulin,5,1,S8,CHC Bikaner,0.923,0.858,10,1.47,0.0,5,1.06,13,68,0,0
+C425,Iron Folic Acid,2,0,S8,PHC Sikar,0.852,0.818,3,4.56,0.0,1,0.85,23,89,0,0
+C426,Salbutamol,4,0,S5,District Hospital Ajmer,0.933,0.935,10,2.92,0.79,9,0.73,24,56,0,0
+C427,Ceftriaxone,4,0,S4,District Hospital Ajmer,0.672,0.806,11,0.07,0.91,0,0.9,4,89,4,0
+C428,Oxytocin,5,0,S10,District Hospital Jaipur,0.777,0.604,5,2.71,3.55,4,0.86,2,95,6,1
+C429,Pentavalent Vaccine,5,1,S10,District Hospital Ajmer,0.688,1.0,11,5.4,0.0,6,1.36,19,59,0,0
+C430,Rabies Vaccine,5,1,S5,District Hospital Ajmer,0.912,0.71,7,1.33,3.68,2,0.83,9,67,0,0
+C431,Salbutamol,4,0,S7,CHC Bikaner,0.749,1.0,10,1.93,0.52,9,0.69,17,97,0,1
+C432,Paracetamol Injection,3,0,S3,CHC Udaipur,0.649,1.0,7,4.0,1.13,3,0.86,7,72,1,0
+C433,Paracetamol Injection,3,0,S8,PHC Alwar,0.825,1.0,9,2.73,0.0,6,1.09,16,96,0,0
+C434,Anti-snake Venom,5,1,S4,District Hospital Jodhpur,0.878,0.624,5,1.73,2.93,1,1.38,18,98,0,1
+C435,Oxytocin,5,0,S8,Medical College Kota,0.79,0.892,8,1.68,3.18,4,0.91,13,68,0,0
+C436,Amoxicillin,4,0,S4,Medical College Kota,0.6,0.84,3,1.49,0.0,4,0.98,10,59,0,0
+C437,Adrenaline Injection,5,0,S3,District Hospital Ajmer,0.853,0.809,8,4.42,2.68,0,0.97,8,87,0,0
+C438,Ceftriaxone,4,0,S4,CHC Bikaner,0.687,0.844,2,3.9,3.11,6,1.01,21,77,0,1
+C439,Paracetamol Injection,3,0,S7,Medical College Kota,0.611,0.823,6,2.87,0.0,5,1.24,10,70,0,0
+C440,Paracetamol Injection,3,0,S3,District Hospital Jaipur,0.99,0.909,8,0.0,1.35,6,1.38,6,100,2,0
+C441,Insulin,5,1,S7,District Hospital Jaipur,0.782,0.862,3,5.28,0.63,0,1.15,22,56,0,0
+C442,ORS,3,0,S8,District Hospital Ajmer,0.781,0.852,9,2.28,1.77,8,1.68,19,61,0,0
+C443,Paracetamol Injection,3,0,S3,PHC Alwar,0.632,0.742,10,2.37,4.22,2,0.5,12,69,0,1
+C444,Insulin,5,1,S1,CHC Bikaner,0.927,0.876,3,5.79,3.25,0,1.46,18,93,0,1
+C445,Amoxicillin,4,0,S7,Medical College Kota,0.809,0.771,10,1.93,2.48,2,1.27,20,74,0,1
+C446,Amoxicillin,4,0,S6,PHC Alwar,0.785,0.954,7,1.15,2.24,9,0.79,5,93,3,0
+C447,Rabies Vaccine,5,1,S7,CHC Bikaner,0.835,1.0,11,1.83,3.93,8,1.27,23,88,0,0
+C448,Rabies Vaccine,5,1,S2,CHC Udaipur,0.99,1.0,7,1.15,1.25,2,1.42,3,71,5,1
+C449,Ceftriaxone,4,0,S3,District Hospital Ajmer,0.752,0.748,8,3.31,0.87,9,0.66,6,68,2,0
+C450,Iron Folic Acid,2,0,S9,PHC Sikar,0.725,0.746,7,2.54,0.37,7,1.26,16,84,0,0
+C451,Adrenaline Injection,5,0,S9,District Hospital Jodhpur,0.847,0.823,7,0.81,3.53,2,0.76,11,75,0,0
+C452,Anti-snake Venom,5,1,S7,PHC Sikar,0.905,0.813,9,0.0,3.55,9,1.87,1,89,7,1
+C453,Ceftriaxone,4,0,S3,District Hospital Jodhpur,0.923,0.68,8,2.78,0.0,3,0.77,11,94,0,0
+C454,Amoxicillin,4,0,S6,District Hospital Jaipur,0.823,0.895,3,1.23,1.05,6,0.5,7,66,1,0
+C455,Rabies Vaccine,5,1,S7,PHC Sikar,0.641,0.951,7,1.05,5.14,0,1.1,20,82,0,1
+C456,Oxytocin,5,0,S7,CHC Bikaner,0.963,0.793,4,2.83,2.21,9,0.5,16,93,0,1
+C457,Insulin,5,1,S6,CHC Udaipur,0.535,1.0,6,3.83,2.15,3,0.77,13,76,0,0
+C458,Pentavalent Vaccine,5,1,S10,PHC Alwar,0.844,0.791,8,0.35,2.33,2,0.5,9,78,0,1
+C459,Iron Folic Acid,2,0,S3,PHC Alwar,0.859,0.844,2,1.81,0.0,5,1.17,1,84,7,0
+C460,Adrenaline Injection,5,0,S7,District Hospital Jaipur,0.949,0.847,4,3.77,1.2,9,0.96,5,58,3,0
+C461,Adrenaline Injection,5,0,S6,District Hospital Ajmer,0.901,0.844,7,4.06,2.45,4,1.44,12,75,0,0
+C462,Anti-snake Venom,5,1,S1,District Hospital Jodhpur,0.934,0.96,9,2.9,1.49,1,1.13,22,76,0,0
+C463,Iron Folic Acid,2,0,S6,CHC Udaipur,0.798,0.913,2,0.46,1.9,4,1.25,21,69,0,0
+C464,Amoxicillin,4,0,S9,District Hospital Ajmer,0.658,0.772,11,2.65,2.99,3,1.32,20,94,0,1
+C465,Rabies Vaccine,5,1,S7,PHC Alwar,0.704,0.833,7,2.64,0.43,4,0.6,24,62,0,0
+C466,Ceftriaxone,4,0,S1,PHC Sikar,0.66,0.91,6,3.69,2.08,8,1.23,14,51,0,1
+C467,Oxytocin,5,0,S1,PHC Alwar,0.682,0.907,7,3.97,0.0,9,1.45,18,72,0,1
+C468,Rabies Vaccine,5,1,S5,Medical College Kota,0.885,0.814,2,3.63,1.41,4,0.88,20,94,0,0
+C469,Ceftriaxone,4,0,S7,PHC Sikar,0.886,0.732,11,1.99,1.48,9,1.0,16,89,0,0
+C470,Insulin,5,1,S3,CHC Udaipur,0.99,0.877,3,3.88,4.14,2,1.19,4,92,4,0
+C471,Iron Folic Acid,2,0,S2,CHC Bikaner,0.705,0.725,8,2.26,3.75,6,0.92,16,64,0,1
+C472,Pentavalent Vaccine,5,1,S4,Medical College Kota,0.852,0.926,2,2.4,0.11,5,0.98,4,74,4,0
+C473,Ceftriaxone,4,0,S1,District Hospital Ajmer,0.683,0.914,6,1.22,1.67,3,0.83,9,67,0,0
+C474,Oxytocin,5,0,S4,District Hospital Jodhpur,0.949,0.902,4,0.0,2.4,10,0.69,1,84,7,0
+C475,Iron Folic Acid,2,0,S3,Medical College Kota,0.712,0.787,6,2.18,3.86,6,0.69,10,92,0,1
+C476,Iron Folic Acid,2,0,S9,District Hospital Jaipur,0.839,0.85,10,2.41,0.69,5,0.65,24,91,0,0
+C477,ORS,3,0,S2,CHC Bikaner,0.853,0.83,4,4.94,0.0,5,1.28,6,62,2,0
+C478,Insulin,5,1,S4,District Hospital Ajmer,0.752,0.87,6,2.27,0.43,2,0.9,9,75,0,0
+C479,Ceftriaxone,4,0,S4,District Hospital Jaipur,0.884,0.888,4,1.65,3.0,5,1.25,18,62,0,0
+C480,Iron Folic Acid,2,0,S10,Medical College Kota,0.836,0.877,10,2.56,1.5,5,1.58,22,52,0,1
+C481,Iron Folic Acid,2,0,S9,CHC Udaipur,0.773,0.951,11,1.03,3.01,1,0.62,8,95,0,0
+C482,Oxytocin,5,0,S2,PHC Sikar,0.79,0.772,9,4.22,2.61,2,0.7,5,60,3,1
+C483,Paracetamol Injection,3,0,S3,PHC Alwar,0.838,0.912,4,2.14,1.52,6,0.78,5,68,3,0
+C484,Pentavalent Vaccine,5,1,S7,CHC Bikaner,0.872,0.811,11,0.9,3.47,9,1.15,5,71,3,0
+C485,Adrenaline Injection,5,0,S1,PHC Sikar,0.738,0.569,3,2.6,4.92,0,0.86,6,95,2,0
+C486,Iron Folic Acid,2,0,S8,CHC Bikaner,0.735,0.837,11,6.46,2.74,5,0.82,6,75,2,0
+C487,Ceftriaxone,4,0,S6,PHC Sikar,0.782,0.766,3,2.39,2.87,9,0.76,15,51,0,1
+C488,Amoxicillin,4,0,S3,CHC Bikaner,0.903,0.916,11,0.0,2.67,2,0.5,18,88,0,0
+C489,Adrenaline Injection,5,0,S5,PHC Sikar,0.919,0.764,6,1.19,1.16,8,0.59,16,73,0,0
+C490,ORS,3,0,S7,CHC Bikaner,0.725,0.793,7,1.38,1.13,0,1.23,19,51,0,0
+C491,Amoxicillin,4,0,S6,PHC Alwar,0.785,0.887,4,4.41,2.92,0,1.11,18,58,0,0
+C492,Oxytocin,5,0,S9,District Hospital Jaipur,0.714,0.918,7,2.31,0.51,0,1.01,8,52,0,1
+C493,Adrenaline Injection,5,0,S2,District Hospital Jodhpur,0.879,0.864,6,2.62,1.43,2,0.5,1,88,7,1
+C494,Oxytocin,5,0,S3,Medical College Kota,0.95,0.883,10,7.34,1.57,2,0.9,2,88,6,1
+C495,Iron Folic Acid,2,0,S5,Medical College Kota,0.576,1.0,7,1.28,2.15,8,0.97,3,82,5,0
+C496,Oxytocin,5,0,S3,Medical College Kota,0.99,0.785,4,2.79,0.08,5,1.01,7,62,1,0
+C497,Rabies Vaccine,5,1,S3,Medical College Kota,0.82,0.901,9,3.44,2.22,7,1.7,18,61,0,0
+C498,Iron Folic Acid,2,0,S7,District Hospital Jaipur,0.99,0.918,10,1.94,2.29,1,1.04,15,85,0,0
+C499,Oxytocin,5,0,S6,District Hospital Jodhpur,0.901,0.898,2,0.54,0.0,4,0.93,18,78,0,0
+C500,Insulin,5,1,S1,District Hospital Jaipur,0.696,0.849,2,0.43,2.31,2,0.5,21,88,0,0
+C501,Amoxicillin,4,0,S7,CHC Udaipur,0.853,0.889,3,3.52,1.75,5,0.5,3,86,5,0
+C502,Salbutamol,4,0,S4,CHC Bikaner,0.87,0.772,2,1.72,1.41,9,0.95,16,89,0,0
+C503,Ceftriaxone,4,0,S1,District Hospital Ajmer,0.808,0.898,2,2.48,0.0,10,0.74,21,87,0,0
+C504,Rabies Vaccine,5,1,S7,District Hospital Jaipur,0.898,0.872,3,2.59,0.0,8,1.83,14,56,0,0
+C505,Iron Folic Acid,2,0,S8,PHC Sikar,0.817,0.727,11,2.41,1.93,3,0.5,9,84,0,1
+C506,ORS,3,0,S6,CHC Bikaner,0.86,0.717,4,2.7,3.48,0,0.87,16,88,0,0
+C507,Pentavalent Vaccine,5,1,S3,Medical College Kota,0.99,0.952,6,2.87,4.38,9,1.34,20,53,0,0
+C508,Rabies Vaccine,5,1,S7,PHC Sikar,0.638,0.844,9,4.61,2.08,1,0.83,14,59,0,0
+C509,Ceftriaxone,4,0,S3,District Hospital Ajmer,0.825,1.0,8,3.47,0.09,2,0.97,20,93,0,0
+C510,Pentavalent Vaccine,5,1,S5,Medical College Kota,0.99,0.852,10,1.45,0.54,10,1.05,2,55,6,0
+C511,Ceftriaxone,4,0,S4,Medical College Kota,0.747,0.759,8,1.8,8.79,0,0.92,24,86,0,1
+C512,Rabies Vaccine,5,1,S2,District Hospital Jodhpur,0.775,0.877,7,3.09,1.6,9,1.34,3,78,5,0
+C513,Anti-snake Venom,5,1,S2,CHC Udaipur,0.752,0.848,11,3.0,2.72,3,1.42,17,83,0,0
+C514,Pentavalent Vaccine,5,1,S10,District Hospital Jaipur,0.741,0.799,9,4.34,0.61,4,0.6,18,87,0,0
+C515,Amoxicillin,4,0,S9,PHC Alwar,0.799,0.86,11,0.98,0.0,6,1.03,9,97,0,0
+C516,Salbutamol,4,0,S10,District Hospital Jaipur,0.712,0.815,4,2.86,0.92,10,1.21,8,59,0,0
+C517,Ceftriaxone,4,0,S3,PHC Alwar,0.849,0.919,2,2.39,3.35,5,1.0,22,55,0,0
+C518,Paracetamol Injection,3,0,S2,District Hospital Jaipur,0.968,0.803,11,5.49,4.65,4,1.36,22,82,0,1
+C519,Adrenaline Injection,5,0,S8,District Hospital Ajmer,0.99,0.897,5,2.99,0.0,4,1.03,10,83,0,0
+C520,Pentavalent Vaccine,5,1,S3,CHC Bikaner,0.706,0.848,5,2.96,0.0,6,1.36,14,73,0,0
+C521,Rabies Vaccine,5,1,S8,PHC Alwar,0.99,0.852,7,2.75,6.62,7,1.43,17,82,0,1
+C522,ORS,3,0,S6,District Hospital Jodhpur,0.62,0.749,2,0.56,2.52,4,1.57,5,59,3,1
+C523,Ceftriaxone,4,0,S9,District Hospital Ajmer,0.568,0.928,9,1.18,0.0,8,0.5,21,75,0,0
+C524,Paracetamol Injection,3,0,S8,District Hospital Jaipur,0.735,0.843,9,0.46,2.06,5,0.75,11,72,0,0
+C525,Pentavalent Vaccine,5,1,S6,District Hospital Ajmer,0.827,0.888,8,1.67,1.54,6,0.9,8,58,0,0
+C526,Pentavalent Vaccine,5,1,S7,Medical College Kota,0.99,1.0,3,3.55,0.0,7,1.37,15,82,0,1
+C527,Adrenaline Injection,5,0,S5,District Hospital Jaipur,0.871,0.736,10,2.85,3.12,10,1.76,3,94,5,1
+C528,Pentavalent Vaccine,5,1,S2,CHC Udaipur,0.738,0.843,2,1.28,1.47,7,0.5,23,91,0,0
+C529,Anti-snake Venom,5,1,S2,Medical College Kota,0.833,0.89,9,0.68,0.0,4,1.36,12,61,0,0
+C530,Salbutamol,4,0,S7,CHC Bikaner,0.719,0.887,8,3.07,1.56,9,1.56,12,92,0,1
+C531,Amoxicillin,4,0,S6,District Hospital Jodhpur,0.679,0.838,3,4.45,0.57,9,1.2,10,61,0,0
+C532,Rabies Vaccine,5,1,S4,District Hospital Ajmer,0.727,0.908,7,2.31,3.22,10,1.81,22,89,0,1
+C533,Anti-snake Venom,5,1,S6,Medical College Kota,0.602,0.789,9,3.18,0.0,2,1.26,17,93,0,0
+C534,Insulin,5,1,S10,PHC Sikar,0.691,0.783,2,2.6,2.77,9,1.42,11,87,0,0
+C535,Salbutamol,4,0,S2,Medical College Kota,0.696,0.865,7,3.77,3.17,2,1.82,19,96,0,1
+C536,Paracetamol Injection,3,0,S2,Medical College Kota,0.78,0.737,2,0.0,1.0,6,0.95,14,50,0,0
+C537,Oxytocin,5,0,S5,Medical College Kota,0.789,0.853,11,1.52,2.6,0,1.03,4,85,4,0
+C538,Pentavalent Vaccine,5,1,S3,CHC Bikaner,0.788,0.995,8,3.57,0.25,1,0.77,16,88,0,0
+C539,Insulin,5,1,S5,Medical College Kota,0.779,0.879,9,2.79,3.66,10,0.96,6,92,2,0
+C540,Pentavalent Vaccine,5,1,S2,PHC Sikar,0.795,0.892,10,2.63,0.0,0,1.0,19,55,0,0
+C541,Adrenaline Injection,5,0,S1,District Hospital Jaipur,0.99,0.925,5,3.16,0.0,3,0.65,23,71,0,0
+C542,ORS,3,0,S6,Medical College Kota,0.754,0.893,8,1.29,4.3,3,0.5,1,63,7,0
+C543,Insulin,5,1,S5,CHC Udaipur,0.875,0.883,5,3.5,1.15,2,0.87,18,71,0,0
+C544,Anti-snake Venom,5,1,S1,District Hospital Ajmer,0.846,0.916,9,1.61,3.14,0,1.53,3,97,5,0
+C545,Adrenaline Injection,5,0,S1,District Hospital Jodhpur,0.99,0.943,5,2.66,0.0,1,1.25,11,72,0,0
+C546,Salbutamol,4,0,S5,CHC Udaipur,0.827,0.895,10,5.52,0.57,9,0.58,8,100,0,0
+C547,Rabies Vaccine,5,1,S6,CHC Udaipur,0.904,0.933,5,1.95,1.17,9,0.86,4,80,4,1
+C548,Amoxicillin,4,0,S9,CHC Bikaner,0.99,0.852,8,1.37,0.47,1,0.5,6,64,2,0
+C549,Rabies Vaccine,5,1,S3,District Hospital Jodhpur,0.748,0.704,5,1.24,2.59,8,0.86,24,51,0,1
+C550,Amoxicillin,4,0,S10,PHC Alwar,0.918,0.778,2,1.9,0.0,1,1.71,21,69,0,1
+C551,Oxytocin,5,0,S8,Medical College Kota,0.963,0.778,3,1.49,3.1,7,0.79,24,80,0,0
+C552,Paracetamol Injection,3,0,S8,CHC Udaipur,0.908,0.989,2,6.38,2.43,10,0.87,5,66,3,0
+C553,Pentavalent Vaccine,5,1,S10,Medical College Kota,0.695,0.925,11,1.54,2.69,9,1.1,19,50,0,1
+C554,Iron Folic Acid,2,0,S10,CHC Bikaner,0.983,0.969,2,2.06,1.64,3,1.27,8,94,0,0
+C555,Salbutamol,4,0,S6,CHC Bikaner,0.854,0.886,10,3.21,0.06,6,1.85,19,86,0,1
+C556,Rabies Vaccine,5,1,S5,District Hospital Ajmer,0.72,0.779,9,2.78,1.18,1,1.48,11,59,0,1
+C557,ORS,3,0,S5,Medical College Kota,0.716,0.916,9,2.76,0.0,8,1.16,10,70,0,0
+C558,Ceftriaxone,4,0,S9,District Hospital Ajmer,0.9,0.908,10,0.0,0.0,8,1.11,9,55,0,0
+C559,Salbutamol,4,0,S1,District Hospital Jaipur,0.784,0.83,3,1.98,2.89,4,1.12,22,61,0,0
+C560,Paracetamol Injection,3,0,S6,CHC Bikaner,0.93,0.754,2,2.89,2.62,3,0.5,20,59,0,0
+C561,Amoxicillin,4,0,S1,CHC Bikaner,0.612,0.767,5,0.05,0.0,0,0.87,2,62,6,1
+C562,Adrenaline Injection,5,0,S10,District Hospital Jodhpur,0.781,0.618,2,0.56,0.62,4,1.56,13,99,0,1
+C563,Insulin,5,1,S4,District Hospital Jodhpur,0.688,0.853,5,3.6,1.61,2,0.95,10,83,0,1
+C564,Rabies Vaccine,5,1,S6,CHC Bikaner,0.99,0.808,11,3.31,2.87,4,0.84,12,57,0,1
+C565,Oxytocin,5,0,S2,PHC Sikar,0.982,0.709,6,3.5,0.0,1,0.88,4,55,4,1
+C566,Iron Folic Acid,2,0,S7,District Hospital Jaipur,0.664,0.947,7,4.92,3.47,8,0.5,8,60,0,0
+C567,Iron Folic Acid,2,0,S8,CHC Udaipur,0.844,0.884,11,0.0,2.06,8,1.11,13,84,0,0
+C568,Oxytocin,5,0,S6,CHC Bikaner,0.67,0.839,3,4.18,1.39,9,0.53,5,90,3,0
+C569,Iron Folic Acid,2,0,S7,Medical College Kota,0.902,0.855,7,5.68,1.09,8,0.94,22,80,0,1
+C570,Iron Folic Acid,2,0,S10,District Hospital Jodhpur,0.531,0.687,4,6.65,2.13,2,1.34,3,93,5,1
+C571,Insulin,5,1,S4,District Hospital Jaipur,0.761,0.981,6,2.81,2.58,10,1.27,12,89,0,0
+C572,Adrenaline Injection,5,0,S5,Medical College Kota,0.959,1.0,10,4.21,0.0,9,0.72,6,91,2,0
+C573,Adrenaline Injection,5,0,S10,PHC Sikar,0.811,0.795,11,0.0,3.59,5,1.28,14,97,0,1
+C574,Insulin,5,1,S1,District Hospital Jodhpur,0.621,0.823,3,1.75,2.07,3,0.93,3,61,5,0
+C575,Anti-snake Venom,5,1,S5,District Hospital Jaipur,0.83,0.864,4,5.11,0.22,0,0.91,15,91,0,0
+C576,Rabies Vaccine,5,1,S8,District Hospital Jaipur,0.953,0.641,10,4.9,0.0,2,0.87,2,71,6,1
+C577,Paracetamol Injection,3,0,S9,CHC Udaipur,0.782,0.658,6,0.92,0.0,5,0.72,6,63,2,1
+C578,Salbutamol,4,0,S2,PHC Sikar,0.726,0.948,2,3.34,2.41,8,1.22,24,78,0,0
+C579,Oxytocin,5,0,S7,Medical College Kota,0.683,0.94,10,1.57,3.05,1,1.26,18,100,0,0
+C580,Paracetamol Injection,3,0,S7,District Hospital Ajmer,0.718,0.878,5,2.02,0.0,8,0.88,10,85,0,0
+C581,Salbutamol,4,0,S2,CHC Udaipur,0.99,0.629,5,3.4,0.0,10,0.66,3,81,5,1
+C582,Insulin,5,1,S1,District Hospital Jaipur,0.869,0.986,10,2.2,1.45,5,1.27,18,65,0,0
+C583,Insulin,5,1,S10,CHC Bikaner,0.78,0.857,9,0.0,0.4,7,0.57,3,72,5,0
+C584,Adrenaline Injection,5,0,S7,Medical College Kota,0.819,0.843,5,2.54,0.34,2,0.5,24,94,0,0
+C585,Anti-snake Venom,5,1,S6,PHC Alwar,0.99,0.849,2,1.99,0.0,4,1.14,8,61,0,0
+C586,Adrenaline Injection,5,0,S7,CHC Bikaner,0.787,0.801,8,1.04,1.12,4,1.34,23,52,0,0
+C587,Oxytocin,5,0,S4,District Hospital Ajmer,0.842,0.819,8,4.06,1.67,9,1.04,22,98,0,0
+C588,Amoxicillin,4,0,S2,PHC Alwar,0.8,0.871,8,3.78,2.71,4,1.41,20,83,0,1
+C589,Ceftriaxone,4,0,S8,District Hospital Jodhpur,0.784,0.714,2,4.07,0.0,4,0.89,14,68,0,0
+C590,Rabies Vaccine,5,1,S4,District Hospital Jaipur,0.885,1.0,11,3.34,1.5,2,1.39,9,81,0,0
+C591,Paracetamol Injection,3,0,S6,CHC Udaipur,0.715,0.779,4,4.57,0.29,2,0.79,4,91,4,1
+C592,ORS,3,0,S4,CHC Bikaner,0.99,0.603,3,0.0,1.57,9,0.5,8,84,0,0
+C593,Amoxicillin,4,0,S6,District Hospital Jaipur,0.874,0.813,8,1.22,0.17,7,1.32,15,75,0,1
+C594,Rabies Vaccine,5,1,S1,District Hospital Jaipur,0.711,0.852,8,0.0,0.68,6,1.52,24,83,0,0
+C595,Paracetamol Injection,3,0,S6,CHC Udaipur,0.787,0.879,6,2.93,1.75,10,1.15,13,60,0,0
+C596,Iron Folic Acid,2,0,S6,Medical College Kota,0.825,0.844,8,2.46,1.61,8,0.79,3,63,5,1
+C597,Amoxicillin,4,0,S8,CHC Udaipur,0.604,0.887,7,2.45,0.27,9,0.82,1,92,7,1
+C598,Rabies Vaccine,5,1,S10,PHC Sikar,0.707,0.797,11,2.61,0.72,10,1.6,11,55,0,0
+C599,Rabies Vaccine,5,1,S6,District Hospital Jodhpur,0.786,0.877,3,0.0,0.0,9,1.05,2,56,6,0
+C600,Iron Folic Acid,2,0,S2,District Hospital Jaipur,0.814,0.803,2,2.08,1.63,8,1.36,17,97,0,0
+C601,Paracetamol Injection,3,0,S1,Medical College Kota,0.774,0.88,10,2.77,0.49,9,0.5,2,58,6,0
+C602,Adrenaline Injection,5,0,S4,District Hospital Ajmer,0.795,0.957,3,1.49,1.15,0,0.59,16,60,0,0
+C603,Rabies Vaccine,5,1,S8,District Hospital Ajmer,0.829,0.895,3,3.44,1.36,5,1.19,15,79,0,0
+C604,Rabies Vaccine,5,1,S10,District Hospital Ajmer,0.655,0.782,10,3.4,1.55,5,0.59,22,66,0,0
+C605,Ceftriaxone,4,0,S9,CHC Udaipur,0.99,0.834,4,5.51,2.91,2,2.08,4,68,4,0
+C606,Iron Folic Acid,2,0,S6,PHC Alwar,0.789,0.898,2,3.54,0.0,1,1.56,17,89,0,0
+C607,Salbutamol,4,0,S2,CHC Bikaner,0.726,0.886,11,0.93,0.0,7,0.5,19,56,0,0
+C608,Rabies Vaccine,5,1,S8,CHC Udaipur,0.902,0.863,3,2.9,0.0,10,1.28,1,56,7,1
+C609,Adrenaline Injection,5,0,S5,PHC Sikar,0.788,0.882,11,0.85,2.98,1,0.64,22,54,0,0
+C610,Anti-snake Venom,5,1,S4,PHC Sikar,0.864,0.714,8,5.3,1.95,2,0.5,21,67,0,1
+C611,Ceftriaxone,4,0,S1,Medical College Kota,0.853,0.77,6,3.3,0.0,3,0.5,17,93,0,0
+C612,Iron Folic Acid,2,0,S8,PHC Alwar,0.758,0.827,6,0.0,3.81,0,0.9,3,52,5,0
+C613,Salbutamol,4,0,S1,Medical College Kota,0.86,0.77,5,4.89,0.94,0,1.44,21,90,0,0
+C614,Oxytocin,5,0,S5,PHC Sikar,0.702,0.872,11,2.36,2.71,8,0.5,15,52,0,0
+C615,Rabies Vaccine,5,1,S3,CHC Udaipur,0.548,0.825,10,4.11,1.8,6,1.18,1,78,7,1
+C616,Salbutamol,4,0,S1,District Hospital Ajmer,0.924,0.838,3,2.53,1.55,2,0.98,23,94,0,0
+C617,Insulin,5,1,S2,District Hospital Jaipur,0.871,0.94,8,4.13,1.88,7,1.03,17,77,0,1
+C618,ORS,3,0,S4,CHC Bikaner,0.99,0.796,2,3.53,0.0,9,0.7,1,82,7,1
+C619,Oxytocin,5,0,S7,District Hospital Jodhpur,0.85,0.77,5,4.93,2.08,8,0.94,9,91,0,0
+C620,Paracetamol Injection,3,0,S2,CHC Udaipur,0.756,0.928,3,3.83,5.26,6,1.25,16,70,0,0
+C621,Rabies Vaccine,5,1,S1,District Hospital Jodhpur,0.754,0.859,5,3.08,2.18,8,1.05,10,78,0,0
+C622,Adrenaline Injection,5,0,S9,CHC Udaipur,0.823,0.874,8,3.41,1.28,3,1.21,8,66,0,0
+C623,Salbutamol,4,0,S1,PHC Sikar,0.99,0.95,11,0.33,3.77,6,0.5,8,81,0,0
+C624,Adrenaline Injection,5,0,S6,CHC Bikaner,0.688,0.929,2,0.0,2.03,10,0.58,16,82,0,1
+C625,Oxytocin,5,0,S6,District Hospital Jaipur,0.963,0.962,10,0.53,0.51,10,0.62,9,54,0,0
+C626,Amoxicillin,4,0,S1,CHC Bikaner,0.99,0.871,9,2.71,3.19,1,0.57,18,80,0,1
+C627,Amoxicillin,4,0,S9,PHC Alwar,0.876,0.743,7,3.13,3.76,4,0.5,20,78,0,0
+C628,Insulin,5,1,S5,District Hospital Jodhpur,0.75,0.797,4,2.91,1.75,1,1.68,24,93,0,0
+C629,Amoxicillin,4,0,S2,District Hospital Ajmer,0.811,1.0,2,4.01,1.63,4,0.89,18,94,0,0
+C630,Anti-snake Venom,5,1,S6,CHC Bikaner,0.834,0.663,3,1.62,0.0,5,0.79,17,72,0,0
+C631,Insulin,5,1,S9,Medical College Kota,0.734,0.875,6,2.75,3.21,7,1.29,4,62,4,1
+C632,Salbutamol,4,0,S7,PHC Alwar,0.918,0.99,2,3.35,3.54,2,0.58,16,70,0,0
+C633,Oxytocin,5,0,S8,PHC Sikar,0.821,0.893,11,2.57,2.8,2,1.57,7,67,1,0
+C634,Insulin,5,1,S6,District Hospital Jodhpur,0.866,0.826,5,3.3,0.0,10,1.08,19,94,0,0
+C635,ORS,3,0,S1,Medical College Kota,0.753,0.89,8,1.83,1.24,3,0.88,9,62,0,0
+C636,Adrenaline Injection,5,0,S6,CHC Bikaner,0.818,0.886,3,2.44,0.0,5,0.88,16,78,0,1
+C637,Rabies Vaccine,5,1,S7,PHC Sikar,0.781,1.0,9,0.15,0.0,5,1.25,19,77,0,0
+C638,Paracetamol Injection,3,0,S5,District Hospital Jodhpur,0.99,0.77,3,4.09,0.0,1,1.12,10,50,0,0
+C639,Adrenaline Injection,5,0,S9,Medical College Kota,0.795,0.757,2,5.32,2.8,8,1.16,8,62,0,0
+C640,Adrenaline Injection,5,0,S9,PHC Alwar,0.672,0.716,8,3.74,2.28,6,1.35,22,78,0,0
+C641,Oxytocin,5,0,S10,PHC Sikar,0.823,0.862,11,1.77,1.42,8,0.52,7,95,1,0
+C642,Rabies Vaccine,5,1,S5,District Hospital Jaipur,0.928,0.713,2,1.49,4.91,3,0.69,9,84,0,1
+C643,Rabies Vaccine,5,1,S7,District Hospital Jaipur,0.727,0.773,9,5.45,0.54,4,1.11,18,93,0,0
+C644,Iron Folic Acid,2,0,S9,PHC Alwar,0.752,0.712,6,1.94,4.73,6,1.44,11,92,0,0
+C645,Amoxicillin,4,0,S1,CHC Bikaner,0.99,0.799,6,2.11,0.0,3,0.53,6,96,2,0
+C646,Oxytocin,5,0,S6,CHC Udaipur,0.773,0.849,10,4.36,0.0,2,1.68,11,51,0,0
+C647,Ceftriaxone,4,0,S6,District Hospital Jodhpur,0.858,0.776,8,1.49,3.22,10,1.07,23,62,0,0
+C648,Anti-snake Venom,5,1,S7,CHC Bikaner,0.692,0.672,11,4.66,2.02,8,0.99,7,99,1,1
+C649,Anti-snake Venom,5,1,S7,District Hospital Jaipur,0.944,0.701,3,0.3,0.88,8,1.76,3,80,5,1
+C650,Ceftriaxone,4,0,S2,PHC Alwar,0.597,1.0,2,1.47,4.06,3,1.01,13,84,0,1
+C651,Rabies Vaccine,5,1,S9,Medical College Kota,0.882,0.827,11,4.13,0.28,6,0.84,15,65,0,1
+C652,Rabies Vaccine,5,1,S3,PHC Alwar,0.974,0.939,8,0.82,5.42,5,0.86,1,56,7,0
+C653,Rabies Vaccine,5,1,S4,PHC Alwar,0.747,0.91,5,3.26,4.03,7,0.98,19,62,0,1
+C654,Rabies Vaccine,5,1,S8,PHC Alwar,0.757,1.0,10,3.76,0.8,9,0.62,23,68,0,0
+C655,ORS,3,0,S3,PHC Alwar,0.848,0.81,7,2.61,3.24,1,1.28,4,78,4,0
+C656,Pentavalent Vaccine,5,1,S4,District Hospital Jodhpur,0.727,0.82,11,2.63,1.14,2,0.88,11,56,0,0
+C657,Salbutamol,4,0,S9,District Hospital Ajmer,0.876,0.982,4,0.94,2.76,3,0.5,3,57,5,1
+C658,Salbutamol,4,0,S6,District Hospital Ajmer,0.796,0.767,10,0.8,1.7,2,1.14,4,72,4,0
+C659,ORS,3,0,S9,CHC Udaipur,0.696,0.729,2,2.69,2.9,7,1.1,2,63,6,1
+C660,ORS,3,0,S3,Medical College Kota,0.743,0.97,3,3.57,0.36,4,1.29,10,59,0,0
+C661,ORS,3,0,S10,District Hospital Ajmer,0.99,0.83,3,1.72,2.61,7,0.5,21,95,0,0
+C662,Paracetamol Injection,3,0,S6,CHC Bikaner,0.99,0.794,2,2.57,0.72,4,1.63,15,80,0,0
+C663,Paracetamol Injection,3,0,S6,District Hospital Jaipur,0.861,0.796,2,0.84,0.61,4,1.97,23,53,0,0
+C664,Anti-snake Venom,5,1,S5,District Hospital Ajmer,0.695,0.927,5,1.67,0.0,1,1.67,1,75,7,1
+C665,Pentavalent Vaccine,5,1,S9,CHC Udaipur,0.99,0.9,11,2.13,0.0,6,1.43,18,85,0,1
+C666,ORS,3,0,S3,District Hospital Jaipur,0.746,0.971,5,2.1,0.33,3,0.54,6,75,2,0
+C667,Ceftriaxone,4,0,S4,CHC Bikaner,0.789,0.726,2,3.61,0.41,8,0.56,4,51,4,0
+C668,Amoxicillin,4,0,S10,District Hospital Jodhpur,0.873,0.653,3,2.18,0.0,5,1.28,16,67,0,1
+C669,Oxytocin,5,0,S7,District Hospital Jaipur,0.815,0.849,11,6.53,2.95,5,0.97,22,54,0,0
+C670,Salbutamol,4,0,S6,PHC Sikar,0.857,0.795,11,1.95,0.68,0,0.97,5,55,3,0
+C671,Paracetamol Injection,3,0,S9,PHC Sikar,0.976,0.874,9,2.49,4.88,1,0.5,16,68,0,0
+C672,Insulin,5,1,S9,District Hospital Jaipur,0.62,0.712,8,0.49,1.28,10,1.03,1,53,7,1
+C673,Iron Folic Acid,2,0,S8,PHC Sikar,0.935,0.72,7,1.9,2.8,10,0.73,7,66,1,1
+C674,Iron Folic Acid,2,0,S10,PHC Alwar,0.765,0.833,6,3.96,0.94,5,0.85,16,57,0,0
+C675,Paracetamol Injection,3,0,S6,PHC Sikar,0.899,0.846,11,0.69,2.96,0,0.95,10,69,0,1
+C676,Oxytocin,5,0,S1,District Hospital Jodhpur,0.778,1.0,11,2.95,0.6,0,0.77,3,74,5,0
+C677,Anti-snake Venom,5,1,S6,PHC Sikar,0.648,0.872,6,0.0,2.05,4,1.34,4,71,4,1
+C678,Insulin,5,1,S2,CHC Bikaner,0.9,0.985,7,3.8,0.0,4,1.49,5,52,3,1
+C679,ORS,3,0,S7,Medical College Kota,0.896,0.948,11,0.6,4.72,9,0.87,21,80,0,0
+C680,Adrenaline Injection,5,0,S3,PHC Alwar,0.722,1.0,6,4.78,4.29,5,1.31,14,60,0,1
+C681,Iron Folic Acid,2,0,S9,Medical College Kota,0.828,1.0,2,1.98,1.37,7,1.31,11,61,0,1
+C682,Iron Folic Acid,2,0,S5,CHC Bikaner,0.611,1.0,9,2.02,2.54,9,0.77,3,89,5,0
+C683,Amoxicillin,4,0,S9,District Hospital Ajmer,0.738,0.942,7,1.71,0.61,2,1.26,23,91,0,1
+C684,Iron Folic Acid,2,0,S10,CHC Bikaner,0.899,0.79,11,2.2,1.47,6,1.4,24,57,0,0
+C685,Oxytocin,5,0,S5,PHC Sikar,0.965,0.962,6,2.34,3.5,5,0.64,10,99,0,0
+C686,ORS,3,0,S8,District Hospital Jodhpur,0.796,0.561,10,0.87,0.0,10,1.09,16,75,0,1
+C687,Rabies Vaccine,5,1,S8,PHC Alwar,0.803,0.77,5,2.74,3.58,5,1.27,6,74,2,0
+C688,Paracetamol Injection,3,0,S9,District Hospital Jodhpur,0.784,0.833,6,0.18,3.26,8,1.46,17,63,0,0
+C689,Ceftriaxone,4,0,S1,District Hospital Ajmer,0.576,0.736,3,0.0,3.89,9,1.0,7,57,1,1
+C690,Paracetamol Injection,3,0,S3,PHC Alwar,0.604,0.815,7,3.48,0.04,6,1.07,13,55,0,1
+C691,Ceftriaxone,4,0,S4,PHC Sikar,0.902,0.956,7,0.49,0.0,4,1.27,13,75,0,0
+C692,ORS,3,0,S6,PHC Alwar,0.82,0.79,7,2.31,0.0,2,1.11,23,76,0,0
+C693,ORS,3,0,S8,District Hospital Jodhpur,0.882,0.79,6,5.88,0.67,9,0.75,5,62,3,0
+C694,Insulin,5,1,S6,PHC Sikar,0.778,0.59,4,2.36,3.7,3,0.69,15,64,0,1
+C695,Oxytocin,5,0,S9,Medical College Kota,0.671,0.828,2,4.16,1.86,0,1.23,24,98,0,1
+C696,Pentavalent Vaccine,5,1,S9,District Hospital Jodhpur,0.95,0.898,4,1.08,0.77,6,1.17,13,80,0,0
+C697,Rabies Vaccine,5,1,S7,CHC Udaipur,0.924,0.589,4,1.83,0.0,7,1.33,22,82,0,1
+C698,Pentavalent Vaccine,5,1,S6,District Hospital Ajmer,0.961,0.874,5,2.37,3.18,6,1.27,8,86,0,0
+C699,Iron Folic Acid,2,0,S4,Medical College Kota,0.831,0.867,6,0.62,1.88,8,1.05,22,65,0,1
+C700,Anti-snake Venom,5,1,S6,District Hospital Ajmer,0.949,0.829,9,1.23,0.0,1,0.79,11,56,0,0
+C701,Oxytocin,5,0,S9,District Hospital Ajmer,0.81,0.94,6,2.44,0.0,6,0.91,10,97,0,0
+C702,Anti-snake Venom,5,1,S4,District Hospital Ajmer,0.68,0.967,8,4.64,1.11,10,0.72,9,86,0,0
+C703,Adrenaline Injection,5,0,S4,District Hospital Ajmer,0.946,0.852,9,2.16,1.85,7,0.63,6,65,2,1
+C704,Pentavalent Vaccine,5,1,S1,District Hospital Ajmer,0.99,0.663,5,3.8,2.61,4,1.18,20,58,0,1
+C705,Paracetamol Injection,3,0,S4,PHC Sikar,0.766,0.838,5,2.32,3.16,8,0.97,4,51,4,1
+C706,Amoxicillin,4,0,S5,CHC Udaipur,0.892,0.765,6,3.28,0.0,1,0.76,19,52,0,1
+C707,Insulin,5,1,S1,PHC Alwar,0.865,0.811,10,5.6,1.78,2,1.15,24,80,0,0
+C708,Anti-snake Venom,5,1,S5,District Hospital Jaipur,0.741,0.889,4,0.0,1.5,9,0.96,23,79,0,0
+C709,Adrenaline Injection,5,0,S9,District Hospital Jodhpur,0.738,0.881,9,3.81,2.08,6,0.91,8,87,0,1
+C710,Anti-snake Venom,5,1,S5,District Hospital Ajmer,0.776,0.98,5,2.51,2.29,8,1.17,7,57,1,1
+C711,Iron Folic Acid,2,0,S6,District Hospital Ajmer,0.809,0.815,4,3.31,2.5,9,1.35,24,62,0,0
+C712,ORS,3,0,S9,District Hospital Jaipur,0.822,0.665,8,2.45,0.0,4,1.57,11,93,0,0
+C713,Adrenaline Injection,5,0,S2,CHC Bikaner,0.704,0.589,5,1.8,0.77,1,0.5,21,100,0,0
+C714,Iron Folic Acid,2,0,S3,CHC Udaipur,0.642,0.908,3,0.96,1.49,1,0.61,3,56,5,0
+C715,Iron Folic Acid,2,0,S3,Medical College Kota,0.783,0.753,8,3.08,0.0,5,0.73,22,71,0,0
+C716,Pentavalent Vaccine,5,1,S2,District Hospital Jaipur,0.99,1.0,3,1.22,1.52,0,0.89,3,56,5,0
+C717,ORS,3,0,S3,District Hospital Jaipur,0.686,0.785,7,3.07,1.92,5,1.05,2,93,6,1
+C718,Iron Folic Acid,2,0,S5,PHC Sikar,0.785,1.0,6,2.89,3.58,0,1.37,12,93,0,1
+C719,Salbutamol,4,0,S1,Medical College Kota,0.895,0.746,9,2.57,4.02,3,1.07,2,92,6,1
+C720,Oxytocin,5,0,S3,PHC Alwar,0.815,0.765,4,1.34,1.66,3,0.88,3,54,5,1
+C721,Ceftriaxone,4,0,S2,Medical College Kota,0.745,0.784,7,1.88,2.47,7,0.81,7,96,1,1
+C722,Adrenaline Injection,5,0,S9,Medical College Kota,0.99,0.902,2,1.8,3.1,6,1.03,22,71,0,0
+C723,Pentavalent Vaccine,5,1,S6,District Hospital Ajmer,0.728,0.828,9,1.5,3.69,3,0.68,19,96,0,1
+C724,Oxytocin,5,0,S10,PHC Sikar,0.761,0.852,11,2.4,2.28,3,0.75,20,97,0,0
+C725,ORS,3,0,S2,District Hospital Jaipur,0.876,0.8,9,1.13,0.75,5,1.31,22,63,0,1
+C726,Paracetamol Injection,3,0,S2,Medical College Kota,0.878,0.963,8,4.95,0.73,0,1.34,1,93,7,1
+C727,ORS,3,0,S7,District Hospital Jodhpur,0.632,0.836,9,4.01,0.0,5,1.1,19,61,0,0
+C728,Rabies Vaccine,5,1,S2,PHC Alwar,0.958,0.736,6,4.12,2.6,8,1.22,20,62,0,0
+C729,Salbutamol,4,0,S2,District Hospital Jodhpur,0.797,0.837,11,1.37,5.0,4,1.01,13,66,0,0
+C730,Adrenaline Injection,5,0,S8,PHC Alwar,0.734,1.0,10,0.45,0.0,9,0.9,8,95,0,1
+C731,Anti-snake Venom,5,1,S5,PHC Alwar,0.793,0.72,8,4.57,3.08,1,0.61,13,63,0,1
+C732,Iron Folic Acid,2,0,S9,District Hospital Jaipur,0.642,0.87,11,3.77,0.0,3,0.52,2,76,6,1
+C733,Adrenaline Injection,5,0,S7,Medical College Kota,0.77,0.776,2,3.57,1.08,10,0.99,16,63,0,1
+C734,Paracetamol Injection,3,0,S9,CHC Udaipur,0.807,0.904,11,2.99,4.19,8,1.23,5,74,3,1
+C735,Rabies Vaccine,5,1,S1,CHC Bikaner,0.681,0.892,8,1.3,0.97,3,0.81,6,99,2,1
+C736,Paracetamol Injection,3,0,S8,District Hospital Ajmer,0.857,0.757,5,4.65,3.31,5,0.89,23,89,0,0
+C737,Ceftriaxone,4,0,S6,District Hospital Ajmer,0.624,0.916,8,2.52,1.33,4,0.5,10,72,0,1
+C738,Anti-snake Venom,5,1,S9,PHC Sikar,0.857,0.863,2,2.11,4.26,5,1.21,22,92,0,0
+C739,ORS,3,0,S1,CHC Udaipur,0.804,0.781,10,4.03,3.95,6,0.52,9,74,0,1
+C740,Iron Folic Acid,2,0,S3,Medical College Kota,0.731,0.873,4,5.46,0.1,3,0.77,23,77,0,0
+C741,Adrenaline Injection,5,0,S5,District Hospital Ajmer,0.756,0.984,5,5.15,1.86,8,1.07,16,98,0,0
+C742,Salbutamol,4,0,S5,PHC Alwar,0.957,1.0,2,1.7,1.1,10,0.96,6,82,2,0
+C743,Ceftriaxone,4,0,S7,CHC Bikaner,0.896,0.821,8,1.09,1.64,10,1.38,6,56,2,0
+C744,Pentavalent Vaccine,5,1,S2,Medical College Kota,0.578,0.77,10,4.59,1.53,1,0.85,16,66,0,0
+C745,Adrenaline Injection,5,0,S10,District Hospital Jaipur,0.768,0.776,7,0.0,0.0,8,0.97,4,75,4,1
+C746,Iron Folic Acid,2,0,S7,PHC Sikar,0.774,0.853,8,2.22,0.0,5,0.52,23,95,0,0
+C747,Pentavalent Vaccine,5,1,S5,District Hospital Jodhpur,0.757,0.995,9,0.02,1.07,10,0.84,22,100,0,0
+C748,Pentavalent Vaccine,5,1,S2,District Hospital Jodhpur,0.99,0.799,2,2.55,0.41,1,0.61,3,50,5,1
+C749,Oxytocin,5,0,S9,District Hospital Ajmer,0.862,0.901,4,0.72,5.08,1,1.08,8,96,0,0
+C750,ORS,3,0,S9,PHC Sikar,0.717,0.868,3,4.54,3.97,2,1.13,7,91,1,1
+C751,Amoxicillin,4,0,S8,District Hospital Jaipur,0.783,0.996,10,2.8,1.68,6,1.36,12,68,0,0
+C752,Pentavalent Vaccine,5,1,S2,District Hospital Ajmer,0.99,1.0,2,1.86,2.07,10,1.2,24,69,0,0
+C753,ORS,3,0,S5,Medical College Kota,0.611,0.876,2,2.32,4.09,10,0.52,10,54,0,0
+C754,Oxytocin,5,0,S8,CHC Udaipur,0.99,0.683,10,0.87,0.42,1,1.19,10,69,0,0
+C755,Adrenaline Injection,5,0,S10,PHC Alwar,0.99,0.968,6,1.07,1.75,2,0.61,3,78,5,0
+C756,Anti-snake Venom,5,1,S8,District Hospital Jaipur,0.74,0.82,6,1.56,3.97,4,1.58,15,100,0,0
+C757,Ceftriaxone,4,0,S1,District Hospital Jaipur,0.708,0.838,2,1.8,5.07,7,1.25,15,56,0,1
+C758,Paracetamol Injection,3,0,S3,District Hospital Jaipur,0.99,0.86,7,1.28,2.2,4,1.48,10,90,0,0
+C759,Ceftriaxone,4,0,S3,District Hospital Jodhpur,0.62,0.948,4,3.81,5.87,7,0.93,11,61,0,1
+C760,Adrenaline Injection,5,0,S9,District Hospital Jaipur,0.975,0.755,8,2.4,4.54,10,0.88,8,55,0,0
+C761,Adrenaline Injection,5,0,S5,Medical College Kota,0.97,0.754,4,0.79,1.58,1,0.53,5,70,3,0
+C762,Anti-snake Venom,5,1,S8,Medical College Kota,0.793,0.727,4,3.56,0.23,10,1.45,8,87,0,0
+C763,Anti-snake Venom,5,1,S3,CHC Bikaner,0.958,0.909,4,0.92,0.0,9,0.65,5,56,3,0
+C764,Pentavalent Vaccine,5,1,S5,District Hospital Jodhpur,0.686,0.735,9,1.03,1.56,4,1.34,16,97,0,0
+C765,ORS,3,0,S4,Medical College Kota,0.99,0.802,3,6.91,2.8,1,0.5,22,54,0,1
+C766,Rabies Vaccine,5,1,S3,District Hospital Jodhpur,0.99,0.793,9,3.72,1.43,5,1.56,17,56,0,0
+C767,Oxytocin,5,0,S6,District Hospital Jodhpur,0.712,1.0,5,2.24,6.02,0,0.95,20,67,0,1
+C768,Amoxicillin,4,0,S5,CHC Bikaner,0.877,0.781,7,2.4,0.9,5,1.13,8,64,0,0
+C769,Insulin,5,1,S9,District Hospital Ajmer,0.887,0.738,6,5.0,2.89,10,1.16,9,52,0,1
+C770,Anti-snake Venom,5,1,S4,District Hospital Jodhpur,0.99,0.897,4,3.85,0.94,6,0.72,1,75,7,0
+C771,Iron Folic Acid,2,0,S9,Medical College Kota,0.672,0.893,11,2.82,5.04,2,1.63,24,68,0,1
+C772,Amoxicillin,4,0,S5,District Hospital Jodhpur,0.868,0.757,8,5.64,2.97,10,0.63,18,94,0,1
+C773,Insulin,5,1,S3,PHC Sikar,0.759,0.873,8,2.16,2.22,9,0.81,5,80,3,0
+C774,Anti-snake Venom,5,1,S8,CHC Udaipur,0.795,0.957,7,1.33,0.0,2,0.5,10,52,0,0
+C775,Adrenaline Injection,5,0,S1,PHC Alwar,0.781,0.743,2,0.39,1.79,5,1.09,20,98,0,0
+C776,Pentavalent Vaccine,5,1,S3,CHC Bikaner,0.758,0.88,8,0.0,1.66,0,1.28,13,79,0,0
+C777,Adrenaline Injection,5,0,S5,Medical College Kota,0.738,0.869,6,1.81,2.36,8,1.18,20,97,0,0
+C778,Rabies Vaccine,5,1,S6,CHC Bikaner,0.629,0.825,5,2.76,1.56,9,0.94,18,63,0,0
+C779,ORS,3,0,S8,District Hospital Jodhpur,0.761,0.688,9,1.87,2.62,8,0.81,1,80,7,1
+C780,Iron Folic Acid,2,0,S5,Medical College Kota,0.928,0.85,5,5.1,3.08,3,0.66,5,94,3,0
+C781,Rabies Vaccine,5,1,S5,District Hospital Jodhpur,0.922,0.693,6,1.66,0.94,2,1.29,13,97,0,1
+C782,Pentavalent Vaccine,5,1,S1,CHC Udaipur,0.639,0.862,9,0.0,0.0,10,1.19,5,98,3,0
+C783,Amoxicillin,4,0,S7,CHC Udaipur,0.83,0.711,3,3.44,1.61,6,0.77,11,62,0,0
+C784,Amoxicillin,4,0,S1,District Hospital Jaipur,0.836,0.79,3,1.35,0.0,9,1.23,13,93,0,1
+C785,Anti-snake Venom,5,1,S6,District Hospital Ajmer,0.752,0.642,3,4.02,0.77,0,1.71,9,88,0,0
+C786,Ceftriaxone,4,0,S4,District Hospital Jodhpur,0.713,0.954,3,1.46,1.29,6,0.82,22,75,0,0
+C787,Paracetamol Injection,3,0,S3,PHC Alwar,0.699,0.986,3,4.59,3.87,0,1.0,5,99,3,0
+C788,ORS,3,0,S8,District Hospital Jaipur,0.702,0.894,11,5.38,3.04,7,1.09,1,64,7,1
+C789,Anti-snake Venom,5,1,S7,CHC Bikaner,0.898,0.759,7,4.38,0.0,0,0.77,21,65,0,0
+C790,Salbutamol,4,0,S5,District Hospital Ajmer,0.763,0.824,7,0.66,2.77,1,1.41,8,55,0,0
+C791,Insulin,5,1,S6,District Hospital Ajmer,0.99,0.87,7,2.69,0.83,4,0.78,8,98,0,0
+C792,Oxytocin,5,0,S7,PHC Sikar,0.765,0.756,11,4.03,0.0,4,1.21,15,100,0,0
+C793,Oxytocin,5,0,S3,District Hospital Jodhpur,0.934,0.691,7,0.81,3.36,6,1.3,6,62,2,0
+C794,Paracetamol Injection,3,0,S2,PHC Sikar,0.743,0.884,11,0.0,1.53,1,0.68,21,84,0,0
+C795,Pentavalent Vaccine,5,1,S5,District Hospital Ajmer,0.724,0.81,11,3.22,1.91,9,0.95,9,59,0,1
+C796,Ceftriaxone,4,0,S9,District Hospital Jodhpur,0.853,0.967,2,1.22,3.24,2,1.25,6,94,2,1
+C797,Anti-snake Venom,5,1,S10,CHC Udaipur,0.99,0.677,8,0.0,1.01,0,0.5,15,52,0,0
+C798,Paracetamol Injection,3,0,S1,PHC Sikar,0.698,0.655,3,0.73,0.22,2,1.23,8,53,0,1
+C799,Anti-snake Venom,5,1,S1,District Hospital Jodhpur,0.748,0.802,5,3.84,2.66,5,1.0,14,67,0,0
+C800,Insulin,5,1,S6,District Hospital Jodhpur,0.955,0.849,6,0.18,1.85,9,0.77,18,97,0,1
+C801,Oxytocin,5,0,S10,Medical College Kota,0.76,0.914,7,2.31,0.0,10,0.93,5,55,3,0
+C802,Pentavalent Vaccine,5,1,S5,District Hospital Jaipur,0.99,0.963,9,0.39,0.0,8,0.5,21,65,0,0
+C803,Rabies Vaccine,5,1,S9,PHC Alwar,0.872,0.96,3,4.86,1.41,3,1.19,23,58,0,1
+C804,Salbutamol,4,0,S2,PHC Sikar,0.841,0.918,7,0.66,0.03,7,1.31,18,98,0,0
+C805,Salbutamol,4,0,S5,PHC Sikar,0.863,1.0,3,2.75,1.52,4,0.68,5,93,3,0
+C806,ORS,3,0,S9,Medical College Kota,0.795,0.887,6,1.45,1.52,0,0.5,9,69,0,0
+C807,Amoxicillin,4,0,S9,CHC Udaipur,0.904,0.9,10,1.24,0.78,0,0.78,4,99,4,1
+C808,ORS,3,0,S9,CHC Bikaner,0.892,0.753,5,1.21,1.16,10,1.02,10,86,0,0
+C809,Adrenaline Injection,5,0,S9,PHC Sikar,0.606,0.861,11,2.39,3.53,2,0.5,1,97,7,1
+C810,Pentavalent Vaccine,5,1,S1,District Hospital Ajmer,0.986,0.942,4,1.13,0.72,9,1.47,21,61,0,1
+C811,Oxytocin,5,0,S1,District Hospital Jaipur,0.965,0.684,3,5.07,1.86,5,0.98,13,55,0,0
+C812,Salbutamol,4,0,S1,District Hospital Jodhpur,0.952,0.726,9,2.02,0.23,8,1.22,19,87,0,0
+C813,Amoxicillin,4,0,S7,District Hospital Jaipur,0.99,0.819,9,0.0,4.19,1,1.18,16,89,0,1
+C814,Iron Folic Acid,2,0,S4,PHC Alwar,0.828,0.802,9,1.16,2.58,3,1.3,16,62,0,0
+C815,Salbutamol,4,0,S10,Medical College Kota,0.869,0.921,10,0.98,0.84,4,0.93,3,65,5,0
+C816,Paracetamol Injection,3,0,S7,District Hospital Jaipur,0.887,0.896,10,1.7,0.67,0,0.76,15,99,0,0
+C817,Oxytocin,5,0,S1,District Hospital Jodhpur,0.99,0.896,4,5.27,3.28,0,0.77,13,65,0,1
+C818,Insulin,5,1,S8,District Hospital Jodhpur,0.781,0.734,9,3.95,0.0,1,0.69,2,96,6,0
+C819,Ceftriaxone,4,0,S10,Medical College Kota,0.788,0.999,11,3.79,2.65,8,1.17,17,76,0,0
+C820,Amoxicillin,4,0,S8,CHC Udaipur,0.647,0.994,3,1.34,2.04,4,0.84,18,60,0,0
+C821,Anti-snake Venom,5,1,S2,PHC Alwar,0.809,0.791,5,0.0,0.35,5,1.05,4,73,4,0
+C822,Adrenaline Injection,5,0,S6,PHC Alwar,0.877,0.872,4,3.28,0.0,6,0.65,3,79,5,1
+C823,Rabies Vaccine,5,1,S1,District Hospital Jaipur,0.875,0.783,10,0.49,0.63,6,0.74,16,63,0,1
+C824,Ceftriaxone,4,0,S9,CHC Udaipur,0.888,0.986,10,3.53,2.1,7,1.2,14,83,0,0
+C825,Anti-snake Venom,5,1,S8,CHC Udaipur,0.583,1.0,11,1.47,2.34,8,1.21,22,81,0,1
+C826,Insulin,5,1,S2,District Hospital Ajmer,0.624,0.795,5,0.98,0.0,0,1.05,12,50,0,0
+C827,Iron Folic Acid,2,0,S8,PHC Sikar,0.66,0.919,4,2.58,1.17,8,0.94,5,86,3,0
+C828,ORS,3,0,S2,CHC Bikaner,0.983,1.0,3,2.07,1.64,1,1.3,23,99,0,0
+C829,Rabies Vaccine,5,1,S4,District Hospital Ajmer,0.873,0.887,8,0.38,3.26,5,1.02,2,76,6,1
+C830,Insulin,5,1,S2,CHC Bikaner,0.69,0.954,7,3.66,4.21,1,1.27,20,100,0,1
+C831,Paracetamol Injection,3,0,S7,Medical College Kota,0.797,0.643,5,4.51,0.0,0,0.62,18,72,0,0
+C832,Pentavalent Vaccine,5,1,S9,CHC Udaipur,0.71,0.761,5,3.58,5.04,1,1.16,1,95,7,1
+C833,Ceftriaxone,4,0,S7,PHC Alwar,0.71,0.858,8,4.27,2.96,10,1.08,2,82,6,1
+C834,Rabies Vaccine,5,1,S8,PHC Sikar,0.778,0.981,7,2.46,0.0,1,1.68,24,90,0,0
+C835,Salbutamol,4,0,S4,Medical College Kota,0.924,1.0,9,0.84,0.0,7,0.94,20,63,0,1
+C836,Amoxicillin,4,0,S8,District Hospital Jaipur,0.906,0.853,8,4.32,0.06,3,0.67,24,57,0,0
+C837,Adrenaline Injection,5,0,S6,District Hospital Jodhpur,0.693,0.841,4,5.68,3.26,2,1.26,17,64,0,1
+C838,Paracetamol Injection,3,0,S6,District Hospital Jaipur,0.796,0.746,10,2.59,0.0,2,0.71,21,64,0,0
+C839,Iron Folic Acid,2,0,S8,CHC Udaipur,0.93,0.976,8,0.05,1.95,5,0.97,19,96,0,1
+C840,Salbutamol,4,0,S9,District Hospital Ajmer,0.99,0.716,5,3.92,0.45,4,1.09,11,70,0,0
+C841,Pentavalent Vaccine,5,1,S3,CHC Bikaner,0.665,0.868,5,2.15,3.53,3,1.21,7,96,1,1
+C842,Oxytocin,5,0,S4,PHC Alwar,0.745,0.904,8,3.79,3.06,6,1.05,6,86,2,0
+C843,Amoxicillin,4,0,S7,CHC Bikaner,0.99,0.9,3,1.57,0.07,3,1.47,15,84,0,1
+C844,Adrenaline Injection,5,0,S3,District Hospital Ajmer,0.609,0.957,8,1.76,0.0,10,1.08,4,68,4,1
+C845,Salbutamol,4,0,S4,CHC Bikaner,0.899,0.845,3,3.07,1.05,10,0.76,13,56,0,0
+C846,Insulin,5,1,S6,Medical College Kota,0.716,0.856,10,1.62,1.22,10,0.83,10,68,0,1
+C847,Oxytocin,5,0,S9,PHC Sikar,0.831,0.808,2,1.83,3.41,9,1.0,20,74,0,0
+C848,Salbutamol,4,0,S8,District Hospital Ajmer,0.831,0.815,7,2.76,1.85,5,1.34,2,84,6,1
+C849,Insulin,5,1,S6,CHC Udaipur,0.796,0.877,7,2.82,0.75,8,0.94,13,75,0,0
+C850,Amoxicillin,4,0,S9,District Hospital Jaipur,0.854,0.888,3,5.25,0.04,0,1.04,23,62,0,0
+C851,Insulin,5,1,S1,CHC Udaipur,0.744,0.787,11,1.62,3.16,3,1.14,13,73,0,1
+C852,Ceftriaxone,4,0,S9,CHC Bikaner,0.902,0.788,11,0.13,0.0,9,1.07,4,98,4,1
+C853,Paracetamol Injection,3,0,S10,District Hospital Jodhpur,0.608,1.0,5,1.53,0.0,7,0.5,5,87,3,0
+C854,Paracetamol Injection,3,0,S6,CHC Udaipur,0.782,0.948,9,2.96,0.0,9,0.63,14,85,0,0
+C855,Adrenaline Injection,5,0,S5,Medical College Kota,0.826,0.906,4,5.13,3.67,1,1.48,12,51,0,1
+C856,Iron Folic Acid,2,0,S6,District Hospital Jaipur,0.827,0.833,6,2.87,1.69,1,1.35,21,57,0,1
+C857,Amoxicillin,4,0,S10,PHC Sikar,0.99,0.868,9,0.34,3.04,5,0.73,17,83,0,0
+C858,Amoxicillin,4,0,S7,Medical College Kota,0.761,1.0,10,4.63,2.62,0,1.22,20,53,0,1
+C859,ORS,3,0,S2,Medical College Kota,0.802,0.781,7,2.17,0.0,3,0.72,6,78,2,0
+C860,Anti-snake Venom,5,1,S7,CHC Bikaner,0.899,0.713,10,1.16,3.74,10,1.3,7,75,1,1
+C861,Pentavalent Vaccine,5,1,S10,CHC Udaipur,0.639,0.979,9,3.87,0.0,10,1.2,15,74,0,0
+C862,Adrenaline Injection,5,0,S7,PHC Sikar,0.837,0.843,7,4.51,1.23,8,0.99,13,86,0,0
+C863,Salbutamol,4,0,S8,PHC Alwar,0.99,0.88,9,0.0,0.0,6,0.97,15,95,0,1
+C864,Ceftriaxone,4,0,S3,CHC Udaipur,0.745,0.685,4,1.67,0.0,2,0.93,1,100,7,1
+C865,Pentavalent Vaccine,5,1,S5,CHC Udaipur,0.717,0.883,9,2.76,2.56,9,1.15,3,76,5,1
+C866,Amoxicillin,4,0,S6,District Hospital Jodhpur,0.976,0.992,5,3.19,3.35,7,0.78,21,90,0,1
+C867,Oxytocin,5,0,S8,PHC Alwar,0.838,0.758,10,1.49,3.5,4,1.28,13,75,0,1
+C868,Rabies Vaccine,5,1,S6,Medical College Kota,0.99,0.666,3,0.24,1.21,10,1.38,21,79,0,0
+C869,Oxytocin,5,0,S6,District Hospital Jodhpur,0.649,1.0,2,4.34,2.14,10,0.61,21,72,0,0
+C870,Ceftriaxone,4,0,S7,PHC Alwar,0.679,0.683,8,6.11,4.23,6,1.18,14,83,0,1
+C871,Amoxicillin,4,0,S4,District Hospital Jodhpur,0.915,0.906,7,5.14,3.7,10,0.66,21,95,0,1
+C872,Adrenaline Injection,5,0,S6,Medical College Kota,0.658,0.815,9,0.75,6.15,4,0.53,10,93,0,1
+C873,Rabies Vaccine,5,1,S3,Medical College Kota,0.814,0.966,5,0.6,4.66,8,0.87,22,77,0,1
+C874,ORS,3,0,S2,CHC Bikaner,0.82,0.721,3,2.32,1.24,1,1.14,15,81,0,0
+C875,Rabies Vaccine,5,1,S7,District Hospital Ajmer,0.784,0.909,10,0.75,0.0,3,0.54,20,67,0,0
+C876,ORS,3,0,S7,CHC Bikaner,0.763,0.941,8,2.85,3.29,5,1.16,22,61,0,0
+C877,Oxytocin,5,0,S5,CHC Bikaner,0.868,0.848,10,2.75,2.09,3,1.17,1,57,7,0
+C878,Iron Folic Acid,2,0,S6,CHC Bikaner,0.626,0.829,10,5.42,1.92,4,1.41,15,64,0,0
+C879,Iron Folic Acid,2,0,S10,CHC Udaipur,0.745,0.856,6,5.27,1.7,10,1.29,23,56,0,1
+C880,Anti-snake Venom,5,1,S8,District Hospital Ajmer,0.698,0.82,5,4.88,2.58,5,1.03,9,62,0,1
+C881,Rabies Vaccine,5,1,S1,District Hospital Jaipur,0.791,0.775,9,3.72,0.0,9,0.88,16,88,0,1
+C882,Paracetamol Injection,3,0,S7,Medical College Kota,0.766,0.842,6,2.36,0.61,2,1.33,17,65,0,0
+C883,Pentavalent Vaccine,5,1,S9,CHC Udaipur,0.734,0.734,10,3.67,0.0,0,1.24,8,50,0,0
+C884,ORS,3,0,S7,District Hospital Jaipur,0.765,0.867,8,2.01,0.0,2,1.45,13,73,0,0
+C885,Ceftriaxone,4,0,S1,District Hospital Ajmer,0.99,0.71,2,2.73,0.0,7,1.35,7,97,1,1
+C886,Salbutamol,4,0,S6,CHC Bikaner,0.845,0.974,2,5.64,1.48,4,0.5,17,95,0,0
+C887,Oxytocin,5,0,S9,District Hospital Jodhpur,0.715,0.945,8,1.25,2.07,5,1.88,16,54,0,0
+C888,Adrenaline Injection,5,0,S3,CHC Udaipur,0.766,0.948,5,0.68,0.42,1,1.21,3,58,5,1
+C889,Salbutamol,4,0,S6,CHC Bikaner,0.666,0.924,6,2.54,3.54,8,1.36,11,50,0,1
+C890,Insulin,5,1,S10,CHC Udaipur,0.757,0.959,6,4.54,1.04,5,0.82,3,51,5,1
+C891,Anti-snake Venom,5,1,S10,District Hospital Jaipur,0.897,1.0,4,3.23,0.15,3,0.7,19,53,0,0
+C892,Salbutamol,4,0,S10,CHC Udaipur,0.867,0.645,10,2.65,1.6,8,1.19,15,56,0,1
+C893,Oxytocin,5,0,S4,District Hospital Jodhpur,0.809,0.976,11,6.56,3.71,5,1.09,18,99,0,1
+C894,Amoxicillin,4,0,S9,CHC Udaipur,0.95,0.983,6,3.29,0.2,2,1.14,22,83,0,0
+C895,Adrenaline Injection,5,0,S9,District Hospital Jodhpur,0.716,0.861,10,1.65,0.45,7,0.79,16,66,0,1
+C896,Amoxicillin,4,0,S10,District Hospital Ajmer,0.798,0.813,4,0.0,0.24,3,0.93,6,65,2,0
+C897,Ceftriaxone,4,0,S3,PHC Sikar,0.671,0.928,11,1.85,3.39,0,0.98,18,68,0,1
+C898,Ceftriaxone,4,0,S8,PHC Alwar,0.589,0.995,5,3.12,0.0,8,0.98,12,72,0,0
+C899,Oxytocin,5,0,S7,PHC Sikar,0.98,0.831,10,6.2,1.3,1,0.5,12,97,0,1
+C900,Insulin,5,1,S2,PHC Sikar,0.93,0.784,5,1.25,0.0,10,0.81,7,51,1,1
+C901,Adrenaline Injection,5,0,S10,Medical College Kota,0.826,0.841,10,0.83,0.0,0,1.25,11,60,0,0
+C902,Adrenaline Injection,5,0,S9,Medical College Kota,0.789,0.832,11,4.08,3.62,1,0.88,18,62,0,0
+C903,ORS,3,0,S2,PHC Alwar,0.797,0.927,11,1.45,2.28,0,1.42,24,95,0,1
+C904,ORS,3,0,S10,Medical College Kota,0.921,0.94,11,5.0,0.0,3,0.76,5,55,3,0
+C905,Anti-snake Venom,5,1,S8,District Hospital Jaipur,0.863,0.74,8,3.43,1.13,4,1.15,19,77,0,0
+C906,Ceftriaxone,4,0,S10,PHC Sikar,0.627,0.898,3,3.71,1.86,5,0.5,18,64,0,0
+C907,Oxytocin,5,0,S7,CHC Udaipur,0.881,0.88,11,2.71,0.8,0,0.5,2,53,6,0
+C908,Salbutamol,4,0,S1,CHC Udaipur,0.683,0.85,2,5.31,3.03,5,1.23,12,69,0,1
+C909,Rabies Vaccine,5,1,S10,Medical College Kota,0.753,0.824,10,4.62,0.0,4,0.51,8,82,0,0
+C910,Insulin,5,1,S5,CHC Bikaner,0.615,0.886,5,0.98,0.0,1,0.83,24,66,0,1
+C911,Insulin,5,1,S6,District Hospital Ajmer,0.834,0.65,2,3.12,1.08,2,0.98,15,69,0,0
+C912,Ceftriaxone,4,0,S9,PHC Alwar,0.882,0.881,4,2.14,0.0,8,0.5,13,72,0,0
+C913,Oxytocin,5,0,S8,PHC Sikar,0.611,1.0,9,4.15,3.05,2,1.2,14,57,0,1
+C914,Ceftriaxone,4,0,S4,CHC Udaipur,0.826,0.885,4,2.38,1.8,2,0.92,10,99,0,0
+C915,Anti-snake Venom,5,1,S10,District Hospital Jaipur,0.812,0.814,10,3.14,0.7,8,1.57,5,85,3,1
+C916,Adrenaline Injection,5,0,S3,District Hospital Ajmer,0.842,0.938,2,3.27,1.53,0,1.33,22,83,0,0
+C917,Ceftriaxone,4,0,S10,CHC Udaipur,0.801,0.919,6,3.44,0.96,7,1.43,6,72,2,0
+C918,Oxytocin,5,0,S7,District Hospital Jodhpur,0.751,0.84,4,2.19,1.61,1,0.9,19,97,0,0
+C919,Oxytocin,5,0,S2,District Hospital Ajmer,0.925,0.877,4,1.38,3.57,5,0.5,19,97,0,0
+C920,Iron Folic Acid,2,0,S1,District Hospital Jodhpur,0.87,0.798,11,0.82,0.0,10,1.44,22,65,0,1
+C921,Ceftriaxone,4,0,S9,Medical College Kota,0.866,0.994,9,0.8,0.15,9,1.31,12,97,0,0
+C922,Paracetamol Injection,3,0,S1,Medical College Kota,0.656,0.933,6,1.73,2.77,3,0.99,13,54,0,0
+C923,Rabies Vaccine,5,1,S2,CHC Udaipur,0.817,0.842,9,0.98,0.91,3,0.82,17,66,0,0
+C924,Amoxicillin,4,0,S8,CHC Udaipur,0.92,0.788,3,2.35,1.47,7,0.67,23,94,0,1
+C925,Rabies Vaccine,5,1,S7,PHC Alwar,0.632,0.777,2,2.92,0.0,2,0.99,11,71,0,0
+C926,Ceftriaxone,4,0,S6,PHC Sikar,0.761,1.0,4,2.59,0.0,5,1.25,11,70,0,0
+C927,Rabies Vaccine,5,1,S6,District Hospital Jaipur,0.839,0.949,10,3.74,1.04,4,0.5,15,85,0,1
+C928,Anti-snake Venom,5,1,S5,CHC Udaipur,0.888,0.869,11,4.04,2.82,6,1.41,23,76,0,0
+C929,Pentavalent Vaccine,5,1,S3,PHC Alwar,0.916,0.783,3,1.18,0.02,3,1.1,7,69,1,0
+C930,ORS,3,0,S6,PHC Sikar,0.918,0.688,9,3.74,2.44,8,0.86,9,98,0,0
+C931,Rabies Vaccine,5,1,S1,CHC Bikaner,0.658,0.83,3,3.79,3.89,3,1.09,14,70,0,0
+C932,Paracetamol Injection,3,0,S5,District Hospital Jodhpur,0.806,0.91,5,3.6,0.0,0,0.77,8,51,0,0
+C933,Oxytocin,5,0,S9,District Hospital Jaipur,0.93,1.0,4,1.68,2.84,3,0.74,18,75,0,0
+C934,Anti-snake Venom,5,1,S2,PHC Alwar,0.882,0.893,11,2.78,0.78,10,0.61,20,100,0,1
+C935,Ceftriaxone,4,0,S9,District Hospital Ajmer,0.99,0.927,11,4.44,2.26,6,1.19,23,91,0,0
+C936,Anti-snake Venom,5,1,S6,PHC Sikar,0.99,0.942,2,1.13,0.0,0,1.13,8,99,0,0
+C937,Iron Folic Acid,2,0,S10,District Hospital Ajmer,0.917,0.847,2,2.79,1.22,3,0.89,17,59,0,0
+C938,Ceftriaxone,4,0,S10,District Hospital Ajmer,0.936,0.726,10,0.89,1.27,9,0.99,13,71,0,1
+C939,Pentavalent Vaccine,5,1,S10,PHC Sikar,0.775,0.691,9,2.27,0.0,1,1.13,7,58,1,0
+C940,ORS,3,0,S10,CHC Udaipur,0.943,0.844,10,2.67,0.4,10,1.09,7,58,1,0
+C941,Iron Folic Acid,2,0,S5,PHC Sikar,0.696,0.948,5,1.75,1.92,7,1.1,4,78,4,1
+C942,Adrenaline Injection,5,0,S4,District Hospital Jaipur,0.738,0.857,10,3.09,3.02,1,1.1,16,69,0,1
+C943,Anti-snake Venom,5,1,S6,PHC Sikar,0.921,1.0,4,2.21,3.11,2,1.41,10,81,0,1
+C944,Salbutamol,4,0,S5,Medical College Kota,0.774,0.686,3,1.46,0.0,6,1.07,9,77,0,0
+C945,Insulin,5,1,S5,PHC Alwar,0.916,0.729,7,5.13,0.46,3,1.06,6,62,2,1
+C946,ORS,3,0,S5,PHC Sikar,0.816,0.958,3,2.66,0.0,3,0.5,21,78,0,0
+C947,Amoxicillin,4,0,S5,District Hospital Jodhpur,0.775,0.77,4,0.22,0.29,4,1.24,15,85,0,1
+C948,Rabies Vaccine,5,1,S10,CHC Udaipur,0.778,0.858,8,3.48,1.15,3,1.21,14,52,0,0
+C949,ORS,3,0,S7,District Hospital Ajmer,0.873,0.944,3,1.18,4.04,7,1.17,16,98,0,0
+C950,Iron Folic Acid,2,0,S4,CHC Udaipur,0.634,0.966,5,2.01,2.7,7,1.73,24,75,0,0
+C951,Pentavalent Vaccine,5,1,S10,CHC Bikaner,0.484,0.754,3,1.78,1.71,3,1.21,24,88,0,1
+C952,ORS,3,0,S7,District Hospital Jaipur,0.828,0.97,6,2.8,0.0,4,0.96,9,68,0,0
+C953,Rabies Vaccine,5,1,S6,Medical College Kota,0.782,0.782,2,1.08,1.48,4,1.03,17,68,0,0
+C954,Ceftriaxone,4,0,S3,CHC Bikaner,0.986,0.926,5,2.85,1.42,9,0.5,7,88,1,0
+C955,Ceftriaxone,4,0,S2,PHC Alwar,0.728,0.742,5,6.07,5.37,4,0.9,17,54,0,0
+C956,ORS,3,0,S2,CHC Bikaner,0.905,0.828,8,1.87,0.84,10,0.95,13,85,0,0
+C957,Oxytocin,5,0,S3,CHC Udaipur,0.844,0.879,11,2.24,1.38,1,0.63,1,74,7,0
+C958,Iron Folic Acid,2,0,S7,CHC Udaipur,0.944,0.646,3,2.21,0.78,7,0.93,11,55,0,0
+C959,Adrenaline Injection,5,0,S9,CHC Udaipur,0.893,0.909,2,5.0,0.64,7,0.98,10,85,0,0
+C960,Amoxicillin,4,0,S9,CHC Bikaner,0.787,0.862,3,0.0,0.77,0,1.53,10,76,0,0
+C961,Adrenaline Injection,5,0,S5,Medical College Kota,0.966,0.913,11,4.14,0.0,0,0.68,1,66,7,0
+C962,Amoxicillin,4,0,S6,PHC Alwar,0.77,0.88,9,1.05,0.5,9,0.84,9,79,0,0
+C963,Anti-snake Venom,5,1,S9,CHC Udaipur,0.828,0.847,8,5.01,0.82,4,1.51,20,58,0,0
+C964,Ceftriaxone,4,0,S4,PHC Alwar,0.866,0.859,7,0.84,5.02,1,1.24,13,53,0,1
+C965,Pentavalent Vaccine,5,1,S1,CHC Bikaner,0.99,1.0,10,3.77,0.0,1,0.63,4,61,4,0
+C966,Adrenaline Injection,5,0,S3,Medical College Kota,0.921,1.0,6,5.24,2.6,9,0.73,1,55,7,1
+C967,Pentavalent Vaccine,5,1,S4,PHC Alwar,0.79,0.667,6,1.56,3.02,3,1.47,19,98,0,1
+C968,Ceftriaxone,4,0,S4,District Hospital Jaipur,0.929,0.894,5,3.41,2.38,8,1.53,1,65,7,0
+C969,Rabies Vaccine,5,1,S2,District Hospital Jaipur,0.724,0.863,4,1.34,5.21,2,0.73,8,96,0,1
+C970,Oxytocin,5,0,S4,District Hospital Jodhpur,0.735,0.823,8,0.87,2.46,3,0.5,12,86,0,1
+C971,Insulin,5,1,S4,Medical College Kota,0.679,0.929,10,4.12,1.34,10,0.61,4,66,4,1
+C972,Paracetamol Injection,3,0,S7,CHC Udaipur,0.812,0.894,9,1.63,0.69,7,0.86,23,51,0,0
+C973,Salbutamol,4,0,S5,PHC Alwar,0.724,0.967,5,1.32,4.97,6,1.18,15,75,0,0
+C974,Pentavalent Vaccine,5,1,S6,PHC Alwar,0.757,0.919,11,1.57,2.57,4,1.13,1,95,7,1
+C975,Salbutamol,4,0,S8,District Hospital Jodhpur,0.684,1.0,10,3.41,0.9,9,1.04,24,89,0,0
+C976,Anti-snake Venom,5,1,S6,CHC Udaipur,0.837,0.89,10,2.78,1.17,0,1.65,24,73,0,0
+C977,Paracetamol Injection,3,0,S7,District Hospital Ajmer,0.99,1.0,5,0.28,0.0,9,1.39,12,50,0,1
+C978,Insulin,5,1,S2,District Hospital Jaipur,0.871,0.896,5,1.47,0.44,0,1.12,20,53,0,0
+C979,Iron Folic Acid,2,0,S2,PHC Sikar,0.772,0.876,10,0.0,1.48,2,1.96,7,75,1,0
+C980,Anti-snake Venom,5,1,S10,District Hospital Ajmer,0.715,0.78,8,5.12,0.0,7,1.26,14,61,0,0
+C981,Anti-snake Venom,5,1,S5,District Hospital Jodhpur,0.704,0.89,6,3.01,2.14,6,0.67,13,91,0,1
+C982,Paracetamol Injection,3,0,S8,PHC Alwar,0.756,0.938,2,0.9,2.52,10,1.34,16,54,0,1
+C983,Iron Folic Acid,2,0,S10,CHC Udaipur,0.793,0.903,2,3.82,0.0,3,0.82,13,63,0,0
+C984,Oxytocin,5,0,S6,CHC Bikaner,0.939,0.815,11,3.88,1.53,1,1.22,12,76,0,0
+C985,Anti-snake Venom,5,1,S7,District Hospital Jaipur,0.846,0.722,9,0.0,3.91,7,1.3,17,99,0,1
+C986,Salbutamol,4,0,S4,PHC Sikar,0.72,0.871,7,2.34,2.52,6,1.37,8,80,0,0
+C987,Paracetamol Injection,3,0,S6,District Hospital Ajmer,0.876,0.853,4,3.28,0.4,3,1.18,22,97,0,0
+C988,Rabies Vaccine,5,1,S8,District Hospital Jodhpur,0.918,0.898,10,2.25,3.24,2,1.04,5,50,3,1
+C989,Ceftriaxone,4,0,S8,District Hospital Jaipur,0.99,0.873,2,3.63,0.9,1,0.87,9,72,0,0
+C990,Iron Folic Acid,2,0,S2,CHC Udaipur,0.891,0.982,6,0.98,1.4,2,1.15,14,51,0,0
+C991,Anti-snake Venom,5,1,S6,PHC Sikar,0.934,0.791,8,3.28,0.0,4,1.5,14,52,0,0
+C992,Anti-snake Venom,5,1,S4,District Hospital Jaipur,0.795,0.81,3,1.36,3.2,3,1.02,9,95,0,1
+C993,Anti-snake Venom,5,1,S1,Medical College Kota,0.841,0.758,11,1.55,0.37,2,1.2,18,92,0,0
+C994,Amoxicillin,4,0,S8,CHC Udaipur,0.844,0.884,7,2.61,3.26,7,0.91,18,89,0,0
+C995,Paracetamol Injection,3,0,S6,CHC Bikaner,0.98,1.0,3,3.35,0.52,2,0.96,21,95,0,0
+C996,Rabies Vaccine,5,1,S6,PHC Sikar,0.731,0.741,10,3.16,2.79,9,0.9,21,67,0,1
+C997,Insulin,5,1,S8,CHC Bikaner,0.918,0.813,5,2.19,3.57,9,0.99,15,85,0,1
+C998,Pentavalent Vaccine,5,1,S6,District Hospital Jaipur,0.818,0.789,9,0.68,2.55,10,1.21,20,60,0,1
+C999,Insulin,5,1,S3,PHC Alwar,0.887,0.837,6,0.45,2.16,1,0.5,2,57,6,0
+C1000,Rabies Vaccine,5,1,S10,District Hospital Ajmer,0.946,0.907,3,2.66,0.26,2,1.23,5,74,3,0
+C1001,Insulin,5,1,S8,District Hospital Jaipur,0.926,0.97,9,0.8,1.43,6,0.79,15,51,0,0
+C1002,Amoxicillin,4,0,S6,CHC Bikaner,0.895,0.683,8,4.79,0.0,3,1.09,13,65,0,1
+C1003,Oxytocin,5,0,S4,District Hospital Jaipur,0.755,0.83,8,2.26,1.61,6,0.66,4,70,4,1
+C1004,Ceftriaxone,4,0,S5,CHC Bikaner,0.815,0.987,2,2.13,3.04,3,1.53,9,72,0,1
+C1005,Salbutamol,4,0,S10,CHC Udaipur,0.835,0.924,5,4.55,1.1,4,1.36,8,89,0,1
+C1006,Oxytocin,5,0,S5,District Hospital Jodhpur,0.679,0.933,8,3.89,1.97,2,1.0,24,58,0,0
+C1007,Amoxicillin,4,0,S10,PHC Alwar,0.885,1.0,7,2.4,0.0,2,0.77,17,89,0,0
+C1008,Salbutamol,4,0,S9,PHC Sikar,0.549,0.838,5,2.06,2.07,0,1.08,2,57,6,1
+C1009,Pentavalent Vaccine,5,1,S4,District Hospital Jodhpur,0.955,0.928,8,0.87,3.63,5,1.47,12,74,0,0
+C1010,Oxytocin,5,0,S10,PHC Sikar,0.99,0.879,2,2.09,1.3,1,0.87,17,57,0,0
+C1011,Iron Folic Acid,2,0,S10,District Hospital Jaipur,0.842,0.899,7,4.68,0.31,7,1.19,16,100,0,0
+C1012,Ceftriaxone,4,0,S4,Medical College Kota,0.838,0.693,5,1.51,3.95,5,1.17,14,84,0,1
+C1013,Iron Folic Acid,2,0,S10,District Hospital Ajmer,0.818,0.889,4,0.0,1.22,7,0.77,15,96,0,0
+C1014,Adrenaline Injection,5,0,S2,PHC Sikar,0.699,0.919,5,2.51,1.72,4,1.04,16,64,0,0
+C1015,Pentavalent Vaccine,5,1,S10,District Hospital Ajmer,0.803,0.832,4,3.18,0.0,3,1.19,1,88,7,1
+C1016,Ceftriaxone,4,0,S9,District Hospital Jodhpur,0.708,0.745,2,0.58,0.0,4,1.12,9,61,0,0
+C1017,Pentavalent Vaccine,5,1,S1,PHC Sikar,0.722,0.743,8,0.0,1.36,5,0.82,8,75,0,1
+C1018,Salbutamol,4,0,S4,Medical College Kota,0.869,0.804,3,2.16,0.68,7,1.37,21,54,0,0
+C1019,Oxytocin,5,0,S4,District Hospital Jaipur,0.935,1.0,8,1.95,1.9,5,0.5,1,50,7,0
+C1020,ORS,3,0,S8,District Hospital Jaipur,0.99,0.9,10,2.75,0.43,7,1.13,17,54,0,0
+C1021,Amoxicillin,4,0,S1,PHC Sikar,0.652,0.959,3,3.73,2.1,3,0.5,17,100,0,0
+C1022,Amoxicillin,4,0,S1,District Hospital Jaipur,0.624,0.906,6,5.32,1.29,10,0.59,6,82,2,0
+C1023,Adrenaline Injection,5,0,S1,PHC Alwar,0.919,0.729,9,2.08,1.42,3,0.99,8,89,0,0
+C1024,Rabies Vaccine,5,1,S5,CHC Bikaner,0.893,0.863,2,0.86,0.0,0,1.13,15,61,0,0
+C1025,Paracetamol Injection,3,0,S2,Medical College Kota,0.855,0.899,7,4.6,2.08,10,0.85,15,99,0,1
+C1026,Anti-snake Venom,5,1,S5,PHC Sikar,0.755,0.758,7,1.28,0.0,3,0.59,23,74,0,0
+C1027,Amoxicillin,4,0,S9,PHC Sikar,0.552,0.964,7,1.85,1.07,1,0.5,2,85,6,1
+C1028,Ceftriaxone,4,0,S8,CHC Udaipur,0.643,0.796,10,2.27,0.0,7,1.29,20,83,0,1
+C1029,Paracetamol Injection,3,0,S7,Medical College Kota,0.99,0.885,8,4.1,0.0,1,1.04,15,92,0,1
+C1030,Ceftriaxone,4,0,S10,District Hospital Jodhpur,0.816,0.719,6,1.34,2.09,0,1.32,22,96,0,0
+C1031,Anti-snake Venom,5,1,S5,Medical College Kota,0.826,0.836,8,1.73,0.57,8,1.26,13,85,0,0
+C1032,Oxytocin,5,0,S8,PHC Alwar,0.594,0.892,7,3.63,0.7,4,0.91,13,73,0,0
+C1033,Pentavalent Vaccine,5,1,S8,Medical College Kota,0.771,0.789,5,3.45,5.68,10,1.49,19,83,0,1
+C1034,Pentavalent Vaccine,5,1,S5,District Hospital Jaipur,0.868,0.837,5,3.72,0.97,0,1.19,15,87,0,0
+C1035,Salbutamol,4,0,S1,District Hospital Jodhpur,0.614,0.965,9,1.25,1.08,4,0.93,20,52,0,0
+C1036,Oxytocin,5,0,S8,CHC Udaipur,0.731,0.923,11,3.04,0.09,1,0.93,18,56,0,0
+C1037,Pentavalent Vaccine,5,1,S8,Medical College Kota,0.765,1.0,4,0.0,0.39,9,1.22,17,82,0,1
+C1038,Rabies Vaccine,5,1,S4,PHC Sikar,0.542,0.771,11,1.06,1.53,0,1.11,20,70,0,0
+C1039,Salbutamol,4,0,S6,CHC Bikaner,0.99,0.909,5,0.89,0.09,8,1.86,5,87,3,0
+C1040,Iron Folic Acid,2,0,S4,Medical College Kota,0.757,0.894,9,2.01,4.23,9,0.81,10,51,0,0
+C1041,Insulin,5,1,S5,District Hospital Jodhpur,0.8,0.832,9,1.43,1.75,6,0.87,18,84,0,0
+C1042,Salbutamol,4,0,S10,PHC Alwar,0.607,0.793,8,3.76,3.65,5,1.46,20,55,0,0
+C1043,Insulin,5,1,S10,District Hospital Jodhpur,0.841,0.775,6,3.08,3.08,2,1.35,21,95,0,1
+C1044,Pentavalent Vaccine,5,1,S6,PHC Alwar,0.726,0.964,7,1.93,0.09,2,1.24,22,77,0,1
+C1045,Adrenaline Injection,5,0,S9,District Hospital Jaipur,0.912,1.0,5,0.22,0.11,2,0.5,8,82,0,0
+C1046,Amoxicillin,4,0,S3,CHC Udaipur,0.81,0.844,7,5.03,3.42,9,0.51,22,66,0,1
+C1047,Insulin,5,1,S10,Medical College Kota,0.721,0.872,5,5.11,1.6,9,1.09,2,73,6,1
+C1048,Ceftriaxone,4,0,S7,District Hospital Jodhpur,0.968,0.867,3,2.54,0.0,7,0.93,21,84,0,0
+C1049,Anti-snake Venom,5,1,S8,PHC Alwar,0.774,1.0,11,3.59,0.0,7,0.9,4,50,4,0
+C1050,Salbutamol,4,0,S1,Medical College Kota,0.743,0.924,5,3.77,0.77,9,1.38,8,83,0,0
+C1051,ORS,3,0,S3,District Hospital Ajmer,0.99,0.729,5,5.73,2.89,0,0.69,11,56,0,0
+C1052,Ceftriaxone,4,0,S6,CHC Udaipur,0.761,0.751,3,1.66,1.3,9,1.56,22,96,0,0
+C1053,Pentavalent Vaccine,5,1,S4,District Hospital Ajmer,0.989,0.88,4,1.55,4.68,1,0.52,17,55,0,1
+C1054,Oxytocin,5,0,S7,District Hospital Jaipur,0.708,0.922,8,1.37,0.0,0,0.77,8,66,0,0
+C1055,Oxytocin,5,0,S10,District Hospital Jodhpur,0.857,0.747,7,2.4,0.0,4,1.24,4,66,4,1
+C1056,Ceftriaxone,4,0,S4,PHC Alwar,0.627,0.907,7,0.0,0.0,3,1.18,12,90,0,1
+C1057,Iron Folic Acid,2,0,S6,CHC Bikaner,0.874,0.991,11,0.92,0.64,5,0.6,20,52,0,0
+C1058,Amoxicillin,4,0,S3,District Hospital Ajmer,0.99,0.929,4,1.83,0.0,7,0.95,17,50,0,0
+C1059,Amoxicillin,4,0,S1,PHC Sikar,0.938,0.837,4,0.55,0.0,5,1.18,17,67,0,0
+C1060,Paracetamol Injection,3,0,S5,CHC Bikaner,0.965,0.913,5,0.0,4.24,4,0.77,3,80,5,1
+C1061,Anti-snake Venom,5,1,S9,District Hospital Jaipur,0.741,0.84,6,4.76,3.51,1,1.23,2,95,6,1
+C1062,Adrenaline Injection,5,0,S9,CHC Bikaner,0.729,0.844,10,2.07,1.93,2,0.96,17,92,0,0
+C1063,Amoxicillin,4,0,S7,Medical College Kota,0.814,0.88,3,4.05,1.13,2,0.88,15,59,0,1
+C1064,Adrenaline Injection,5,0,S7,District Hospital Ajmer,0.888,0.873,11,2.76,2.03,8,1.07,16,61,0,0
+C1065,Iron Folic Acid,2,0,S9,CHC Udaipur,0.897,0.811,4,3.54,1.59,5,1.16,23,93,0,0
+C1066,Ceftriaxone,4,0,S8,Medical College Kota,0.848,0.823,2,1.32,3.87,1,0.93,22,54,0,0
+C1067,Iron Folic Acid,2,0,S8,District Hospital Ajmer,0.855,0.917,10,0.95,2.65,8,1.18,13,62,0,0
+C1068,ORS,3,0,S6,CHC Udaipur,0.927,0.824,2,1.42,4.53,7,0.77,17,91,0,0
+C1069,Rabies Vaccine,5,1,S9,PHC Alwar,0.763,0.912,3,1.87,0.0,2,1.49,22,50,0,0
+C1070,ORS,3,0,S3,District Hospital Jaipur,0.921,0.779,5,3.38,1.33,8,0.75,15,87,0,0
+C1071,Amoxicillin,4,0,S9,District Hospital Jaipur,0.768,0.857,11,4.38,1.79,2,1.0,9,88,0,0
+C1072,Ceftriaxone,4,0,S4,Medical College Kota,0.854,0.886,6,0.57,1.0,4,1.39,9,95,0,1
+C1073,Rabies Vaccine,5,1,S4,District Hospital Jodhpur,0.978,0.887,3,2.68,2.07,1,0.86,18,83,0,0
+C1074,Pentavalent Vaccine,5,1,S10,District Hospital Ajmer,0.636,0.755,2,0.0,0.0,2,0.7,16,86,0,0
+C1075,Insulin,5,1,S4,PHC Alwar,0.871,0.864,9,3.07,0.84,5,1.01,8,52,0,0
+C1076,Iron Folic Acid,2,0,S3,Medical College Kota,0.866,0.775,5,4.77,0.0,9,1.59,13,85,0,1
+C1077,Salbutamol,4,0,S10,District Hospital Ajmer,0.99,1.0,9,1.11,4.52,8,0.9,15,83,0,0
+C1078,Ceftriaxone,4,0,S8,Medical College Kota,0.76,0.748,11,1.72,4.91,10,0.95,14,52,0,1
+C1079,Adrenaline Injection,5,0,S6,CHC Udaipur,0.669,0.82,5,1.82,0.0,3,1.44,21,64,0,0
+C1080,Iron Folic Acid,2,0,S1,PHC Alwar,0.787,0.847,9,1.93,4.66,3,0.94,9,63,0,0
+C1081,Paracetamol Injection,3,0,S7,PHC Sikar,0.887,0.886,2,0.9,0.69,1,1.25,21,75,0,0
+C1082,Amoxicillin,4,0,S2,District Hospital Ajmer,0.799,0.783,5,2.16,1.65,8,1.02,23,97,0,1
+C1083,Ceftriaxone,4,0,S4,Medical College Kota,0.799,0.845,5,4.55,3.23,5,1.37,17,94,0,0
+C1084,Iron Folic Acid,2,0,S2,Medical College Kota,0.99,1.0,8,5.55,0.0,7,0.59,24,54,0,0
+C1085,Pentavalent Vaccine,5,1,S5,Medical College Kota,0.758,0.751,10,2.41,1.36,4,0.85,3,77,5,0
+C1086,Anti-snake Venom,5,1,S9,CHC Udaipur,0.89,0.872,7,1.37,1.07,1,0.81,17,52,0,0
+C1087,Insulin,5,1,S7,District Hospital Ajmer,0.99,0.908,2,0.13,1.51,2,1.37,23,63,0,1
+C1088,Iron Folic Acid,2,0,S9,District Hospital Jaipur,0.868,0.856,5,1.75,2.91,4,1.36,8,59,0,0
+C1089,Iron Folic Acid,2,0,S9,Medical College Kota,0.641,0.785,9,1.62,2.09,6,1.11,10,51,0,1
+C1090,Anti-snake Venom,5,1,S10,CHC Bikaner,0.949,0.965,8,3.92,0.0,0,0.83,22,76,0,0
+C1091,Paracetamol Injection,3,0,S8,PHC Alwar,0.668,0.761,7,0.55,0.84,1,1.22,3,84,5,1
+C1092,Iron Folic Acid,2,0,S2,District Hospital Jodhpur,0.99,0.972,11,2.11,0.0,5,1.1,21,62,0,0
+C1093,ORS,3,0,S5,Medical College Kota,0.888,0.867,9,4.88,2.25,1,0.65,23,75,0,0
+C1094,Salbutamol,4,0,S8,District Hospital Jaipur,0.83,0.968,11,1.92,1.57,7,0.68,6,71,2,1
+C1095,Rabies Vaccine,5,1,S4,Medical College Kota,0.803,0.729,5,3.13,0.0,4,1.17,24,100,0,0
+C1096,Pentavalent Vaccine,5,1,S9,District Hospital Ajmer,0.684,0.95,11,4.21,2.99,9,0.5,4,91,4,1
+C1097,Ceftriaxone,4,0,S9,PHC Sikar,0.847,0.851,8,2.01,1.69,0,1.54,24,97,0,0
+C1098,Iron Folic Acid,2,0,S6,District Hospital Ajmer,0.757,0.796,9,0.41,3.48,9,0.59,8,52,0,1
+C1099,Amoxicillin,4,0,S1,District Hospital Jodhpur,0.99,0.744,3,3.41,0.79,3,0.61,18,60,0,0
+C1100,Anti-snake Venom,5,1,S10,District Hospital Ajmer,0.907,0.959,5,2.13,3.32,5,0.5,8,97,0,1
+C1101,Iron Folic Acid,2,0,S4,CHC Bikaner,0.825,0.845,9,3.53,0.42,6,1.03,5,98,3,0
+C1102,Amoxicillin,4,0,S10,CHC Bikaner,0.855,0.697,5,0.0,2.17,4,1.25,2,83,6,1
+C1103,Pentavalent Vaccine,5,1,S6,District Hospital Jodhpur,0.843,0.731,3,4.59,0.09,3,0.85,12,83,0,1
+C1104,Pentavalent Vaccine,5,1,S6,Medical College Kota,0.99,0.904,11,2.29,0.05,10,0.97,5,75,3,0
+C1105,Oxytocin,5,0,S5,CHC Bikaner,0.935,0.76,3,1.63,3.53,1,1.22,10,71,0,0
+C1106,Paracetamol Injection,3,0,S5,District Hospital Ajmer,0.698,0.906,9,2.34,2.4,8,1.14,13,84,0,1
+C1107,Oxytocin,5,0,S9,CHC Udaipur,0.958,0.905,11,3.34,3.55,6,1.31,13,64,0,0
+C1108,Rabies Vaccine,5,1,S7,PHC Sikar,0.846,0.811,6,0.84,3.18,1,1.63,12,65,0,1
+C1109,Amoxicillin,4,0,S9,PHC Alwar,0.829,0.616,6,2.91,0.42,5,1.19,16,68,0,0
+C1110,Ceftriaxone,4,0,S1,Medical College Kota,0.75,0.79,4,1.14,0.85,6,0.5,14,86,0,0
+C1111,Salbutamol,4,0,S5,PHC Alwar,0.718,1.0,7,2.13,0.12,2,1.24,8,53,0,0
+C1112,Amoxicillin,4,0,S2,CHC Udaipur,0.679,0.799,7,4.12,2.72,3,1.0,21,72,0,1
+C1113,Anti-snake Venom,5,1,S2,District Hospital Jodhpur,0.805,0.882,5,0.28,0.58,5,1.06,7,85,1,0
+C1114,ORS,3,0,S3,District Hospital Jodhpur,0.871,0.777,10,2.64,0.0,9,0.5,21,88,0,0
+C1115,Insulin,5,1,S2,PHC Sikar,0.879,0.904,3,3.66,2.08,3,1.48,19,95,0,0
+C1116,Paracetamol Injection,3,0,S5,District Hospital Jaipur,0.99,0.964,7,3.9,0.74,2,1.45,24,59,0,0
+C1117,Oxytocin,5,0,S6,District Hospital Ajmer,0.566,0.985,8,4.81,0.18,6,1.02,23,61,0,0
+C1118,Ceftriaxone,4,0,S2,Medical College Kota,0.91,1.0,3,0.68,0.0,8,0.5,9,97,0,0
+C1119,Pentavalent Vaccine,5,1,S6,Medical College Kota,0.858,0.792,4,2.31,0.0,0,1.22,13,80,0,0
+C1120,Amoxicillin,4,0,S3,District Hospital Jaipur,0.726,0.826,4,3.49,0.01,0,0.86,20,89,0,0
+C1121,Adrenaline Injection,5,0,S4,CHC Udaipur,0.853,0.969,11,0.0,0.0,9,0.82,12,96,0,0
+C1122,Salbutamol,4,0,S3,CHC Udaipur,0.835,0.901,9,1.15,5.63,9,1.45,11,75,0,0
+C1123,Anti-snake Venom,5,1,S6,District Hospital Jodhpur,0.533,0.845,3,2.49,0.0,0,0.81,5,59,3,0
+C1124,Salbutamol,4,0,S8,Medical College Kota,0.99,1.0,11,3.15,0.17,3,1.28,14,91,0,0
+C1125,Anti-snake Venom,5,1,S2,CHC Bikaner,0.888,0.829,9,3.22,3.74,9,1.3,9,100,0,1
+C1126,Anti-snake Venom,5,1,S1,District Hospital Jodhpur,0.787,0.865,6,1.52,0.1,7,0.5,16,96,0,0
+C1127,Salbutamol,4,0,S1,Medical College Kota,0.702,1.0,7,1.67,3.43,4,1.35,11,55,0,1
+C1128,Amoxicillin,4,0,S7,CHC Udaipur,0.925,0.748,5,2.08,0.0,10,0.61,6,57,2,0
+C1129,ORS,3,0,S2,PHC Sikar,0.811,0.775,6,1.47,0.27,3,0.5,5,65,3,0
+C1130,Salbutamol,4,0,S8,District Hospital Jaipur,0.861,0.884,4,2.35,0.78,5,0.89,4,60,4,1
+C1131,Paracetamol Injection,3,0,S2,PHC Sikar,0.774,0.839,6,3.14,1.82,6,1.41,11,67,0,0
+C1132,Amoxicillin,4,0,S3,CHC Udaipur,0.928,0.791,3,1.61,3.29,9,0.81,7,64,1,1
+C1133,Pentavalent Vaccine,5,1,S5,District Hospital Jaipur,0.779,0.761,11,1.19,1.46,7,1.23,18,91,0,0
+C1134,Insulin,5,1,S2,District Hospital Ajmer,0.54,1.0,4,0.0,0.24,1,0.72,18,95,0,0
+C1135,Insulin,5,1,S1,PHC Alwar,0.671,0.907,5,4.14,2.03,5,1.03,9,80,0,1
+C1136,Oxytocin,5,0,S6,CHC Bikaner,0.765,0.905,3,2.12,0.0,5,0.81,4,59,4,0
+C1137,Amoxicillin,4,0,S4,District Hospital Jaipur,0.883,0.876,6,0.35,2.49,10,0.5,1,72,7,1
+C1138,Insulin,5,1,S1,District Hospital Jaipur,0.732,0.9,10,2.66,0.09,2,1.25,12,84,0,1
+C1139,Amoxicillin,4,0,S7,PHC Sikar,0.913,0.913,9,5.1,0.0,8,0.86,23,90,0,1
+C1140,Insulin,5,1,S8,PHC Sikar,0.662,1.0,4,6.23,0.0,7,0.63,10,89,0,1
+C1141,Oxytocin,5,0,S10,CHC Bikaner,0.906,0.677,2,3.07,5.32,4,0.68,3,100,5,1
+C1142,Adrenaline Injection,5,0,S7,District Hospital Jodhpur,0.703,0.889,2,2.24,3.47,0,1.26,16,85,0,1
+C1143,Insulin,5,1,S3,PHC Alwar,0.651,0.781,3,1.97,0.52,10,1.63,8,52,0,0
+C1144,Ceftriaxone,4,0,S8,CHC Bikaner,0.841,0.916,7,1.85,1.61,5,0.66,4,66,4,1
+C1145,Oxytocin,5,0,S5,District Hospital Jodhpur,0.791,0.843,3,1.61,0.74,9,1.16,5,93,3,1
+C1146,Rabies Vaccine,5,1,S10,PHC Alwar,0.81,0.865,4,2.81,3.53,3,0.5,16,67,0,1
+C1147,Oxytocin,5,0,S2,PHC Sikar,0.984,0.732,3,4.16,0.0,0,1.16,1,78,7,1
+C1148,Salbutamol,4,0,S3,District Hospital Ajmer,0.915,0.742,9,0.38,2.5,8,0.5,8,61,0,0
+C1149,Iron Folic Acid,2,0,S4,PHC Alwar,0.647,0.87,7,3.05,1.94,8,0.6,15,82,0,0
+C1150,Iron Folic Acid,2,0,S3,District Hospital Jodhpur,0.99,1.0,8,3.24,1.8,2,0.74,15,85,0,0
+C1151,Ceftriaxone,4,0,S4,District Hospital Ajmer,0.648,0.886,9,2.24,1.69,10,1.23,8,82,0,1
+C1152,Rabies Vaccine,5,1,S7,PHC Alwar,0.637,0.946,3,3.47,2.99,9,0.74,15,58,0,0
+C1153,Anti-snake Venom,5,1,S7,PHC Alwar,0.751,0.942,4,3.13,0.0,9,1.44,10,97,0,0
+C1154,Salbutamol,4,0,S5,PHC Sikar,0.781,0.647,11,0.11,0.32,2,1.07,15,53,0,0
+C1155,ORS,3,0,S1,PHC Alwar,0.965,0.975,10,4.84,0.0,0,0.52,17,99,0,1
+C1156,Iron Folic Acid,2,0,S2,Medical College Kota,0.99,0.565,9,4.91,0.94,10,1.21,9,50,0,0
+C1157,Paracetamol Injection,3,0,S5,Medical College Kota,0.856,0.961,9,3.06,0.0,3,0.65,18,69,0,0
+C1158,Insulin,5,1,S8,District Hospital Jodhpur,0.635,0.841,5,0.49,0.0,7,1.19,12,95,0,1
+C1159,Adrenaline Injection,5,0,S8,District Hospital Jaipur,0.58,0.722,3,0.97,0.0,2,1.32,19,63,0,1
+C1160,Anti-snake Venom,5,1,S5,Medical College Kota,0.656,0.854,7,1.34,1.61,2,0.94,5,96,3,0
+C1161,Pentavalent Vaccine,5,1,S4,District Hospital Jodhpur,0.786,0.694,6,4.95,1.43,5,0.5,8,83,0,1
+C1162,Rabies Vaccine,5,1,S6,CHC Udaipur,0.586,0.904,6,4.99,3.55,2,0.5,11,64,0,1
+C1163,Salbutamol,4,0,S8,PHC Alwar,0.848,0.826,11,4.03,2.05,2,1.37,21,83,0,0
+C1164,Amoxicillin,4,0,S1,CHC Bikaner,0.964,0.666,11,2.08,0.0,7,0.87,23,61,0,0
+C1165,Pentavalent Vaccine,5,1,S6,PHC Sikar,0.828,0.745,6,2.26,1.0,3,1.1,10,79,0,1
+C1166,ORS,3,0,S3,District Hospital Jodhpur,0.827,0.743,2,5.29,0.0,2,0.89,11,84,0,0
+C1167,ORS,3,0,S1,CHC Udaipur,0.64,0.883,2,3.05,1.6,9,0.55,14,100,0,1
+C1168,Salbutamol,4,0,S7,CHC Bikaner,0.728,0.831,7,3.94,1.36,0,0.5,17,84,0,0
+C1169,Pentavalent Vaccine,5,1,S9,PHC Sikar,0.789,0.861,10,0.96,3.62,4,0.67,2,96,6,1
+C1170,Iron Folic Acid,2,0,S4,CHC Bikaner,0.899,0.715,7,2.25,4.26,6,0.86,4,62,4,0
+C1171,Pentavalent Vaccine,5,1,S10,District Hospital Jaipur,0.933,0.842,11,4.45,1.36,2,0.63,6,59,2,0
+C1172,Salbutamol,4,0,S7,District Hospital Jodhpur,0.698,0.85,5,4.43,0.0,10,1.26,11,56,0,0
+C1173,Ceftriaxone,4,0,S1,District Hospital Jodhpur,0.81,0.827,8,4.11,3.49,10,1.58,9,66,0,0
+C1174,Ceftriaxone,4,0,S7,District Hospital Jaipur,0.852,0.881,3,0.86,0.68,0,1.07,13,56,0,0
+C1175,Ceftriaxone,4,0,S7,CHC Udaipur,0.744,0.728,2,3.56,2.9,9,1.66,18,76,0,1
+C1176,Salbutamol,4,0,S6,CHC Bikaner,0.859,0.85,9,0.5,2.43,6,1.41,1,80,7,0
+C1177,Oxytocin,5,0,S9,District Hospital Jodhpur,0.99,0.88,8,1.52,2.19,3,1.42,21,83,0,0
+C1178,Pentavalent Vaccine,5,1,S3,CHC Udaipur,0.764,0.838,9,3.9,3.12,9,0.5,18,70,0,0
+C1179,Salbutamol,4,0,S1,PHC Alwar,0.887,0.921,7,0.0,0.65,3,1.35,10,99,0,0
+C1180,ORS,3,0,S2,PHC Alwar,0.962,0.913,6,0.16,2.19,3,1.41,10,96,0,0
+C1181,Ceftriaxone,4,0,S5,PHC Alwar,0.757,0.962,3,2.15,4.14,4,0.5,15,91,0,1
+C1182,Salbutamol,4,0,S7,PHC Sikar,0.905,0.838,4,3.16,1.63,2,1.81,12,73,0,0
+C1183,ORS,3,0,S7,Medical College Kota,0.657,0.961,2,0.51,2.27,10,1.43,16,61,0,0
+C1184,Pentavalent Vaccine,5,1,S5,District Hospital Jodhpur,0.874,0.867,11,1.47,2.29,6,1.38,9,74,0,0
+C1185,Iron Folic Acid,2,0,S10,District Hospital Ajmer,0.792,0.646,9,4.5,0.0,10,0.55,18,100,0,0
+C1186,Iron Folic Acid,2,0,S6,District Hospital Ajmer,0.97,0.861,2,0.75,2.36,4,0.99,20,51,0,0
+C1187,ORS,3,0,S2,District Hospital Ajmer,0.864,0.962,6,0.43,2.24,8,0.87,6,52,2,0
+C1188,Amoxicillin,4,0,S2,PHC Alwar,0.836,0.836,6,0.89,1.71,1,0.72,15,72,0,0
+C1189,Anti-snake Venom,5,1,S9,District Hospital Ajmer,0.752,0.891,6,3.73,0.82,5,0.73,19,79,0,0
+C1190,Pentavalent Vaccine,5,1,S2,District Hospital Jodhpur,0.99,0.957,2,0.82,0.96,2,1.29,17,60,0,0
+C1191,Insulin,5,1,S6,District Hospital Jaipur,0.8,0.8,5,2.47,0.0,2,0.66,9,62,0,0
+C1192,Ceftriaxone,4,0,S6,PHC Sikar,0.642,0.993,8,0.0,2.18,0,0.67,11,62,0,0
+C1193,Salbutamol,4,0,S5,CHC Udaipur,0.677,0.739,8,1.63,0.0,5,1.11,4,95,4,1
+C1194,Paracetamol Injection,3,0,S8,PHC Sikar,0.571,0.786,10,1.93,0.68,1,1.23,12,97,0,0
+C1195,Paracetamol Injection,3,0,S9,District Hospital Jodhpur,0.791,0.872,11,2.22,3.78,1,1.46,9,89,0,0
+C1196,Insulin,5,1,S4,District Hospital Ajmer,0.685,0.818,7,3.89,1.1,0,0.92,13,76,0,0
+C1197,Rabies Vaccine,5,1,S7,CHC Bikaner,0.809,0.804,10,1.28,1.82,3,1.24,23,77,0,0
+C1198,Paracetamol Injection,3,0,S4,CHC Bikaner,0.838,0.839,9,1.06,0.86,0,0.93,16,72,0,0
+C1199,Pentavalent Vaccine,5,1,S7,District Hospital Jodhpur,0.789,0.861,3,1.81,2.5,3,0.89,12,62,0,1
+C1200,Ceftriaxone,4,0,S3,District Hospital Ajmer,0.88,0.819,10,2.26,3.11,0,0.55,9,81,0,0
+C1201,Pentavalent Vaccine,5,1,S8,District Hospital Ajmer,0.837,0.661,8,1.89,2.94,0,1.55,2,100,6,1
+C1202,Iron Folic Acid,2,0,S6,District Hospital Jodhpur,0.842,0.854,6,5.24,1.9,5,0.5,23,93,0,0
+C1203,Oxytocin,5,0,S4,PHC Alwar,0.872,0.911,5,0.82,1.7,9,0.84,4,55,4,1
+C1204,Amoxicillin,4,0,S2,CHC Bikaner,0.759,0.806,11,3.21,4.15,0,1.1,7,72,1,0
+C1205,Iron Folic Acid,2,0,S10,District Hospital Jaipur,0.887,0.678,8,2.14,1.31,3,0.95,19,95,0,0
+C1206,Pentavalent Vaccine,5,1,S3,PHC Alwar,0.875,0.799,5,1.09,0.0,7,0.83,12,59,0,0
+C1207,Salbutamol,4,0,S6,CHC Udaipur,0.822,0.947,5,0.0,1.12,2,1.03,13,60,0,0
+C1208,Iron Folic Acid,2,0,S2,District Hospital Jodhpur,0.859,0.974,11,0.13,3.94,7,0.5,20,95,0,0
+C1209,Pentavalent Vaccine,5,1,S2,PHC Sikar,0.875,1.0,6,1.98,3.13,0,1.43,10,91,0,1
+C1210,Anti-snake Venom,5,1,S8,PHC Alwar,0.665,1.0,9,0.0,0.0,7,1.59,17,89,0,0
+C1211,ORS,3,0,S6,District Hospital Jodhpur,0.99,0.897,10,0.0,1.47,0,1.25,7,84,1,0
+C1212,Amoxicillin,4,0,S4,PHC Alwar,0.801,0.927,8,2.58,2.37,0,1.35,20,53,0,1
+C1213,Ceftriaxone,4,0,S3,District Hospital Ajmer,0.845,0.959,4,3.37,1.23,9,1.92,9,62,0,1
+C1214,ORS,3,0,S7,CHC Udaipur,0.99,0.912,10,1.83,0.83,6,0.56,5,55,3,0
+C1215,Anti-snake Venom,5,1,S2,District Hospital Jodhpur,0.609,0.908,6,1.95,0.0,7,0.97,19,72,0,0
+C1216,Paracetamol Injection,3,0,S7,Medical College Kota,0.618,0.654,4,1.3,1.48,8,0.5,12,65,0,1
+C1217,Insulin,5,1,S4,CHC Udaipur,0.823,0.749,11,2.01,2.64,0,1.39,23,56,0,1
+C1218,ORS,3,0,S10,PHC Sikar,0.484,0.81,9,0.98,3.66,6,1.47,16,54,0,1
+C1219,Rabies Vaccine,5,1,S5,PHC Sikar,0.621,1.0,10,3.87,3.02,8,1.0,5,66,3,1
+C1220,Pentavalent Vaccine,5,1,S9,Medical College Kota,0.938,0.811,7,3.67,0.0,9,0.84,18,84,0,0
+C1221,Amoxicillin,4,0,S1,PHC Alwar,0.951,0.784,8,1.96,0.0,8,1.18,20,59,0,1
+C1222,Paracetamol Injection,3,0,S1,District Hospital Jodhpur,0.762,0.732,5,1.13,0.0,9,0.64,7,81,1,0
+C1223,ORS,3,0,S9,CHC Udaipur,0.712,0.853,2,0.99,0.0,7,0.63,22,85,0,0
+C1224,Pentavalent Vaccine,5,1,S8,District Hospital Jodhpur,0.793,0.839,5,4.53,2.21,3,0.5,15,56,0,1
+C1225,Pentavalent Vaccine,5,1,S2,Medical College Kota,0.853,0.823,5,2.64,4.61,7,1.55,7,57,1,1
+C1226,ORS,3,0,S5,District Hospital Ajmer,0.99,0.853,7,3.59,3.0,1,1.06,22,62,0,0
+C1227,Amoxicillin,4,0,S6,Medical College Kota,0.771,0.965,5,0.35,1.37,0,1.81,7,62,1,0
+C1228,Salbutamol,4,0,S4,PHC Alwar,0.845,0.779,7,5.19,2.58,2,1.12,6,61,2,0
+C1229,Adrenaline Injection,5,0,S8,District Hospital Jodhpur,0.979,0.805,8,3.1,3.03,9,0.5,2,75,6,1
+C1230,Oxytocin,5,0,S6,District Hospital Jaipur,0.816,0.772,6,3.81,3.31,3,2.09,1,96,7,1
+C1231,Anti-snake Venom,5,1,S5,District Hospital Jodhpur,0.927,0.902,2,6.59,0.0,0,1.5,6,84,2,0
+C1232,Iron Folic Acid,2,0,S6,CHC Bikaner,0.753,0.86,5,0.0,0.21,2,0.71,22,50,0,0
+C1233,Insulin,5,1,S3,PHC Sikar,0.92,0.913,2,3.4,0.0,7,0.9,8,50,0,0
+C1234,ORS,3,0,S10,PHC Sikar,0.844,0.842,4,3.66,3.15,0,1.4,6,57,2,0
+C1235,Pentavalent Vaccine,5,1,S1,District Hospital Jaipur,0.938,0.619,4,3.13,0.0,5,0.85,2,50,6,0
+C1236,Anti-snake Venom,5,1,S7,CHC Udaipur,0.842,0.894,6,3.18,3.47,1,0.95,1,50,7,1
+C1237,Pentavalent Vaccine,5,1,S8,District Hospital Ajmer,0.777,0.836,11,3.73,3.4,8,0.88,23,59,0,1
+C1238,ORS,3,0,S2,District Hospital Jodhpur,0.83,0.879,9,3.97,0.0,3,0.9,18,53,0,0
+C1239,Rabies Vaccine,5,1,S3,CHC Bikaner,0.99,0.989,8,1.52,5.32,4,0.92,12,54,0,1
+C1240,Rabies Vaccine,5,1,S7,District Hospital Ajmer,0.99,0.885,11,0.53,4.62,5,0.5,11,87,0,0
+C1241,Insulin,5,1,S3,Medical College Kota,0.881,0.958,11,2.01,0.23,4,0.83,4,95,4,0
+C1242,Insulin,5,1,S4,CHC Bikaner,0.829,0.96,2,3.81,0.0,10,0.68,2,83,6,0
+C1243,Insulin,5,1,S9,District Hospital Jodhpur,0.938,0.939,3,1.48,1.13,8,1.01,15,63,0,0
+C1244,Insulin,5,1,S7,District Hospital Ajmer,0.642,0.973,3,1.16,1.37,2,0.63,13,100,0,0
+C1245,Amoxicillin,4,0,S9,CHC Udaipur,0.988,0.852,8,3.85,0.12,6,1.18,12,90,0,0
+C1246,Pentavalent Vaccine,5,1,S2,PHC Alwar,0.746,0.888,7,0.42,2.42,2,1.2,24,94,0,1
+C1247,Rabies Vaccine,5,1,S8,District Hospital Jodhpur,0.651,0.812,5,4.46,0.72,4,1.07,12,78,0,1
+C1248,ORS,3,0,S1,District Hospital Ajmer,0.664,0.947,9,1.57,0.0,9,0.79,20,93,0,1
+C1249,Salbutamol,4,0,S7,CHC Bikaner,0.771,0.765,4,3.75,0.0,6,0.97,20,57,0,0
+C1250,Iron Folic Acid,2,0,S9,CHC Udaipur,0.921,0.827,4,2.44,0.0,6,1.91,5,75,3,1
+C1251,Anti-snake Venom,5,1,S4,District Hospital Jodhpur,0.921,0.683,2,3.09,1.67,1,0.79,9,75,0,0
+C1252,Oxytocin,5,0,S4,Medical College Kota,0.883,0.772,7,1.8,2.97,5,1.23,10,69,0,0
+C1253,Anti-snake Venom,5,1,S6,CHC Bikaner,0.789,0.626,3,0.56,3.94,9,1.3,11,92,0,1
+C1254,Iron Folic Acid,2,0,S1,District Hospital Ajmer,0.638,0.893,10,3.38,3.78,5,0.53,4,50,4,0
+C1255,ORS,3,0,S4,District Hospital Ajmer,0.943,0.813,5,1.63,0.0,8,1.06,16,83,0,0
+C1256,Amoxicillin,4,0,S2,District Hospital Jodhpur,0.674,0.895,4,1.99,1.35,10,0.88,7,98,1,1
+C1257,Insulin,5,1,S4,PHC Alwar,0.824,0.822,10,1.13,0.0,8,1.05,9,55,0,0
+C1258,Rabies Vaccine,5,1,S9,PHC Sikar,0.9,0.856,8,2.05,0.05,6,1.55,4,91,4,0
+C1259,Paracetamol Injection,3,0,S7,PHC Alwar,0.642,0.895,3,1.29,1.33,5,1.23,6,87,2,0
+C1260,Pentavalent Vaccine,5,1,S7,CHC Bikaner,0.847,1.0,8,4.27,1.29,8,1.0,8,78,0,0
+C1261,Paracetamol Injection,3,0,S5,PHC Alwar,0.678,1.0,4,3.7,2.46,3,1.39,16,58,0,1
+C1262,Anti-snake Venom,5,1,S1,PHC Sikar,0.943,1.0,2,0.42,0.52,9,1.3,18,96,0,0
+C1263,Anti-snake Venom,5,1,S10,District Hospital Jodhpur,0.812,1.0,8,2.5,0.0,9,0.58,7,64,1,0
+C1264,Rabies Vaccine,5,1,S6,PHC Alwar,0.903,0.823,9,2.57,0.37,3,1.16,6,91,2,0
+C1265,Amoxicillin,4,0,S6,PHC Sikar,0.712,1.0,8,2.66,2.77,7,1.23,14,66,0,0
+C1266,Rabies Vaccine,5,1,S7,District Hospital Ajmer,0.851,0.818,2,5.06,2.73,2,0.5,24,65,0,0
+C1267,ORS,3,0,S6,Medical College Kota,0.85,0.851,4,0.0,0.0,7,0.51,15,67,0,0
+C1268,Salbutamol,4,0,S10,District Hospital Ajmer,0.82,0.734,2,2.77,2.87,8,0.92,15,62,0,1
+C1269,Pentavalent Vaccine,5,1,S2,District Hospital Jaipur,0.905,0.911,5,1.33,1.71,9,0.7,20,55,0,0
+C1270,Anti-snake Venom,5,1,S9,Medical College Kota,0.822,0.729,10,3.22,2.31,7,0.5,19,52,0,1
+C1271,Salbutamol,4,0,S9,Medical College Kota,0.615,0.716,9,1.59,0.0,4,1.33,15,68,0,0
+C1272,Iron Folic Acid,2,0,S1,District Hospital Ajmer,0.798,0.737,8,3.51,0.0,7,0.97,24,74,0,0
+C1273,Salbutamol,4,0,S1,CHC Udaipur,0.6,0.884,5,3.37,3.09,4,1.04,4,77,4,1
+C1274,Ceftriaxone,4,0,S6,CHC Udaipur,0.963,0.885,10,1.51,0.0,5,0.93,16,85,0,0
+C1275,Pentavalent Vaccine,5,1,S6,District Hospital Jodhpur,0.636,1.0,5,3.79,3.03,8,0.55,2,65,6,1
+C1276,Rabies Vaccine,5,1,S7,District Hospital Ajmer,0.906,1.0,2,1.92,1.61,5,1.31,2,56,6,0
+C1277,Rabies Vaccine,5,1,S10,Medical College Kota,0.927,0.95,8,4.01,1.84,2,1.11,12,57,0,0
+C1278,Adrenaline Injection,5,0,S2,CHC Bikaner,0.833,0.84,11,3.69,0.0,3,1.04,1,70,7,0
+C1279,ORS,3,0,S1,CHC Bikaner,0.829,0.839,4,0.65,4.94,10,0.73,19,59,0,0
+C1280,Amoxicillin,4,0,S8,District Hospital Jodhpur,0.897,0.928,10,4.06,2.06,6,0.99,24,99,0,0
+C1281,Rabies Vaccine,5,1,S2,District Hospital Jaipur,0.553,1.0,8,4.25,1.06,1,1.43,16,69,0,1
+C1282,Iron Folic Acid,2,0,S3,Medical College Kota,0.816,0.63,5,2.46,2.25,4,0.99,21,63,0,1
+C1283,Adrenaline Injection,5,0,S4,Medical College Kota,0.79,1.0,5,2.04,2.53,0,0.83,12,74,0,0
+C1284,Oxytocin,5,0,S1,District Hospital Jodhpur,0.881,0.818,10,3.21,1.87,0,0.98,24,94,0,0
+C1285,Rabies Vaccine,5,1,S8,District Hospital Jodhpur,0.99,0.767,5,0.75,1.6,0,0.81,19,58,0,0
+C1286,Insulin,5,1,S9,District Hospital Jaipur,0.838,0.752,11,1.06,3.25,2,0.81,11,55,0,0
+C1287,Pentavalent Vaccine,5,1,S3,District Hospital Jodhpur,0.918,0.709,7,3.31,0.0,7,0.92,16,73,0,0
+C1288,Rabies Vaccine,5,1,S7,District Hospital Jodhpur,0.766,0.669,3,2.44,2.78,7,0.98,1,55,7,1
+C1289,Ceftriaxone,4,0,S8,District Hospital Ajmer,0.872,0.992,9,1.46,3.82,1,1.4,19,74,0,1
+C1290,Anti-snake Venom,5,1,S9,PHC Alwar,0.943,1.0,9,2.25,0.0,7,0.87,23,76,0,0
+C1291,Amoxicillin,4,0,S5,CHC Udaipur,0.802,0.904,11,5.25,2.14,10,0.81,15,73,0,0
+C1292,ORS,3,0,S9,District Hospital Jodhpur,0.841,0.937,4,2.17,3.27,6,0.96,22,66,0,0
+C1293,Paracetamol Injection,3,0,S1,District Hospital Jodhpur,0.894,0.891,6,0.08,2.09,6,1.17,23,58,0,0
+C1294,ORS,3,0,S7,CHC Udaipur,0.85,0.862,3,3.54,0.37,8,0.5,7,65,1,0
+C1295,Insulin,5,1,S7,District Hospital Jodhpur,0.608,0.9,11,1.88,2.17,2,1.34,19,98,0,1
+C1296,Insulin,5,1,S10,District Hospital Jaipur,0.856,0.706,3,5.78,2.86,4,0.5,18,94,0,1
+C1297,ORS,3,0,S1,District Hospital Jaipur,0.96,0.959,2,3.03,3.98,4,1.17,24,85,0,0
+C1298,Rabies Vaccine,5,1,S4,District Hospital Ajmer,0.879,0.859,6,4.2,1.96,10,0.89,17,72,0,1
+C1299,Anti-snake Venom,5,1,S3,Medical College Kota,0.796,0.711,9,0.59,0.0,2,1.32,17,62,0,0
+C1300,Amoxicillin,4,0,S2,PHC Alwar,0.91,0.801,3,0.29,2.89,7,0.84,13,93,0,0
+C1301,Salbutamol,4,0,S10,PHC Sikar,0.825,0.883,2,1.33,1.71,1,0.55,14,61,0,0
+C1302,Rabies Vaccine,5,1,S10,Medical College Kota,0.68,0.661,5,2.55,0.11,1,1.23,14,82,0,1
+C1303,Pentavalent Vaccine,5,1,S3,CHC Udaipur,0.774,1.0,6,1.45,0.0,1,1.03,9,76,0,0
+C1304,Iron Folic Acid,2,0,S2,Medical College Kota,0.693,0.842,2,6.01,0.0,0,1.24,18,53,0,0
+C1305,Oxytocin,5,0,S4,Medical College Kota,0.636,0.801,8,2.88,0.0,5,0.85,5,94,3,0
+C1306,Iron Folic Acid,2,0,S3,PHC Alwar,0.641,0.854,11,0.0,1.37,0,0.87,18,90,0,0
+C1307,Salbutamol,4,0,S9,CHC Bikaner,0.799,0.962,6,0.89,1.98,1,0.5,6,62,2,0
+C1308,Pentavalent Vaccine,5,1,S5,PHC Sikar,0.853,0.773,3,1.82,1.9,1,1.15,10,83,0,0
+C1309,Oxytocin,5,0,S5,Medical College Kota,0.721,1.0,7,2.53,2.86,6,0.92,5,71,3,0
+C1310,Insulin,5,1,S6,District Hospital Jaipur,0.876,0.899,7,5.78,1.89,2,1.58,9,96,0,0
+C1311,Adrenaline Injection,5,0,S10,CHC Bikaner,0.822,0.847,4,2.94,2.33,3,0.83,21,51,0,0
+C1312,Anti-snake Venom,5,1,S6,CHC Bikaner,0.817,0.813,10,2.31,1.9,8,0.5,17,63,0,1
+C1313,Rabies Vaccine,5,1,S7,CHC Bikaner,0.741,0.893,9,4.37,3.85,10,1.19,22,83,0,1
+C1314,Pentavalent Vaccine,5,1,S8,Medical College Kota,0.777,0.891,5,4.92,2.13,6,1.45,2,100,6,0
+C1315,ORS,3,0,S5,District Hospital Jaipur,0.692,0.945,8,3.65,2.92,5,1.25,8,50,0,0
+C1316,Oxytocin,5,0,S9,PHC Sikar,0.786,0.82,2,2.42,3.42,9,0.86,10,99,0,0
+C1317,Salbutamol,4,0,S2,PHC Sikar,0.813,0.87,7,0.87,0.29,1,1.31,5,87,3,0
+C1318,Oxytocin,5,0,S10,Medical College Kota,0.854,0.701,6,3.03,1.96,5,1.42,21,67,0,1
+C1319,Iron Folic Acid,2,0,S8,CHC Udaipur,0.932,0.834,4,0.0,0.6,3,1.86,15,79,0,0
+C1320,Insulin,5,1,S1,District Hospital Ajmer,0.907,0.78,11,5.3,0.0,3,0.82,16,85,0,1
+C1321,ORS,3,0,S5,District Hospital Jaipur,0.699,0.783,10,0.84,2.86,3,2.15,20,90,0,0
+C1322,Iron Folic Acid,2,0,S2,PHC Alwar,0.914,0.876,9,2.64,1.42,10,1.15,11,59,0,0
+C1323,Iron Folic Acid,2,0,S8,District Hospital Jaipur,0.805,0.761,2,1.41,0.0,7,1.18,18,68,0,0
+C1324,Oxytocin,5,0,S2,Medical College Kota,0.825,0.714,4,5.56,1.32,9,0.77,24,74,0,0
+C1325,ORS,3,0,S7,District Hospital Jodhpur,0.876,0.97,7,5.46,0.07,4,1.33,13,58,0,0
+C1326,Pentavalent Vaccine,5,1,S4,Medical College Kota,0.869,0.742,7,2.83,0.55,5,0.98,6,93,2,0
+C1327,Oxytocin,5,0,S5,PHC Sikar,0.785,0.767,10,3.72,5.08,8,1.23,1,70,7,1
+C1328,Anti-snake Venom,5,1,S1,CHC Udaipur,0.855,0.934,8,3.56,0.44,3,0.87,15,75,0,0
+C1329,Iron Folic Acid,2,0,S3,PHC Sikar,0.69,0.987,6,0.11,2.01,10,0.5,23,53,0,0
+C1330,Rabies Vaccine,5,1,S9,PHC Alwar,0.729,0.95,2,4.77,1.86,5,0.5,13,66,0,1
+C1331,Iron Folic Acid,2,0,S3,CHC Bikaner,0.703,0.958,7,1.26,0.58,9,1.3,19,59,0,1
+C1332,Salbutamol,4,0,S1,District Hospital Ajmer,0.858,0.75,4,1.87,1.09,10,1.03,22,70,0,0
+C1333,Oxytocin,5,0,S2,District Hospital Jaipur,0.677,0.745,10,1.79,4.58,3,1.38,22,84,0,0
+C1334,Oxytocin,5,0,S3,District Hospital Jodhpur,0.99,0.87,3,2.67,1.99,5,1.05,6,51,2,0
+C1335,Oxytocin,5,0,S8,CHC Udaipur,0.651,0.951,4,2.26,3.97,1,1.41,2,60,6,1
+C1336,Salbutamol,4,0,S6,District Hospital Jodhpur,0.882,0.918,2,3.67,1.05,10,0.86,9,83,0,0
+C1337,Amoxicillin,4,0,S4,PHC Alwar,0.964,0.717,4,1.96,1.04,6,0.59,23,88,0,1
+C1338,Ceftriaxone,4,0,S1,District Hospital Jodhpur,0.603,0.861,6,0.4,1.49,2,0.8,4,75,4,0
+C1339,ORS,3,0,S4,District Hospital Jaipur,0.817,0.868,7,2.99,1.78,1,1.18,4,93,4,0
+C1340,Rabies Vaccine,5,1,S4,District Hospital Jodhpur,0.607,0.887,9,3.11,0.0,1,1.6,17,56,0,0
+C1341,ORS,3,0,S4,District Hospital Ajmer,0.815,0.837,2,2.53,2.55,3,0.5,22,87,0,0
+C1342,Insulin,5,1,S1,PHC Alwar,0.745,0.954,7,2.04,0.0,0,0.5,5,79,3,0
+C1343,Anti-snake Venom,5,1,S5,District Hospital Jaipur,0.898,0.864,3,2.32,0.0,4,1.38,2,53,6,0
+C1344,ORS,3,0,S9,CHC Bikaner,0.826,0.954,2,0.21,1.17,5,1.29,14,69,0,0
+C1345,ORS,3,0,S8,PHC Sikar,0.83,0.97,3,3.4,0.0,8,1.4,18,60,0,0
+C1346,Amoxicillin,4,0,S5,CHC Udaipur,0.661,0.869,10,3.09,0.0,5,0.99,4,58,4,1
+C1347,Insulin,5,1,S1,Medical College Kota,0.984,0.815,3,1.57,2.92,7,1.25,22,88,0,1
+C1348,Oxytocin,5,0,S4,PHC Alwar,0.827,0.793,10,1.78,0.05,5,0.87,20,61,0,0
+C1349,Anti-snake Venom,5,1,S6,District Hospital Jaipur,0.722,0.941,4,3.11,0.59,7,1.18,14,88,0,0
+C1350,Oxytocin,5,0,S8,Medical College Kota,0.715,0.994,8,2.66,0.0,7,1.19,6,100,2,0
+C1351,Ceftriaxone,4,0,S1,CHC Udaipur,0.815,0.959,7,4.36,0.52,10,1.5,14,85,0,0
+C1352,ORS,3,0,S7,District Hospital Ajmer,0.734,0.911,9,2.7,0.36,2,0.9,21,57,0,0
+C1353,Pentavalent Vaccine,5,1,S2,PHC Alwar,0.915,1.0,6,1.51,0.0,3,1.05,18,88,0,0
+C1354,Rabies Vaccine,5,1,S4,CHC Bikaner,0.911,0.613,8,0.0,0.0,7,1.98,8,71,0,0
+C1355,Pentavalent Vaccine,5,1,S8,District Hospital Ajmer,0.681,0.768,7,5.29,0.37,2,1.09,3,59,5,1
+C1356,Iron Folic Acid,2,0,S7,PHC Alwar,0.727,0.622,7,1.57,0.0,7,0.84,22,79,0,0
+C1357,Iron Folic Acid,2,0,S9,PHC Alwar,0.712,0.858,8,0.9,0.85,4,1.08,10,57,0,0
+C1358,Anti-snake Venom,5,1,S6,CHC Bikaner,0.868,0.867,7,5.02,2.36,10,0.76,8,71,0,1
+C1359,Amoxicillin,4,0,S6,District Hospital Jaipur,0.854,0.906,8,1.79,0.01,4,1.67,7,59,1,0
+C1360,Insulin,5,1,S1,CHC Bikaner,0.826,0.836,10,2.88,2.15,4,1.36,11,85,0,1
+C1361,Salbutamol,4,0,S3,Medical College Kota,0.695,0.962,2,4.84,0.28,5,1.76,13,77,0,0
+C1362,Pentavalent Vaccine,5,1,S8,CHC Udaipur,0.952,0.616,5,1.15,0.1,8,0.55,11,74,0,0
+C1363,Pentavalent Vaccine,5,1,S3,PHC Sikar,0.815,0.952,7,3.08,0.0,5,0.5,2,66,6,0
+C1364,Iron Folic Acid,2,0,S3,District Hospital Ajmer,0.878,0.895,2,0.0,2.04,5,0.88,15,76,0,0
+C1365,Pentavalent Vaccine,5,1,S5,CHC Udaipur,0.701,0.5,10,1.96,2.32,4,1.16,15,62,0,1
+C1366,Oxytocin,5,0,S2,District Hospital Jodhpur,0.784,1.0,5,3.24,3.37,10,0.5,3,67,5,0
+C1367,Paracetamol Injection,3,0,S8,District Hospital Jodhpur,0.649,1.0,11,1.14,3.85,10,1.23,23,87,0,1
+C1368,Amoxicillin,4,0,S8,CHC Udaipur,0.989,0.88,5,4.39,0.7,10,1.08,11,69,0,1
+C1369,Insulin,5,1,S2,CHC Bikaner,0.947,0.791,4,3.48,3.53,8,0.64,4,85,4,1
+C1370,Oxytocin,5,0,S1,CHC Udaipur,0.697,1.0,11,3.6,0.72,10,1.85,12,83,0,1
+C1371,Ceftriaxone,4,0,S9,CHC Bikaner,0.617,0.828,4,1.72,0.0,5,0.56,5,87,3,0
+C1372,Adrenaline Injection,5,0,S2,Medical College Kota,0.74,1.0,7,4.06,7.07,1,1.01,18,51,0,0
+C1373,Anti-snake Venom,5,1,S4,PHC Alwar,0.747,0.934,4,2.32,0.0,6,1.16,15,81,0,1
+C1374,Paracetamol Injection,3,0,S5,District Hospital Jaipur,0.734,0.987,3,1.41,0.0,0,1.06,21,99,0,0
+C1375,Anti-snake Venom,5,1,S4,PHC Sikar,0.977,0.946,3,2.2,0.0,3,0.5,17,56,0,0
+C1376,Amoxicillin,4,0,S6,PHC Alwar,0.672,0.878,2,0.66,1.68,3,1.19,16,73,0,0
+C1377,Pentavalent Vaccine,5,1,S10,District Hospital Jodhpur,0.831,0.952,2,3.22,2.47,8,0.98,1,52,7,0
+C1378,Amoxicillin,4,0,S6,PHC Sikar,0.878,0.988,6,2.6,5.43,2,1.1,17,97,0,0
+C1379,Ceftriaxone,4,0,S1,CHC Udaipur,0.836,0.841,9,2.55,0.0,4,0.91,11,87,0,0
+C1380,Salbutamol,4,0,S3,PHC Alwar,0.879,0.97,6,1.2,2.02,6,1.11,13,65,0,0
+C1381,Paracetamol Injection,3,0,S1,CHC Udaipur,0.81,0.878,11,2.74,1.62,1,1.32,19,82,0,0
+C1382,Iron Folic Acid,2,0,S6,PHC Alwar,0.798,0.952,3,2.09,3.13,7,0.91,23,88,0,0
+C1383,Pentavalent Vaccine,5,1,S7,PHC Alwar,0.828,0.977,5,1.88,2.17,0,1.01,7,92,1,1
+C1384,Anti-snake Venom,5,1,S1,PHC Sikar,0.618,0.766,8,1.02,0.0,9,1.14,5,96,3,1
+C1385,Iron Folic Acid,2,0,S6,District Hospital Jaipur,0.94,0.987,3,3.36,1.17,7,0.5,18,74,0,0
+C1386,Ceftriaxone,4,0,S5,District Hospital Jodhpur,0.897,0.906,11,2.75,0.0,6,0.75,5,65,3,0
+C1387,Ceftriaxone,4,0,S10,PHC Alwar,0.929,0.954,11,5.46,1.65,9,0.94,3,87,5,0
+C1388,Insulin,5,1,S9,Medical College Kota,0.809,0.844,9,5.03,0.0,10,0.9,2,70,6,0
+C1389,Oxytocin,5,0,S7,CHC Udaipur,0.808,0.825,11,2.22,1.22,8,1.04,7,85,1,0
+C1390,Paracetamol Injection,3,0,S1,CHC Bikaner,0.867,0.817,8,1.77,1.87,6,1.27,3,94,5,0
+C1391,Amoxicillin,4,0,S8,Medical College Kota,0.914,0.775,4,2.52,0.0,10,0.5,11,63,0,1
+C1392,ORS,3,0,S10,CHC Bikaner,0.811,0.814,3,3.68,0.0,1,0.66,15,98,0,0
+C1393,Insulin,5,1,S3,Medical College Kota,0.714,0.871,9,2.33,2.07,1,1.09,18,55,0,1
+C1394,Pentavalent Vaccine,5,1,S7,Medical College Kota,0.783,0.842,6,4.12,0.49,10,1.31,14,52,0,0
+C1395,Pentavalent Vaccine,5,1,S4,PHC Alwar,0.745,0.832,9,2.06,3.24,5,0.9,20,55,0,0
+C1396,Paracetamol Injection,3,0,S2,District Hospital Ajmer,0.596,0.906,11,4.38,3.73,8,1.06,11,62,0,1
+C1397,Rabies Vaccine,5,1,S6,CHC Bikaner,0.99,0.895,11,0.56,4.24,5,1.25,4,81,4,1
+C1398,Insulin,5,1,S1,CHC Udaipur,0.71,0.775,3,1.03,0.0,8,1.05,20,81,0,1
+C1399,Insulin,5,1,S9,CHC Bikaner,0.773,0.88,9,0.38,5.13,9,1.09,11,74,0,0
+C1400,Rabies Vaccine,5,1,S4,District Hospital Ajmer,0.978,0.935,2,0.0,2.19,3,1.13,12,54,0,1
+C1401,Ceftriaxone,4,0,S4,District Hospital Ajmer,0.81,0.944,10,2.72,2.5,3,1.23,14,98,0,0
+C1402,Salbutamol,4,0,S3,District Hospital Ajmer,0.895,0.874,2,2.58,4.03,7,1.05,18,58,0,0
+C1403,Iron Folic Acid,2,0,S2,Medical College Kota,0.854,0.887,5,1.23,5.48,2,0.5,11,58,0,0
+C1404,Iron Folic Acid,2,0,S10,PHC Alwar,0.808,0.78,5,3.59,1.37,1,1.5,19,56,0,0
+C1405,ORS,3,0,S4,PHC Alwar,0.78,0.964,8,2.63,2.58,8,0.94,22,76,0,1
+C1406,Rabies Vaccine,5,1,S8,Medical College Kota,0.81,0.96,6,3.09,0.0,2,1.23,2,89,6,1
+C1407,Paracetamol Injection,3,0,S6,PHC Sikar,0.99,0.949,8,2.31,0.19,9,1.28,24,59,0,0
+C1408,Rabies Vaccine,5,1,S3,PHC Sikar,0.84,0.885,11,4.77,0.49,2,1.58,18,87,0,1
+C1409,Iron Folic Acid,2,0,S6,Medical College Kota,0.798,0.901,10,1.69,0.56,4,0.96,5,78,3,0
+C1410,Iron Folic Acid,2,0,S4,CHC Bikaner,0.794,0.808,4,1.83,1.28,4,1.16,21,50,0,0
+C1411,Iron Folic Acid,2,0,S1,District Hospital Ajmer,0.703,0.827,8,1.28,2.91,1,0.5,12,66,0,0
+C1412,Amoxicillin,4,0,S8,CHC Udaipur,0.968,0.781,3,2.67,1.8,10,0.71,17,64,0,0
+C1413,Ceftriaxone,4,0,S7,CHC Udaipur,0.986,0.812,3,0.01,1.81,8,0.84,3,51,5,0
+C1414,Pentavalent Vaccine,5,1,S5,Medical College Kota,0.663,0.896,8,0.67,4.65,4,1.02,3,90,5,0
+C1415,Anti-snake Venom,5,1,S2,PHC Alwar,0.749,0.999,11,3.75,1.07,2,1.15,20,76,0,0
+C1416,Paracetamol Injection,3,0,S3,Medical College Kota,0.605,0.637,8,3.06,1.1,6,0.77,13,91,0,1
+C1417,Rabies Vaccine,5,1,S8,District Hospital Jaipur,0.974,0.813,5,6.04,1.57,10,1.11,8,51,0,0
+C1418,Amoxicillin,4,0,S2,CHC Bikaner,0.82,0.876,6,3.99,1.81,0,1.07,13,98,0,0
+C1419,Insulin,5,1,S10,Medical College Kota,0.627,0.936,4,1.48,3.71,5,1.22,7,93,1,1
+C1420,Amoxicillin,4,0,S1,CHC Udaipur,0.625,1.0,8,4.26,1.11,9,1.3,11,54,0,1
+C1421,Paracetamol Injection,3,0,S8,PHC Alwar,0.617,0.897,9,2.3,0.0,3,1.46,24,93,0,0
+C1422,Oxytocin,5,0,S1,PHC Sikar,0.711,0.951,6,4.14,2.72,4,0.64,9,93,0,0
+C1423,Ceftriaxone,4,0,S1,CHC Udaipur,0.851,0.825,5,0.0,4.77,2,0.76,5,97,3,1
+C1424,Insulin,5,1,S5,CHC Udaipur,0.641,0.85,6,5.03,2.49,1,0.8,17,85,0,0
+C1425,Iron Folic Acid,2,0,S1,Medical College Kota,0.954,0.815,5,0.78,3.12,1,0.72,22,99,0,0
+C1426,Adrenaline Injection,5,0,S7,CHC Udaipur,0.78,0.872,3,1.62,3.68,3,0.77,12,51,0,0
+C1427,Insulin,5,1,S3,Medical College Kota,0.887,0.899,6,0.72,1.47,5,0.93,8,73,0,0
+C1428,Adrenaline Injection,5,0,S9,CHC Udaipur,0.687,0.935,10,3.58,1.33,9,0.5,16,93,0,0
+C1429,Anti-snake Venom,5,1,S10,PHC Sikar,0.827,0.943,8,1.11,2.16,1,1.14,14,87,0,0
+C1430,Salbutamol,4,0,S5,CHC Bikaner,0.895,0.889,2,4.88,0.74,10,1.03,20,55,0,0
+C1431,Ceftriaxone,4,0,S3,District Hospital Jodhpur,0.99,0.844,9,1.96,1.05,3,0.5,24,69,0,0
+C1432,Paracetamol Injection,3,0,S10,PHC Alwar,0.659,0.932,10,2.61,0.35,9,0.94,19,97,0,0
+C1433,ORS,3,0,S8,PHC Alwar,0.782,0.855,4,2.04,0.33,10,1.29,20,78,0,0
+C1434,Ceftriaxone,4,0,S1,PHC Alwar,0.785,0.78,2,3.18,3.87,8,0.89,8,87,0,0
+C1435,Paracetamol Injection,3,0,S7,Medical College Kota,0.487,1.0,3,2.98,5.56,0,1.13,14,56,0,0
+C1436,Iron Folic Acid,2,0,S8,PHC Alwar,0.796,0.77,10,3.3,0.0,3,1.26,21,99,0,0
+C1437,Anti-snake Venom,5,1,S3,District Hospital Jaipur,0.784,0.758,11,2.3,0.84,6,1.08,17,60,0,1
+C1438,Oxytocin,5,0,S2,District Hospital Jaipur,0.662,0.739,2,4.95,4.04,3,1.46,8,72,0,1
+C1439,Ceftriaxone,4,0,S9,PHC Alwar,0.856,0.636,7,2.47,1.84,9,0.77,17,82,0,0
+C1440,Oxytocin,5,0,S7,District Hospital Jodhpur,0.842,0.836,11,1.18,4.57,8,1.88,10,54,0,1
+C1441,Ceftriaxone,4,0,S4,Medical College Kota,0.99,0.965,10,3.38,3.31,3,0.68,3,59,5,0
+C1442,Iron Folic Acid,2,0,S10,CHC Bikaner,0.843,0.873,9,2.14,2.58,4,0.84,15,54,0,0
+C1443,ORS,3,0,S7,District Hospital Jodhpur,0.776,0.915,11,3.17,0.53,3,0.97,5,71,3,0
+C1444,Iron Folic Acid,2,0,S7,PHC Sikar,0.787,0.777,3,3.03,0.26,8,1.27,1,72,7,0
+C1445,Anti-snake Venom,5,1,S3,PHC Sikar,0.985,0.783,10,4.62,0.0,2,0.82,10,69,0,0
+C1446,Iron Folic Acid,2,0,S6,CHC Bikaner,0.897,0.95,8,0.92,3.12,5,1.11,9,86,0,0
+C1447,Amoxicillin,4,0,S3,Medical College Kota,0.778,0.903,6,0.0,2.06,4,1.07,16,79,0,1
+C1448,Oxytocin,5,0,S7,District Hospital Jodhpur,0.772,0.788,2,3.18,2.6,5,0.69,6,53,2,0
+C1449,Amoxicillin,4,0,S10,PHC Sikar,0.788,0.889,10,2.53,0.0,8,1.16,10,94,0,1
+C1450,Oxytocin,5,0,S1,Medical College Kota,0.749,1.0,4,5.24,1.37,2,0.5,1,60,7,1
+C1451,Amoxicillin,4,0,S2,PHC Alwar,0.874,0.939,11,2.79,1.93,5,0.66,17,73,0,1
+C1452,Adrenaline Injection,5,0,S10,District Hospital Jaipur,0.851,0.827,6,0.83,2.22,7,0.98,15,70,0,1
+C1453,Rabies Vaccine,5,1,S2,PHC Alwar,0.807,0.984,5,0.51,0.0,8,0.88,2,77,6,0
+C1454,Adrenaline Injection,5,0,S10,CHC Bikaner,0.886,0.91,8,3.55,3.63,0,1.02,11,94,0,0
+C1455,Oxytocin,5,0,S1,PHC Sikar,0.753,1.0,8,5.3,1.65,5,0.56,6,82,2,0
+C1456,Rabies Vaccine,5,1,S1,District Hospital Jaipur,0.694,0.801,6,1.94,0.0,6,1.57,21,66,0,0
+C1457,Rabies Vaccine,5,1,S9,PHC Sikar,0.872,0.756,4,4.13,0.0,7,0.82,13,70,0,0
+C1458,Ceftriaxone,4,0,S10,PHC Alwar,0.988,0.891,9,0.23,3.83,10,0.73,1,98,7,1
+C1459,Iron Folic Acid,2,0,S3,District Hospital Ajmer,0.886,0.94,9,0.52,2.71,6,0.95,3,85,5,0
+C1460,Anti-snake Venom,5,1,S2,PHC Sikar,0.801,0.716,11,2.19,2.35,5,0.67,12,81,0,1
+C1461,Oxytocin,5,0,S3,District Hospital Ajmer,0.99,0.793,10,3.47,0.5,3,0.66,1,100,7,1
+C1462,Insulin,5,1,S7,CHC Bikaner,0.799,0.724,8,0.29,0.0,5,0.65,16,71,0,0
+C1463,Adrenaline Injection,5,0,S2,District Hospital Ajmer,0.797,0.694,5,3.85,2.04,0,0.94,7,59,1,1
+C1464,Paracetamol Injection,3,0,S8,CHC Udaipur,0.635,0.859,7,0.64,2.72,9,1.03,19,76,0,0
+C1465,Ceftriaxone,4,0,S3,Medical College Kota,0.843,0.956,6,0.0,2.19,6,1.34,3,59,5,0
+C1466,ORS,3,0,S5,PHC Sikar,0.709,0.693,9,1.53,2.62,10,0.91,10,72,0,1
+C1467,Adrenaline Injection,5,0,S8,PHC Sikar,0.846,0.693,3,3.16,0.0,5,1.57,15,59,0,0
+C1468,Adrenaline Injection,5,0,S8,PHC Sikar,0.664,0.834,7,1.53,1.19,3,1.13,23,70,0,0
+C1469,Adrenaline Injection,5,0,S8,District Hospital Jaipur,0.893,0.592,9,5.41,2.84,2,0.58,18,72,0,0
+C1470,Insulin,5,1,S10,CHC Bikaner,0.688,0.817,3,4.24,2.62,3,1.4,24,79,0,0
+C1471,Insulin,5,1,S10,District Hospital Ajmer,0.848,0.824,4,1.3,0.0,0,1.03,4,51,4,1
+C1472,ORS,3,0,S9,District Hospital Jaipur,0.872,0.781,6,4.2,0.0,3,0.68,4,72,4,0
+C1473,Iron Folic Acid,2,0,S5,CHC Bikaner,0.837,0.816,7,1.07,4.07,6,1.17,3,89,5,1
+C1474,Paracetamol Injection,3,0,S2,District Hospital Jodhpur,0.713,0.772,5,3.07,1.23,10,1.6,11,54,0,0
+C1475,Ceftriaxone,4,0,S9,District Hospital Jodhpur,0.99,0.768,3,3.65,4.08,8,0.76,2,61,6,1
+C1476,Oxytocin,5,0,S3,District Hospital Jaipur,0.75,0.84,11,3.27,2.49,9,0.93,14,73,0,1
+C1477,Ceftriaxone,4,0,S5,District Hospital Jodhpur,0.862,0.833,11,2.03,2.63,7,1.32,5,60,3,0
+C1478,Adrenaline Injection,5,0,S7,District Hospital Ajmer,0.701,0.917,5,3.18,4.14,8,1.32,11,69,0,0
+C1479,Pentavalent Vaccine,5,1,S4,District Hospital Jodhpur,0.921,0.983,2,1.65,3.62,2,1.31,15,69,0,1
+C1480,Rabies Vaccine,5,1,S7,District Hospital Ajmer,0.873,0.788,8,6.49,2.39,5,1.24,3,78,5,1
+C1481,Pentavalent Vaccine,5,1,S10,District Hospital Ajmer,0.99,0.911,6,4.29,3.9,0,1.57,9,68,0,1
+C1482,ORS,3,0,S1,PHC Sikar,0.744,0.804,2,2.27,0.0,8,0.71,6,80,2,0
+C1483,Ceftriaxone,4,0,S1,Medical College Kota,0.752,0.996,6,2.6,2.27,7,0.99,21,86,0,0
+C1484,Ceftriaxone,4,0,S9,District Hospital Ajmer,0.857,0.874,5,1.36,1.29,3,0.84,5,67,3,0
+C1485,Insulin,5,1,S3,PHC Alwar,0.823,0.736,3,2.54,0.38,1,1.48,7,55,1,1
+C1486,Salbutamol,4,0,S8,CHC Udaipur,0.799,1.0,3,4.12,1.4,3,1.1,7,67,1,0
+C1487,Oxytocin,5,0,S2,CHC Bikaner,0.482,0.84,2,0.79,1.12,8,1.11,2,95,6,1
+C1488,ORS,3,0,S5,District Hospital Ajmer,0.793,1.0,10,2.39,0.0,1,1.42,19,79,0,0
+C1489,Oxytocin,5,0,S7,CHC Udaipur,0.76,0.768,9,3.05,2.74,5,1.42,14,88,0,1
+C1490,Amoxicillin,4,0,S4,District Hospital Jaipur,0.926,0.989,5,0.0,2.36,3,1.08,6,71,2,0
+C1491,Iron Folic Acid,2,0,S4,District Hospital Jaipur,0.99,0.744,7,2.29,0.38,10,0.77,7,86,1,0
+C1492,Iron Folic Acid,2,0,S1,District Hospital Jaipur,0.88,0.903,10,0.24,0.0,5,0.93,19,85,0,0
+C1493,Ceftriaxone,4,0,S10,CHC Udaipur,0.907,0.679,4,4.68,1.96,8,1.72,18,79,0,1
+C1494,Ceftriaxone,4,0,S9,CHC Udaipur,0.849,0.767,10,4.64,1.14,10,0.71,13,99,0,1
+C1495,Salbutamol,4,0,S7,Medical College Kota,0.74,0.801,7,0.85,3.1,3,0.91,9,80,0,0
+C1496,Rabies Vaccine,5,1,S2,District Hospital Jaipur,0.791,0.918,9,3.62,0.0,10,1.06,9,77,0,0
+C1497,Insulin,5,1,S2,PHC Alwar,0.917,0.901,11,4.07,0.13,4,1.06,24,74,0,0
+C1498,Oxytocin,5,0,S6,District Hospital Ajmer,0.822,0.922,5,4.2,0.94,5,0.89,5,52,3,0
+C1499,Ceftriaxone,4,0,S9,PHC Sikar,0.777,0.848,8,1.46,1.53,1,1.06,13,84,0,1
+C1500,Rabies Vaccine,5,1,S4,CHC Udaipur,0.956,0.851,9,3.7,3.75,9,0.95,7,98,1,0
+C1501,Anti-snake Venom,5,1,S8,PHC Sikar,0.98,0.882,5,2.71,1.27,8,1.35,5,71,3,1
+C1502,Amoxicillin,4,0,S7,CHC Bikaner,0.831,0.85,9,4.21,4.14,0,0.84,20,74,0,1
+C1503,Anti-snake Venom,5,1,S10,District Hospital Ajmer,0.913,0.754,2,3.29,2.08,1,1.11,21,61,0,0
+C1504,Rabies Vaccine,5,1,S8,District Hospital Jaipur,0.738,0.906,8,2.33,0.59,5,0.56,13,73,0,0
+C1505,Insulin,5,1,S9,PHC Sikar,0.935,0.796,7,1.13,0.0,9,0.94,6,52,2,0
+C1506,Ceftriaxone,4,0,S9,District Hospital Ajmer,0.764,1.0,5,2.17,1.86,8,1.27,13,86,0,1
+C1507,Salbutamol,4,0,S10,CHC Udaipur,0.872,0.96,5,1.09,2.13,8,1.15,15,75,0,0
+C1508,Anti-snake Venom,5,1,S5,PHC Alwar,0.797,0.864,6,3.33,0.18,6,1.32,22,67,0,1
+C1509,Oxytocin,5,0,S6,PHC Sikar,0.716,0.751,5,2.99,3.95,0,0.79,20,81,0,0
+C1510,Anti-snake Venom,5,1,S4,PHC Sikar,0.835,0.839,5,6.09,4.26,0,0.89,5,61,3,0
+C1511,Rabies Vaccine,5,1,S9,District Hospital Jaipur,0.922,1.0,9,3.05,1.09,2,0.5,17,58,0,0
+C1512,Adrenaline Injection,5,0,S2,PHC Sikar,0.978,0.992,3,0.08,0.81,6,1.5,2,93,6,0
+C1513,ORS,3,0,S3,PHC Alwar,0.659,0.835,3,2.81,0.0,4,1.23,21,77,0,1
+C1514,Paracetamol Injection,3,0,S3,District Hospital Ajmer,0.912,0.854,5,0.0,2.34,7,1.43,19,97,0,1
+C1515,Amoxicillin,4,0,S9,Medical College Kota,0.735,0.818,10,4.33,1.61,5,1.45,7,64,1,1
+C1516,Anti-snake Venom,5,1,S4,District Hospital Jaipur,0.899,1.0,11,2.06,1.94,1,1.57,18,86,0,0
+C1517,Paracetamol Injection,3,0,S8,CHC Udaipur,0.675,0.945,7,1.39,1.58,7,1.14,3,78,5,0
+C1518,Pentavalent Vaccine,5,1,S4,District Hospital Jaipur,0.725,0.815,5,0.47,0.0,3,1.03,13,66,0,1
+C1519,Amoxicillin,4,0,S4,Medical College Kota,0.683,0.839,10,3.5,2.34,5,1.21,12,92,0,1
+C1520,Oxytocin,5,0,S10,District Hospital Jaipur,0.814,1.0,2,2.84,2.71,6,0.95,22,61,0,0
+C1521,Anti-snake Venom,5,1,S8,District Hospital Jodhpur,0.925,0.932,2,6.13,1.44,1,1.07,6,55,2,0
+C1522,Oxytocin,5,0,S10,PHC Alwar,0.808,0.942,7,1.14,1.89,10,0.68,24,61,0,0
+C1523,Ceftriaxone,4,0,S7,Medical College Kota,0.703,0.826,8,3.74,2.94,7,1.02,24,78,0,0
+C1524,Rabies Vaccine,5,1,S5,District Hospital Jaipur,0.94,0.82,10,5.34,3.2,0,1.15,23,70,0,1
+C1525,Anti-snake Venom,5,1,S2,District Hospital Jodhpur,0.933,0.982,6,1.8,0.41,6,0.5,8,74,0,0
+C1526,Amoxicillin,4,0,S3,Medical College Kota,0.884,0.767,8,0.65,4.51,0,1.24,15,97,0,0
+C1527,Insulin,5,1,S7,PHC Alwar,0.99,0.685,4,3.7,3.61,4,1.49,21,97,0,1
+C1528,Pentavalent Vaccine,5,1,S10,CHC Udaipur,0.762,0.911,8,0.5,0.0,0,0.98,9,81,0,0
+C1529,Rabies Vaccine,5,1,S10,PHC Alwar,0.766,0.949,11,4.13,0.0,3,1.45,14,89,0,0
+C1530,Paracetamol Injection,3,0,S10,CHC Bikaner,0.811,0.856,9,4.42,0.0,0,1.01,22,62,0,1
+C1531,Ceftriaxone,4,0,S5,CHC Udaipur,0.785,0.867,4,2.3,2.59,1,1.03,17,97,0,0
+C1532,Ceftriaxone,4,0,S2,PHC Sikar,0.775,0.965,2,0.59,0.66,6,1.11,22,60,0,0
+C1533,Oxytocin,5,0,S1,CHC Udaipur,0.786,0.912,4,2.98,0.5,6,0.5,24,100,0,0
+C1534,ORS,3,0,S6,CHC Udaipur,0.761,0.789,5,4.27,0.0,1,0.71,17,50,0,0
+C1535,Rabies Vaccine,5,1,S5,District Hospital Jaipur,0.805,0.811,8,3.28,0.94,5,0.94,5,98,3,0
+C1536,Oxytocin,5,0,S7,District Hospital Ajmer,0.758,0.725,9,0.68,1.27,8,0.94,7,85,1,0
+C1537,Amoxicillin,4,0,S4,District Hospital Jaipur,0.94,0.86,7,3.13,1.09,8,1.57,20,69,0,1
+C1538,Adrenaline Injection,5,0,S5,District Hospital Jaipur,0.796,0.753,2,1.84,1.73,3,1.18,15,90,0,0
+C1539,Amoxicillin,4,0,S7,PHC Alwar,0.99,0.918,2,0.8,0.0,5,1.19,21,66,0,0
+C1540,Anti-snake Venom,5,1,S1,PHC Alwar,0.97,0.921,5,3.43,1.16,4,1.44,20,96,0,1
+C1541,Oxytocin,5,0,S3,District Hospital Jaipur,0.852,0.816,11,4.46,1.1,7,1.69,24,66,0,0
+C1542,Iron Folic Acid,2,0,S4,District Hospital Jodhpur,0.653,0.8,11,1.35,3.81,9,1.02,15,79,0,1
+C1543,Iron Folic Acid,2,0,S4,PHC Alwar,0.726,0.999,4,3.17,3.61,4,1.32,11,90,0,0
+C1544,Rabies Vaccine,5,1,S9,CHC Bikaner,0.84,0.55,5,3.01,3.34,8,1.54,9,75,0,1
+C1545,Iron Folic Acid,2,0,S1,District Hospital Jaipur,0.831,0.958,4,1.13,3.69,5,1.2,15,89,0,1
+C1546,Paracetamol Injection,3,0,S7,District Hospital Ajmer,0.804,0.895,6,4.8,3.1,9,1.41,15,53,0,0
+C1547,Anti-snake Venom,5,1,S5,PHC Sikar,0.622,0.808,3,3.18,0.34,7,1.66,11,66,0,0
+C1548,Paracetamol Injection,3,0,S6,PHC Alwar,0.99,0.992,4,0.98,0.6,6,0.91,23,72,0,0
+C1549,Amoxicillin,4,0,S7,CHC Bikaner,0.745,0.913,6,2.62,1.58,9,0.77,6,90,2,0
+C1550,Insulin,5,1,S1,CHC Udaipur,0.803,0.978,4,4.55,2.71,2,1.19,18,64,0,0
+C1551,Insulin,5,1,S9,CHC Bikaner,0.974,0.836,5,1.64,2.79,6,1.85,22,60,0,1
+C1552,Oxytocin,5,0,S3,CHC Bikaner,0.66,0.767,8,2.73,1.87,6,1.0,12,76,0,1
+C1553,Rabies Vaccine,5,1,S7,PHC Sikar,0.815,1.0,8,2.84,3.85,6,1.0,12,99,0,1
+C1554,Pentavalent Vaccine,5,1,S6,CHC Udaipur,0.919,1.0,10,1.66,2.96,8,1.0,4,88,4,0
+C1555,Rabies Vaccine,5,1,S7,CHC Bikaner,0.857,0.925,7,0.83,1.61,6,0.85,15,86,0,0
+C1556,Anti-snake Venom,5,1,S8,PHC Alwar,0.964,0.785,6,4.12,0.0,2,1.99,8,72,0,0
+C1557,Pentavalent Vaccine,5,1,S3,District Hospital Jaipur,0.723,0.775,9,0.99,3.23,1,1.07,23,51,0,1
+C1558,Adrenaline Injection,5,0,S4,District Hospital Jaipur,0.604,0.745,8,3.5,0.0,0,0.95,8,99,0,1
+C1559,Oxytocin,5,0,S2,District Hospital Jodhpur,0.73,0.775,5,1.99,3.43,0,1.04,8,81,0,1
+C1560,Pentavalent Vaccine,5,1,S7,District Hospital Jodhpur,0.798,1.0,6,4.46,0.67,1,1.85,16,53,0,0
+C1561,Adrenaline Injection,5,0,S8,CHC Bikaner,0.99,1.0,10,3.65,1.68,5,0.86,20,53,0,0
+C1562,Oxytocin,5,0,S1,District Hospital Ajmer,0.99,0.896,2,4.19,0.77,4,0.54,22,79,0,0
+C1563,Anti-snake Venom,5,1,S2,CHC Udaipur,0.843,0.859,8,1.15,3.04,6,1.08,15,97,0,1
+C1564,Adrenaline Injection,5,0,S4,CHC Udaipur,0.905,0.764,8,2.16,3.38,10,1.4,16,50,0,1
+C1565,Pentavalent Vaccine,5,1,S10,Medical College Kota,0.99,0.813,4,0.0,0.06,4,1.65,14,53,0,0
+C1566,Insulin,5,1,S3,District Hospital Jaipur,0.852,0.823,6,1.78,0.0,7,0.62,12,68,0,0
+C1567,Adrenaline Injection,5,0,S4,CHC Bikaner,0.859,0.746,5,0.0,0.89,1,0.5,7,85,1,1
+C1568,Pentavalent Vaccine,5,1,S8,PHC Sikar,0.771,0.708,3,0.55,3.05,5,1.3,24,71,0,1
+C1569,Amoxicillin,4,0,S1,CHC Bikaner,0.861,0.978,2,1.99,0.0,9,1.37,8,78,0,0
+C1570,ORS,3,0,S9,PHC Sikar,0.706,1.0,11,3.33,2.58,1,1.65,23,82,0,0
+C1571,Anti-snake Venom,5,1,S4,PHC Alwar,0.701,0.977,11,2.02,0.53,10,0.86,15,78,0,0
+C1572,Amoxicillin,4,0,S8,PHC Alwar,0.87,0.876,2,1.45,1.91,2,0.9,4,85,4,0
+C1573,Salbutamol,4,0,S1,CHC Bikaner,0.693,0.948,7,1.8,0.0,10,0.81,8,56,0,1
+C1574,Iron Folic Acid,2,0,S1,CHC Udaipur,0.99,1.0,9,0.28,2.64,4,1.2,6,66,2,0
+C1575,Oxytocin,5,0,S7,PHC Sikar,0.911,0.913,7,0.0,3.33,10,1.17,4,84,4,1
+C1576,Pentavalent Vaccine,5,1,S5,Medical College Kota,0.583,0.896,6,3.14,0.29,2,1.01,6,81,2,0
+C1577,Rabies Vaccine,5,1,S10,PHC Sikar,0.574,0.902,9,4.46,0.0,1,0.83,10,55,0,1
+C1578,Adrenaline Injection,5,0,S4,District Hospital Ajmer,0.808,0.73,3,1.94,4.12,0,1.2,2,85,6,1
+C1579,Adrenaline Injection,5,0,S7,PHC Alwar,0.784,0.956,6,5.8,2.64,8,1.05,15,61,0,1
+C1580,Pentavalent Vaccine,5,1,S9,District Hospital Jodhpur,0.866,0.691,11,1.2,0.54,8,1.59,13,72,0,0
+C1581,Ceftriaxone,4,0,S9,Medical College Kota,0.99,0.915,9,3.64,3.72,2,1.09,15,68,0,0
+C1582,Paracetamol Injection,3,0,S6,District Hospital Ajmer,0.82,0.65,3,0.37,0.0,5,0.5,7,98,1,0
+C1583,Adrenaline Injection,5,0,S1,District Hospital Jaipur,0.977,0.826,8,3.06,2.59,8,1.0,11,59,0,0
+C1584,Oxytocin,5,0,S8,District Hospital Jaipur,0.676,0.896,8,5.0,4.5,8,0.84,14,75,0,1
+C1585,Oxytocin,5,0,S10,CHC Udaipur,0.819,0.876,11,2.06,0.0,1,0.52,21,80,0,0
+C1586,Insulin,5,1,S8,District Hospital Jaipur,0.925,0.887,8,4.09,3.93,0,1.01,8,50,0,1
+C1587,Ceftriaxone,4,0,S8,District Hospital Jodhpur,0.883,0.873,6,0.81,2.52,10,0.94,1,99,7,0
+C1588,Salbutamol,4,0,S5,CHC Udaipur,0.733,0.926,10,0.0,0.0,10,1.45,1,81,7,1
+C1589,Oxytocin,5,0,S3,Medical College Kota,0.806,0.745,4,2.96,4.8,1,1.24,13,87,0,1
+C1590,Pentavalent Vaccine,5,1,S4,CHC Bikaner,0.726,0.901,3,0.0,2.99,6,0.86,9,57,0,0
+C1591,Iron Folic Acid,2,0,S8,District Hospital Jodhpur,0.769,0.867,10,0.62,0.0,6,1.24,21,85,0,0
+C1592,Ceftriaxone,4,0,S1,District Hospital Jodhpur,0.674,0.867,7,0.0,0.16,10,0.81,14,62,0,0
+C1593,ORS,3,0,S2,CHC Bikaner,0.883,0.832,5,2.48,2.54,1,1.18,19,90,0,0
+C1594,Pentavalent Vaccine,5,1,S10,Medical College Kota,0.868,0.906,2,2.77,0.38,10,0.5,10,56,0,1
+C1595,Oxytocin,5,0,S10,District Hospital Ajmer,0.824,0.962,10,5.82,1.6,3,1.26,8,92,0,0
+C1596,Amoxicillin,4,0,S9,CHC Udaipur,0.806,0.76,11,5.57,0.0,0,1.14,9,62,0,0
+C1597,Pentavalent Vaccine,5,1,S10,District Hospital Jodhpur,0.971,0.747,8,4.07,2.09,8,1.22,19,75,0,1
+C1598,Oxytocin,5,0,S7,District Hospital Jaipur,0.86,0.732,6,0.81,2.65,0,1.29,11,96,0,1
+C1599,Amoxicillin,4,0,S4,District Hospital Jodhpur,0.785,0.826,6,0.08,1.63,1,0.7,24,86,0,1
+C1600,Iron Folic Acid,2,0,S3,PHC Alwar,0.621,0.836,11,0.68,2.43,7,0.93,1,67,7,0
+C1601,Paracetamol Injection,3,0,S7,CHC Bikaner,0.867,1.0,2,4.24,3.57,3,0.58,4,84,4,1
+C1602,ORS,3,0,S3,Medical College Kota,0.873,0.897,2,6.05,0.55,8,1.1,7,100,1,0
+C1603,Iron Folic Acid,2,0,S4,Medical College Kota,0.71,0.877,9,1.71,1.23,6,1.33,11,59,0,0
+C1604,Pentavalent Vaccine,5,1,S4,District Hospital Ajmer,0.796,0.822,4,2.69,1.28,0,1.19,2,88,6,0
+C1605,Oxytocin,5,0,S9,PHC Sikar,0.787,0.943,8,2.75,0.1,4,1.23,18,69,0,0
+C1606,ORS,3,0,S10,District Hospital Jodhpur,0.714,0.839,11,1.6,1.35,5,1.64,14,74,0,1
+C1607,Anti-snake Venom,5,1,S8,District Hospital Jodhpur,0.839,0.948,6,1.54,2.35,4,0.93,13,81,0,1
+C1608,Oxytocin,5,0,S2,PHC Alwar,0.761,0.761,9,3.47,2.91,3,0.9,4,64,4,0
+C1609,Paracetamol Injection,3,0,S3,District Hospital Ajmer,0.895,0.87,7,1.43,2.47,1,0.95,9,69,0,0
+C1610,Paracetamol Injection,3,0,S6,District Hospital Jodhpur,0.914,0.871,9,0.0,4.48,5,1.17,9,88,0,1
+C1611,Anti-snake Venom,5,1,S5,District Hospital Jaipur,0.666,0.897,3,0.4,0.63,1,0.78,2,72,6,0
+C1612,Insulin,5,1,S4,CHC Bikaner,0.783,0.83,4,4.49,0.0,2,0.74,19,59,0,1
+C1613,Adrenaline Injection,5,0,S7,CHC Bikaner,0.987,0.695,10,0.31,2.41,5,1.21,5,87,3,0
+C1614,Paracetamol Injection,3,0,S9,District Hospital Ajmer,0.683,0.896,5,5.33,2.75,0,0.5,16,97,0,1
+C1615,Rabies Vaccine,5,1,S6,Medical College Kota,0.96,0.829,5,2.35,0.57,8,1.48,23,79,0,0
+C1616,Paracetamol Injection,3,0,S3,CHC Udaipur,0.948,0.972,6,0.19,0.0,6,0.86,23,63,0,0
+C1617,Rabies Vaccine,5,1,S2,Medical College Kota,0.843,0.716,6,1.14,0.0,5,1.32,9,60,0,0
+C1618,Paracetamol Injection,3,0,S7,PHC Sikar,0.693,0.783,10,3.32,0.0,2,0.58,5,66,3,1
+C1619,Oxytocin,5,0,S9,PHC Alwar,0.779,0.746,6,1.54,1.01,4,0.98,12,61,0,0
+C1620,Oxytocin,5,0,S5,CHC Bikaner,0.853,0.989,11,0.76,0.0,5,0.5,23,75,0,0
+C1621,Pentavalent Vaccine,5,1,S7,District Hospital Jodhpur,0.73,0.68,10,2.77,4.83,6,1.59,10,84,0,1
+C1622,Ceftriaxone,4,0,S1,CHC Udaipur,0.918,0.691,5,5.22,1.29,0,1.33,12,74,0,0
+C1623,Amoxicillin,4,0,S3,PHC Alwar,0.893,0.935,4,0.73,2.33,4,1.88,9,53,0,0
+C1624,Salbutamol,4,0,S6,PHC Alwar,0.777,0.841,6,6.19,1.88,4,0.84,24,68,0,0
+C1625,Rabies Vaccine,5,1,S2,CHC Udaipur,0.982,0.719,2,3.44,1.23,0,0.66,14,60,0,1
+C1626,ORS,3,0,S7,CHC Udaipur,0.99,0.905,6,3.58,0.13,6,0.5,24,52,0,0
+C1627,Insulin,5,1,S5,Medical College Kota,0.736,0.792,3,3.43,1.34,5,1.17,23,76,0,0
+C1628,Ceftriaxone,4,0,S1,District Hospital Jaipur,0.99,0.882,8,2.67,2.87,0,1.35,5,60,3,0
+C1629,Iron Folic Acid,2,0,S7,PHC Alwar,0.864,0.964,2,2.31,4.83,4,1.27,22,99,0,0
+C1630,Insulin,5,1,S2,PHC Alwar,0.927,0.908,4,2.08,0.38,8,1.1,12,88,0,0
+C1631,Oxytocin,5,0,S5,Medical College Kota,0.858,1.0,3,3.69,2.63,7,0.5,12,68,0,0
+C1632,Rabies Vaccine,5,1,S3,District Hospital Jodhpur,0.737,0.89,4,1.63,0.0,10,0.77,2,53,6,1
+C1633,Insulin,5,1,S9,CHC Bikaner,0.99,0.693,5,3.11,1.07,10,0.87,6,93,2,1
+C1634,Insulin,5,1,S6,CHC Bikaner,0.747,0.693,7,3.34,3.97,3,0.5,13,53,0,1
+C1635,Oxytocin,5,0,S2,District Hospital Jodhpur,0.99,0.808,10,1.04,2.0,0,1.11,13,60,0,0
+C1636,Rabies Vaccine,5,1,S10,PHC Alwar,0.99,0.922,6,2.93,1.59,6,1.16,5,57,3,0
+C1637,ORS,3,0,S3,Medical College Kota,0.845,0.992,6,3.27,2.16,9,0.89,12,66,0,1
+C1638,Adrenaline Injection,5,0,S10,PHC Alwar,0.797,0.961,10,1.3,0.0,7,0.69,17,62,0,0
+C1639,Ceftriaxone,4,0,S7,District Hospital Jaipur,0.809,0.84,7,1.83,2.45,10,1.6,17,55,0,0
+C1640,Paracetamol Injection,3,0,S1,CHC Bikaner,0.805,0.752,4,4.93,0.0,8,0.55,23,89,0,0
+C1641,Rabies Vaccine,5,1,S2,District Hospital Jaipur,0.728,0.745,8,1.33,0.92,5,0.89,7,71,1,0
+C1642,Amoxicillin,4,0,S9,District Hospital Jaipur,0.794,0.712,7,3.17,3.0,0,1.35,15,99,0,0
+C1643,Paracetamol Injection,3,0,S7,District Hospital Jaipur,0.926,0.863,6,3.73,2.73,10,1.55,3,58,5,1
+C1644,Paracetamol Injection,3,0,S5,District Hospital Jodhpur,0.763,1.0,9,3.2,3.77,4,0.67,1,60,7,0
+C1645,Amoxicillin,4,0,S6,PHC Sikar,0.945,0.749,11,2.05,0.0,10,1.26,5,56,3,1
+C1646,Paracetamol Injection,3,0,S2,CHC Udaipur,0.631,0.958,11,0.0,0.66,2,1.04,15,50,0,1
+C1647,Insulin,5,1,S8,CHC Bikaner,0.891,0.983,5,3.79,0.0,1,1.1,4,74,4,1
+C1648,Pentavalent Vaccine,5,1,S5,District Hospital Jodhpur,0.87,1.0,5,2.49,0.0,2,1.32,7,73,1,1
+C1649,Iron Folic Acid,2,0,S4,District Hospital Jaipur,0.99,0.971,6,4.34,6.13,0,1.34,19,80,0,0
+C1650,Oxytocin,5,0,S10,CHC Udaipur,0.673,0.788,8,1.67,3.23,7,1.09,17,50,0,1
+C1651,Adrenaline Injection,5,0,S3,Medical College Kota,0.847,0.791,8,2.45,0.0,1,0.55,3,70,5,0
+C1652,Anti-snake Venom,5,1,S6,District Hospital Ajmer,0.904,0.969,9,4.0,0.88,0,1.21,21,51,0,0
+C1653,Salbutamol,4,0,S10,PHC Alwar,0.77,1.0,11,1.05,0.95,2,1.03,22,54,0,1
+C1654,Adrenaline Injection,5,0,S2,District Hospital Jodhpur,0.928,0.791,9,1.6,1.96,4,0.9,23,56,0,0
+C1655,Oxytocin,5,0,S8,PHC Alwar,0.838,0.998,3,2.6,3.16,2,0.59,24,84,0,1
+C1656,Ceftriaxone,4,0,S3,PHC Alwar,0.815,0.781,3,2.8,0.19,6,0.57,18,72,0,0
+C1657,ORS,3,0,S5,Medical College Kota,0.99,0.75,2,2.59,0.12,4,1.34,19,75,0,0
+C1658,Anti-snake Venom,5,1,S4,CHC Udaipur,0.759,0.926,10,2.79,0.93,6,0.88,24,51,0,0
+C1659,Pentavalent Vaccine,5,1,S8,District Hospital Ajmer,0.902,0.801,9,2.14,2.43,5,0.82,20,90,0,0
+C1660,Rabies Vaccine,5,1,S3,Medical College Kota,0.94,0.889,3,6.62,1.62,6,1.39,14,51,0,0
+C1661,Salbutamol,4,0,S3,CHC Bikaner,0.805,0.841,8,3.03,3.68,9,0.61,15,92,0,0
+C1662,Paracetamol Injection,3,0,S3,PHC Alwar,0.797,0.682,11,2.17,0.0,10,1.22,9,70,0,0
+C1663,Oxytocin,5,0,S4,Medical College Kota,0.933,1.0,3,2.11,2.61,4,0.96,15,61,0,0
+C1664,Anti-snake Venom,5,1,S5,CHC Udaipur,0.921,0.827,4,2.67,0.0,9,1.49,7,66,1,1
+C1665,Amoxicillin,4,0,S2,District Hospital Ajmer,0.53,0.866,4,3.56,3.29,0,1.01,20,65,0,0
+C1666,Rabies Vaccine,5,1,S3,District Hospital Ajmer,0.839,0.795,10,1.94,0.0,10,0.58,23,68,0,1
+C1667,Anti-snake Venom,5,1,S2,District Hospital Jaipur,0.947,0.806,8,0.42,2.04,7,0.84,23,80,0,1
+C1668,Pentavalent Vaccine,5,1,S2,District Hospital Jaipur,0.613,0.829,4,2.08,0.0,3,1.09,21,55,0,0
+C1669,Paracetamol Injection,3,0,S6,CHC Bikaner,0.632,1.0,5,3.07,0.54,9,0.95,3,55,5,0
+C1670,Adrenaline Injection,5,0,S10,District Hospital Ajmer,0.82,0.802,8,0.0,0.75,1,1.06,6,83,2,1
+C1671,Anti-snake Venom,5,1,S4,District Hospital Jodhpur,0.978,0.711,11,3.24,0.0,10,1.23,14,77,0,0
+C1672,Adrenaline Injection,5,0,S4,PHC Sikar,0.769,1.0,11,3.6,0.36,3,1.21,13,65,0,0
+C1673,Iron Folic Acid,2,0,S3,PHC Alwar,0.908,0.769,5,6.04,1.55,10,0.88,14,88,0,0
+C1674,Adrenaline Injection,5,0,S2,District Hospital Ajmer,0.707,0.919,7,1.48,4.74,5,0.59,16,99,0,1
+C1675,Salbutamol,4,0,S5,District Hospital Ajmer,0.663,0.98,4,4.8,4.25,9,0.5,19,85,0,1
+C1676,Ceftriaxone,4,0,S8,District Hospital Jodhpur,0.707,0.955,5,0.68,0.25,3,0.71,11,67,0,1
+C1677,Paracetamol Injection,3,0,S2,Medical College Kota,0.793,1.0,6,0.92,0.0,8,0.88,21,69,0,0
+C1678,Anti-snake Venom,5,1,S5,District Hospital Jaipur,0.599,0.856,2,3.98,2.3,0,1.33,11,84,0,1
+C1679,Anti-snake Venom,5,1,S10,District Hospital Jodhpur,0.814,0.975,5,2.0,1.1,4,1.22,7,78,1,0
+C1680,Insulin,5,1,S9,CHC Udaipur,0.899,0.805,2,0.0,1.46,1,0.74,18,72,0,0
+C1681,Rabies Vaccine,5,1,S9,CHC Udaipur,0.881,0.756,11,3.04,2.48,8,1.2,19,92,0,0
+C1682,Anti-snake Venom,5,1,S9,PHC Alwar,0.788,0.838,9,2.82,1.62,3,1.3,18,63,0,0
+C1683,Oxytocin,5,0,S2,Medical College Kota,0.777,0.723,7,1.27,0.0,7,0.81,22,50,0,0
+C1684,Pentavalent Vaccine,5,1,S10,CHC Bikaner,0.841,0.78,3,6.63,0.21,3,0.8,14,59,0,0
+C1685,Iron Folic Acid,2,0,S4,District Hospital Jodhpur,0.878,0.988,8,0.0,0.6,10,1.06,16,50,0,0
+C1686,Ceftriaxone,4,0,S7,District Hospital Ajmer,0.689,0.992,7,3.26,0.0,7,0.5,13,63,0,0
+C1687,Amoxicillin,4,0,S9,PHC Alwar,0.99,0.867,11,5.04,1.29,6,0.99,10,74,0,0
+C1688,Pentavalent Vaccine,5,1,S9,District Hospital Ajmer,0.957,0.717,9,1.76,2.24,9,0.63,9,51,0,1
+C1689,Ceftriaxone,4,0,S8,District Hospital Jodhpur,0.744,0.716,7,0.54,4.03,1,0.91,9,62,0,1
+C1690,Iron Folic Acid,2,0,S7,PHC Alwar,0.884,0.963,10,2.49,2.57,0,0.79,8,53,0,0
+C1691,Anti-snake Venom,5,1,S9,PHC Alwar,0.888,0.957,10,0.98,2.0,8,0.69,13,69,0,0
+C1692,Anti-snake Venom,5,1,S10,PHC Alwar,0.692,1.0,8,1.8,3.16,8,1.53,20,83,0,1
+C1693,Rabies Vaccine,5,1,S5,CHC Udaipur,0.885,0.787,10,3.29,0.16,9,0.91,22,54,0,1
+C1694,Salbutamol,4,0,S1,CHC Udaipur,0.783,0.715,2,4.68,2.28,3,0.62,1,75,7,1
+C1695,Anti-snake Venom,5,1,S10,District Hospital Ajmer,0.755,0.613,11,2.68,2.12,10,0.5,1,99,7,1
+C1696,Paracetamol Injection,3,0,S9,Medical College Kota,0.832,0.94,5,2.88,2.93,8,1.04,3,81,5,0
+C1697,Anti-snake Venom,5,1,S2,District Hospital Ajmer,0.845,0.894,8,4.76,0.0,8,1.64,13,56,0,0
+C1698,Paracetamol Injection,3,0,S8,CHC Udaipur,0.616,0.838,8,1.14,0.0,5,1.75,2,78,6,0
+C1699,Adrenaline Injection,5,0,S7,District Hospital Ajmer,0.618,0.901,7,3.13,0.0,8,0.5,18,63,0,0
+C1700,Oxytocin,5,0,S6,District Hospital Ajmer,0.844,0.764,11,1.64,2.11,0,1.13,19,94,0,0
+C1701,Insulin,5,1,S5,District Hospital Jodhpur,0.658,0.742,2,3.6,0.76,9,1.57,3,51,5,1
+C1702,Paracetamol Injection,3,0,S1,District Hospital Jodhpur,0.796,0.766,8,3.04,0.86,3,0.95,16,57,0,0
+C1703,Adrenaline Injection,5,0,S7,PHC Alwar,0.857,0.875,9,2.21,3.0,1,1.28,19,92,0,1
+C1704,Amoxicillin,4,0,S7,CHC Udaipur,0.95,0.833,6,3.18,0.0,8,1.34,4,87,4,0
+C1705,Salbutamol,4,0,S6,District Hospital Jodhpur,0.882,1.0,8,2.97,0.0,0,1.09,16,82,0,0
+C1706,Rabies Vaccine,5,1,S1,Medical College Kota,0.905,0.931,5,1.89,0.0,4,0.93,3,97,5,0
+C1707,Adrenaline Injection,5,0,S4,District Hospital Jaipur,0.907,0.803,11,3.48,0.0,2,0.5,2,96,6,1
+C1708,Iron Folic Acid,2,0,S5,District Hospital Ajmer,0.953,0.908,3,4.72,3.68,3,1.52,12,90,0,0
+C1709,Insulin,5,1,S4,PHC Alwar,0.709,1.0,4,2.96,0.0,8,1.26,12,99,0,1
+C1710,Adrenaline Injection,5,0,S4,District Hospital Jodhpur,0.806,1.0,3,2.72,1.78,1,0.76,19,86,0,1
+C1711,Oxytocin,5,0,S3,District Hospital Jodhpur,0.736,1.0,9,4.48,2.67,0,0.92,12,79,0,0
+C1712,Adrenaline Injection,5,0,S4,PHC Alwar,0.932,0.779,7,1.29,2.67,8,1.03,16,90,0,1
+C1713,Salbutamol,4,0,S8,PHC Alwar,0.698,0.913,4,2.5,0.84,7,0.75,20,67,0,0
+C1714,ORS,3,0,S4,PHC Alwar,0.592,0.812,7,2.35,3.03,4,0.5,14,99,0,0
+C1715,Salbutamol,4,0,S6,District Hospital Jodhpur,0.786,0.781,2,2.61,2.47,6,1.19,23,95,0,0
+C1716,Amoxicillin,4,0,S6,District Hospital Jodhpur,0.943,0.79,2,1.09,1.95,1,0.77,12,51,0,0
+C1717,Salbutamol,4,0,S1,CHC Udaipur,0.927,0.818,5,2.38,2.17,0,0.92,10,56,0,0
+C1718,Pentavalent Vaccine,5,1,S6,Medical College Kota,0.888,0.777,9,5.17,0.97,4,1.19,5,86,3,0
+C1719,Pentavalent Vaccine,5,1,S9,PHC Alwar,0.965,0.77,3,3.34,0.0,1,0.98,23,91,0,1
+C1720,Anti-snake Venom,5,1,S5,PHC Alwar,0.759,1.0,8,1.93,0.51,4,1.21,5,92,3,0
+C1721,Oxytocin,5,0,S5,District Hospital Jodhpur,0.947,0.697,3,4.27,0.84,0,0.5,13,87,0,1
+C1722,Salbutamol,4,0,S6,Medical College Kota,0.517,0.881,4,5.24,0.98,6,0.72,11,90,0,1
+C1723,Oxytocin,5,0,S10,Medical College Kota,0.722,0.799,9,5.85,0.94,8,1.08,8,68,0,0
+C1724,Iron Folic Acid,2,0,S8,District Hospital Ajmer,0.825,1.0,9,4.71,1.61,10,1.19,13,72,0,0
+C1725,Insulin,5,1,S10,District Hospital Ajmer,0.725,0.714,10,5.27,3.46,0,1.33,21,75,0,1
+C1726,Paracetamol Injection,3,0,S5,District Hospital Jodhpur,0.632,0.975,6,3.52,2.85,8,0.57,13,58,0,0
+C1727,Iron Folic Acid,2,0,S5,PHC Alwar,0.877,0.838,11,2.03,2.06,0,0.97,21,78,0,0
+C1728,Amoxicillin,4,0,S8,District Hospital Ajmer,0.95,0.933,4,3.68,2.72,1,0.71,20,70,0,0
+C1729,Paracetamol Injection,3,0,S2,CHC Bikaner,0.868,0.871,6,2.91,5.26,9,1.3,9,81,0,1
+C1730,Oxytocin,5,0,S9,Medical College Kota,0.829,0.835,6,0.8,2.99,5,0.5,17,99,0,1
+C1731,Ceftriaxone,4,0,S10,PHC Sikar,0.953,0.799,5,1.9,0.0,5,0.7,22,85,0,0
+C1732,Anti-snake Venom,5,1,S2,Medical College Kota,0.673,0.84,11,2.74,1.91,1,0.62,19,58,0,1
+C1733,Anti-snake Venom,5,1,S9,PHC Alwar,0.767,0.873,5,0.88,2.77,3,0.81,1,91,7,1
+C1734,Oxytocin,5,0,S9,PHC Alwar,0.745,0.758,5,2.0,2.28,1,0.88,17,90,0,0
+C1735,Amoxicillin,4,0,S5,District Hospital Jodhpur,0.734,1.0,5,2.87,1.05,10,0.83,16,60,0,0
+C1736,Ceftriaxone,4,0,S2,District Hospital Ajmer,0.901,0.841,9,3.15,2.81,8,1.06,20,92,0,1
+C1737,Ceftriaxone,4,0,S2,District Hospital Ajmer,0.945,0.887,3,0.59,1.26,2,1.37,8,75,0,0
+C1738,ORS,3,0,S2,CHC Udaipur,0.935,0.893,4,1.44,1.4,1,1.2,14,96,0,0
+C1739,Iron Folic Acid,2,0,S8,Medical College Kota,0.692,0.888,6,0.57,3.46,2,1.02,18,65,0,0
+C1740,Amoxicillin,4,0,S4,PHC Alwar,0.829,0.909,10,3.29,2.68,10,1.0,22,67,0,0
+C1741,Iron Folic Acid,2,0,S4,CHC Udaipur,0.923,0.677,10,0.07,1.94,6,1.27,14,77,0,0
+C1742,Amoxicillin,4,0,S10,PHC Sikar,0.9,1.0,4,1.24,1.57,10,1.16,2,57,6,1
+C1743,Oxytocin,5,0,S5,Medical College Kota,0.825,0.816,11,3.48,2.73,9,0.78,19,96,0,0
+C1744,Ceftriaxone,4,0,S1,District Hospital Ajmer,0.99,0.757,4,1.65,0.0,8,0.58,24,81,0,0
+C1745,Oxytocin,5,0,S2,District Hospital Jodhpur,0.877,0.906,5,2.68,0.91,0,1.37,10,51,0,1
+C1746,Oxytocin,5,0,S8,CHC Bikaner,0.838,0.798,10,1.75,2.53,2,1.0,14,63,0,0
+C1747,Oxytocin,5,0,S4,District Hospital Ajmer,0.88,0.863,10,0.74,2.35,9,1.0,1,80,7,1
+C1748,Salbutamol,4,0,S2,CHC Udaipur,0.99,0.758,4,1.45,2.98,4,1.73,1,85,7,0
+C1749,Pentavalent Vaccine,5,1,S10,PHC Alwar,0.78,0.933,7,1.52,0.69,4,0.77,3,73,5,0
+C1750,Amoxicillin,4,0,S4,PHC Alwar,0.803,0.933,3,2.0,4.22,8,1.09,10,74,0,0
+C1751,Ceftriaxone,4,0,S9,PHC Sikar,0.99,0.942,10,0.55,2.96,3,1.15,3,78,5,0
+C1752,Amoxicillin,4,0,S3,District Hospital Ajmer,0.99,0.774,6,2.42,2.08,3,1.11,3,62,5,1
+C1753,Pentavalent Vaccine,5,1,S7,CHC Udaipur,0.835,0.891,6,2.82,1.71,4,0.9,1,95,7,1
+C1754,ORS,3,0,S6,District Hospital Jaipur,0.901,0.762,10,1.99,1.71,6,0.64,17,70,0,0
+C1755,Iron Folic Acid,2,0,S6,Medical College Kota,0.703,0.792,10,4.13,2.06,1,0.51,16,88,0,1
+C1756,ORS,3,0,S10,District Hospital Jodhpur,0.685,0.888,6,0.7,0.24,10,2.24,2,78,6,1
+C1757,Salbutamol,4,0,S2,PHC Sikar,0.747,0.783,5,4.64,3.64,1,0.92,5,51,3,1
+C1758,Oxytocin,5,0,S10,Medical College Kota,0.873,0.892,11,2.06,0.57,8,1.57,8,100,0,1
+C1759,Amoxicillin,4,0,S3,CHC Udaipur,0.831,0.804,5,0.43,1.08,4,1.67,22,54,0,1
+C1760,Iron Folic Acid,2,0,S5,District Hospital Jodhpur,0.903,0.81,3,2.97,2.8,0,1.31,4,89,4,0
+C1761,Iron Folic Acid,2,0,S5,District Hospital Ajmer,0.786,0.921,9,3.24,3.04,1,0.82,4,58,4,1
+C1762,Anti-snake Venom,5,1,S6,District Hospital Ajmer,0.908,0.817,10,0.85,0.14,0,1.1,22,86,0,0
+C1763,Amoxicillin,4,0,S6,Medical College Kota,0.648,0.883,7,0.83,0.88,9,1.83,5,70,3,0
+C1764,Oxytocin,5,0,S7,PHC Sikar,0.797,0.993,3,2.28,3.56,7,0.99,4,94,4,0
+C1765,Rabies Vaccine,5,1,S8,CHC Bikaner,0.733,0.946,10,3.88,0.0,1,1.13,15,98,0,1
+C1766,ORS,3,0,S9,District Hospital Jodhpur,0.792,1.0,8,4.87,0.0,1,1.23,22,63,0,0
+C1767,Insulin,5,1,S3,PHC Alwar,0.744,1.0,9,0.77,2.33,1,0.95,19,67,0,1
+C1768,Paracetamol Injection,3,0,S6,Medical College Kota,0.959,0.903,9,4.28,3.4,3,1.75,18,52,0,1
+C1769,Paracetamol Injection,3,0,S9,CHC Udaipur,0.868,0.925,10,4.16,0.0,5,1.48,23,72,0,0
+C1770,Pentavalent Vaccine,5,1,S9,CHC Bikaner,0.815,0.758,4,4.06,0.74,2,0.95,7,57,1,0
+C1771,Rabies Vaccine,5,1,S10,District Hospital Jaipur,0.99,0.963,10,2.76,1.78,9,1.32,24,68,0,0
+C1772,Adrenaline Injection,5,0,S9,CHC Bikaner,0.929,0.904,9,0.79,1.65,0,1.14,24,86,0,0
+C1773,Oxytocin,5,0,S10,District Hospital Ajmer,0.77,0.882,3,4.36,4.78,3,0.9,16,89,0,0
+C1774,Insulin,5,1,S7,Medical College Kota,0.841,0.787,10,4.44,0.0,8,1.23,17,84,0,1
+C1775,Adrenaline Injection,5,0,S4,District Hospital Jaipur,0.99,0.841,9,1.71,2.92,8,1.03,1,88,7,1
+C1776,Salbutamol,4,0,S1,District Hospital Jaipur,0.598,0.772,6,3.98,3.23,0,1.01,13,67,0,1
+C1777,Anti-snake Venom,5,1,S10,District Hospital Ajmer,0.73,0.929,9,3.03,2.34,8,0.77,23,52,0,1
+C1778,Salbutamol,4,0,S4,PHC Sikar,0.896,0.828,9,5.14,0.56,8,1.49,5,57,3,1
+C1779,Salbutamol,4,0,S6,CHC Udaipur,0.879,0.857,5,3.31,4.53,5,0.88,8,63,0,0
+C1780,Rabies Vaccine,5,1,S5,PHC Alwar,0.792,0.81,4,0.0,1.12,8,0.5,22,90,0,0
+C1781,Salbutamol,4,0,S6,CHC Bikaner,0.761,0.807,6,2.23,0.47,6,1.06,1,86,7,1
+C1782,Adrenaline Injection,5,0,S8,CHC Bikaner,0.849,0.845,7,0.0,3.75,4,0.5,12,70,0,0
+C1783,Oxytocin,5,0,S9,CHC Bikaner,0.747,0.936,10,3.49,1.09,3,1.26,4,74,4,0
+C1784,ORS,3,0,S7,PHC Sikar,0.7,0.95,2,1.58,0.85,0,0.8,16,68,0,0
+C1785,Oxytocin,5,0,S6,CHC Bikaner,0.844,0.903,2,1.24,0.07,1,1.42,21,83,0,1
+C1786,Ceftriaxone,4,0,S7,District Hospital Jaipur,0.651,0.79,6,0.79,3.76,1,1.69,24,65,0,0
+C1787,ORS,3,0,S2,District Hospital Jaipur,0.932,0.904,11,2.06,0.0,2,1.73,17,85,0,0
+C1788,Rabies Vaccine,5,1,S3,CHC Udaipur,0.856,0.78,5,4.98,0.59,4,1.21,12,87,0,0
+C1789,Paracetamol Injection,3,0,S5,District Hospital Ajmer,0.783,0.806,6,1.59,1.57,10,0.5,17,95,0,0
+C1790,Anti-snake Venom,5,1,S4,District Hospital Jodhpur,0.926,0.759,9,2.56,2.13,6,1.85,6,63,2,1
+C1791,Oxytocin,5,0,S4,District Hospital Jodhpur,0.66,0.848,11,4.06,2.94,4,1.42,21,85,0,1
+C1792,Pentavalent Vaccine,5,1,S4,District Hospital Jaipur,0.734,1.0,2,4.29,4.98,10,0.72,3,88,5,1
+C1793,Oxytocin,5,0,S3,District Hospital Ajmer,0.868,0.95,6,2.53,3.71,6,0.94,10,60,0,0
+C1794,Amoxicillin,4,0,S9,District Hospital Jodhpur,0.954,0.971,6,1.61,0.0,2,1.15,23,81,0,0
+C1795,Insulin,5,1,S2,District Hospital Jaipur,0.841,0.98,8,2.24,3.98,6,0.94,23,52,0,1
+C1796,Adrenaline Injection,5,0,S1,PHC Alwar,0.833,0.93,7,2.15,1.41,2,0.5,24,78,0,0
+C1797,Oxytocin,5,0,S6,District Hospital Ajmer,0.734,0.771,5,3.5,1.14,7,0.96,17,89,0,0
+C1798,Insulin,5,1,S10,CHC Bikaner,0.741,0.75,6,3.16,0.0,6,0.86,7,88,1,0
+C1799,Rabies Vaccine,5,1,S6,Medical College Kota,0.702,0.896,9,3.39,0.0,9,0.93,10,63,0,0
+C1800,Anti-snake Venom,5,1,S3,District Hospital Jodhpur,0.79,0.833,8,2.01,6.5,0,0.82,5,92,3,0
+C1801,Paracetamol Injection,3,0,S7,District Hospital Jaipur,0.728,0.952,4,1.95,2.21,5,1.29,6,68,2,0
+C1802,Iron Folic Acid,2,0,S5,District Hospital Jaipur,0.907,0.914,4,4.32,1.51,3,0.5,5,88,3,0
+C1803,Pentavalent Vaccine,5,1,S9,PHC Sikar,0.759,0.868,10,2.45,4.06,10,1.32,7,87,1,0
+C1804,Pentavalent Vaccine,5,1,S3,CHC Udaipur,0.716,0.896,5,0.0,1.73,4,0.79,17,79,0,1
+C1805,Iron Folic Acid,2,0,S1,District Hospital Ajmer,0.99,0.92,4,1.66,4.55,8,1.24,12,73,0,0
+C1806,Insulin,5,1,S9,CHC Bikaner,0.893,0.798,8,3.55,0.0,8,1.14,10,69,0,0
+C1807,Oxytocin,5,0,S6,CHC Udaipur,0.557,0.803,9,4.2,3.24,10,1.61,20,97,0,1
+C1808,Salbutamol,4,0,S7,CHC Bikaner,0.779,0.774,4,0.0,2.33,6,1.04,4,100,4,1
+C1809,Adrenaline Injection,5,0,S9,District Hospital Ajmer,0.712,1.0,2,2.36,0.0,6,0.97,4,96,4,0
+C1810,Ceftriaxone,4,0,S10,Medical College Kota,0.837,0.894,8,0.21,2.99,2,0.85,24,73,0,0
+C1811,Iron Folic Acid,2,0,S5,Medical College Kota,0.919,0.85,3,2.05,2.69,0,1.15,14,55,0,1
+C1812,Oxytocin,5,0,S7,District Hospital Jaipur,0.867,0.74,5,2.82,0.0,4,0.5,23,95,0,0
+C1813,Ceftriaxone,4,0,S6,PHC Sikar,0.911,0.819,3,3.19,0.0,2,0.78,11,88,0,1
+C1814,Pentavalent Vaccine,5,1,S9,CHC Bikaner,0.99,0.997,5,3.26,4.28,4,1.43,1,69,7,0
+C1815,Ceftriaxone,4,0,S5,PHC Sikar,0.783,0.845,8,1.05,1.01,4,0.5,19,62,0,0
+C1816,Oxytocin,5,0,S3,District Hospital Jodhpur,0.833,0.858,11,0.37,0.0,4,1.43,23,50,0,0
+C1817,ORS,3,0,S10,PHC Alwar,0.936,0.817,11,2.04,3.12,9,0.89,24,62,0,0
+C1818,Iron Folic Acid,2,0,S10,District Hospital Jaipur,0.987,0.78,2,2.99,3.42,2,0.94,5,62,3,0
+C1819,Iron Folic Acid,2,0,S10,District Hospital Jaipur,0.801,0.796,8,2.45,2.61,4,1.35,20,100,0,0
+C1820,ORS,3,0,S9,District Hospital Jaipur,0.735,0.945,10,1.2,3.69,5,0.76,20,94,0,0
+C1821,Paracetamol Injection,3,0,S3,PHC Alwar,0.866,0.761,5,3.39,0.43,0,1.15,23,67,0,1
+C1822,Salbutamol,4,0,S5,CHC Udaipur,0.766,0.846,2,5.24,4.27,7,1.32,5,86,3,1
+C1823,Amoxicillin,4,0,S7,District Hospital Jodhpur,0.99,0.618,7,2.63,0.0,0,1.71,16,98,0,0
+C1824,Paracetamol Injection,3,0,S2,District Hospital Ajmer,0.901,0.772,10,4.58,0.0,3,0.71,12,73,0,1
+C1825,Salbutamol,4,0,S3,CHC Udaipur,0.815,0.96,6,3.01,2.15,1,1.19,20,81,0,0
+C1826,Rabies Vaccine,5,1,S1,District Hospital Jaipur,0.866,0.971,4,3.82,3.0,1,1.35,17,54,0,0
+C1827,Ceftriaxone,4,0,S6,PHC Sikar,0.73,0.836,8,1.84,3.76,0,1.44,20,57,0,0
+C1828,Insulin,5,1,S7,PHC Sikar,0.904,0.938,7,1.1,0.0,0,1.21,12,52,0,0
+C1829,Insulin,5,1,S4,CHC Udaipur,0.786,0.772,8,1.9,2.22,9,0.9,14,86,0,1
+C1830,Anti-snake Venom,5,1,S9,PHC Alwar,0.929,0.688,6,1.79,0.62,5,1.1,18,70,0,1
+C1831,Iron Folic Acid,2,0,S1,District Hospital Jaipur,0.914,0.974,9,1.28,1.88,6,1.16,10,97,0,0
+C1832,Amoxicillin,4,0,S8,District Hospital Ajmer,0.796,0.633,10,0.12,1.12,1,1.27,7,82,1,1
+C1833,Insulin,5,1,S1,PHC Alwar,0.815,0.713,4,0.0,1.21,4,0.87,3,65,5,0
+C1834,Anti-snake Venom,5,1,S3,District Hospital Ajmer,0.768,0.756,4,1.28,3.07,1,1.41,7,82,1,1
+C1835,Iron Folic Acid,2,0,S6,PHC Alwar,0.641,1.0,4,3.86,4.99,10,0.88,8,70,0,1
+C1836,Salbutamol,4,0,S2,District Hospital Jodhpur,0.65,0.859,4,6.15,0.0,9,0.91,9,80,0,0
+C1837,Paracetamol Injection,3,0,S8,District Hospital Jaipur,0.99,0.672,2,0.26,1.05,0,0.92,6,56,2,0
+C1838,Amoxicillin,4,0,S3,PHC Sikar,0.84,0.799,11,0.02,0.85,6,1.33,4,59,4,1
+C1839,Paracetamol Injection,3,0,S7,PHC Alwar,0.829,0.903,8,1.68,3.39,5,0.56,15,94,0,0
+C1840,Anti-snake Venom,5,1,S5,CHC Bikaner,0.947,0.982,10,3.09,5.22,2,0.93,19,80,0,0
+C1841,Oxytocin,5,0,S7,District Hospital Ajmer,0.963,0.993,7,3.44,1.07,6,1.25,18,61,0,0
+C1842,Pentavalent Vaccine,5,1,S5,Medical College Kota,0.772,0.78,11,4.84,0.36,0,1.18,13,65,0,0
+C1843,Ceftriaxone,4,0,S9,District Hospital Jaipur,0.74,1.0,11,2.39,3.77,7,1.41,15,77,0,0
+C1844,Amoxicillin,4,0,S3,District Hospital Jaipur,0.746,0.982,2,3.27,1.17,0,1.04,22,69,0,0
+C1845,ORS,3,0,S10,District Hospital Jodhpur,0.838,0.92,8,1.22,3.68,8,1.0,15,65,0,0
+C1846,Pentavalent Vaccine,5,1,S6,District Hospital Jaipur,0.823,0.954,10,1.66,3.09,4,0.77,19,72,0,0
+C1847,Paracetamol Injection,3,0,S9,CHC Udaipur,0.829,0.968,5,2.05,0.0,5,0.98,4,62,4,0
+C1848,Paracetamol Injection,3,0,S3,PHC Alwar,0.964,0.735,4,3.88,3.76,6,0.64,3,96,5,1
+C1849,Amoxicillin,4,0,S4,Medical College Kota,0.86,1.0,9,1.15,0.0,5,1.11,15,87,0,0
+C1850,Ceftriaxone,4,0,S8,District Hospital Jodhpur,0.739,0.791,3,2.99,2.81,9,1.52,5,82,3,1
+C1851,Oxytocin,5,0,S1,PHC Alwar,0.822,0.715,4,3.62,3.43,10,0.5,15,95,0,1
+C1852,Adrenaline Injection,5,0,S4,PHC Sikar,0.824,0.823,7,2.38,5.54,4,1.03,12,74,0,0
+C1853,Paracetamol Injection,3,0,S10,PHC Sikar,0.818,1.0,5,0.74,0.0,10,0.86,17,52,0,0
+C1854,Oxytocin,5,0,S9,PHC Alwar,0.725,0.784,2,5.34,4.57,7,0.5,20,52,0,1
+C1855,Ceftriaxone,4,0,S2,District Hospital Jaipur,0.735,0.825,6,1.41,0.07,2,1.3,4,81,4,0
+C1856,Amoxicillin,4,0,S8,CHC Udaipur,0.955,0.812,3,0.96,3.11,6,1.31,22,87,0,0
+C1857,Ceftriaxone,4,0,S5,District Hospital Ajmer,0.678,0.996,5,0.21,0.0,4,0.84,18,73,0,0
+C1858,Amoxicillin,4,0,S6,District Hospital Ajmer,0.632,0.875,6,1.01,1.2,8,1.24,1,81,7,0
+C1859,Oxytocin,5,0,S6,CHC Udaipur,0.75,0.994,3,0.74,0.57,8,1.0,11,73,0,0
+C1860,Paracetamol Injection,3,0,S1,PHC Alwar,0.99,0.786,7,2.53,0.29,8,1.36,13,72,0,0
+C1861,Ceftriaxone,4,0,S7,PHC Sikar,0.64,0.84,11,0.63,1.87,6,1.13,17,87,0,0
+C1862,Adrenaline Injection,5,0,S10,PHC Alwar,0.919,0.846,10,1.44,0.47,2,0.5,23,69,0,0
+C1863,Adrenaline Injection,5,0,S7,PHC Alwar,0.753,1.0,10,4.53,2.87,1,1.58,5,92,3,0
+C1864,Amoxicillin,4,0,S5,Medical College Kota,0.733,0.64,6,0.88,1.5,9,0.85,22,64,0,0
+C1865,Iron Folic Acid,2,0,S3,District Hospital Jaipur,0.736,0.83,7,0.0,0.0,9,1.27,16,87,0,0
+C1866,Insulin,5,1,S3,CHC Bikaner,0.659,0.8,7,4.88,1.08,10,0.99,11,69,0,1
+C1867,Salbutamol,4,0,S9,PHC Sikar,0.895,0.877,9,0.97,0.0,4,0.89,11,86,0,0
+C1868,Oxytocin,5,0,S8,District Hospital Ajmer,0.776,0.818,4,2.63,0.93,7,1.01,1,66,7,1
+C1869,Salbutamol,4,0,S1,PHC Alwar,0.919,0.773,5,0.4,3.09,5,0.51,3,58,5,0
+C1870,Insulin,5,1,S2,CHC Bikaner,0.802,0.927,11,1.81,4.01,4,0.5,20,83,0,0
+C1871,Amoxicillin,4,0,S5,District Hospital Jaipur,0.899,0.979,8,3.05,0.0,1,0.82,9,61,0,0
+C1872,ORS,3,0,S7,PHC Sikar,0.705,0.983,6,2.93,5.13,10,0.58,2,91,6,1
+C1873,Insulin,5,1,S4,PHC Alwar,0.839,1.0,4,0.97,1.44,1,0.65,8,56,0,0
+C1874,Paracetamol Injection,3,0,S3,District Hospital Jodhpur,0.916,0.873,6,0.96,2.08,0,0.73,1,88,7,0
+C1875,Salbutamol,4,0,S6,Medical College Kota,0.619,1.0,6,0.0,0.0,3,1.21,6,87,2,0
+C1876,Oxytocin,5,0,S6,Medical College Kota,0.85,0.939,8,3.3,0.18,8,1.07,15,61,0,0
+C1877,Oxytocin,5,0,S9,CHC Bikaner,0.76,0.748,11,2.74,2.57,2,1.1,13,73,0,0
+C1878,Paracetamol Injection,3,0,S8,District Hospital Jodhpur,0.777,0.935,10,1.96,3.23,10,0.88,1,79,7,1
+C1879,Amoxicillin,4,0,S10,District Hospital Ajmer,0.79,0.9,4,2.08,1.25,2,1.19,15,78,0,0
+C1880,Paracetamol Injection,3,0,S8,CHC Bikaner,0.896,0.906,3,4.25,0.47,0,1.09,6,88,2,0
+C1881,Rabies Vaccine,5,1,S5,Medical College Kota,0.954,0.827,11,3.98,2.91,3,0.92,13,100,0,0
+C1882,Ceftriaxone,4,0,S2,District Hospital Jodhpur,0.963,0.981,3,1.94,2.68,3,1.17,13,70,0,0
+C1883,Oxytocin,5,0,S10,District Hospital Jaipur,0.793,0.829,3,2.71,0.0,2,0.85,13,61,0,1
+C1884,Amoxicillin,4,0,S3,District Hospital Ajmer,0.851,0.786,5,1.06,0.59,1,1.15,15,68,0,0
+C1885,Salbutamol,4,0,S6,CHC Udaipur,0.87,0.731,5,4.52,0.4,8,1.24,18,90,0,1
+C1886,Ceftriaxone,4,0,S6,District Hospital Jaipur,0.99,0.872,9,2.19,0.0,6,0.57,8,70,0,0
+C1887,Anti-snake Venom,5,1,S9,District Hospital Jaipur,0.798,0.987,4,1.38,0.75,2,1.26,12,65,0,0
+C1888,ORS,3,0,S3,PHC Sikar,0.789,0.96,3,2.11,3.43,7,1.03,19,59,0,0
+C1889,Rabies Vaccine,5,1,S5,District Hospital Jodhpur,0.82,1.0,7,3.41,1.86,5,1.2,5,60,3,0
+C1890,Adrenaline Injection,5,0,S3,District Hospital Jodhpur,0.988,0.735,3,3.38,3.61,7,0.89,2,90,6,1
+C1891,Adrenaline Injection,5,0,S9,PHC Alwar,0.731,0.773,6,2.25,7.38,1,1.12,17,97,0,1
+C1892,Ceftriaxone,4,0,S4,CHC Udaipur,0.781,0.962,8,3.23,0.0,5,0.89,19,72,0,0
+C1893,Oxytocin,5,0,S8,District Hospital Jodhpur,0.99,0.912,3,4.36,2.69,9,0.88,3,73,5,1
+C1894,Adrenaline Injection,5,0,S7,District Hospital Ajmer,0.523,0.802,6,1.91,1.12,6,1.19,5,69,3,1
+C1895,Amoxicillin,4,0,S2,PHC Alwar,0.834,0.612,5,3.0,0.01,8,0.96,23,71,0,0
+C1896,Salbutamol,4,0,S10,District Hospital Ajmer,0.782,0.85,11,4.87,1.19,4,1.14,19,51,0,1
+C1897,ORS,3,0,S10,PHC Sikar,0.87,0.751,8,3.89,0.0,10,0.82,7,67,1,0
+C1898,Adrenaline Injection,5,0,S4,District Hospital Ajmer,0.929,0.824,11,1.93,3.98,0,0.99,3,92,5,1
+C1899,Oxytocin,5,0,S9,PHC Alwar,0.844,0.872,10,0.44,0.59,7,0.5,4,51,4,0
+C1900,Insulin,5,1,S3,District Hospital Ajmer,0.868,0.844,4,3.0,3.77,2,1.11,23,99,0,0
+C1901,Adrenaline Injection,5,0,S8,District Hospital Jodhpur,0.82,0.658,8,2.19,5.53,3,1.2,20,100,0,1
+C1902,Insulin,5,1,S5,District Hospital Jodhpur,0.792,0.833,10,4.55,1.79,1,0.73,6,82,2,0
+C1903,Amoxicillin,4,0,S4,CHC Bikaner,0.845,0.965,10,3.42,3.5,8,1.3,9,63,0,0
+C1904,Paracetamol Injection,3,0,S10,PHC Alwar,0.781,0.783,11,2.35,0.06,1,0.83,14,90,0,0
+C1905,Adrenaline Injection,5,0,S10,CHC Bikaner,0.941,0.85,4,1.42,0.39,2,0.75,16,87,0,0
+C1906,Insulin,5,1,S1,District Hospital Jodhpur,0.822,0.892,2,0.97,0.08,7,0.59,16,63,0,1
+C1907,Adrenaline Injection,5,0,S3,CHC Bikaner,0.99,0.954,10,4.09,1.07,3,1.41,4,64,4,0
+C1908,Iron Folic Acid,2,0,S8,CHC Bikaner,0.849,0.963,3,0.09,0.05,2,1.64,12,82,0,1
+C1909,Ceftriaxone,4,0,S1,PHC Sikar,0.831,0.841,8,3.52,0.01,3,1.04,22,83,0,0
+C1910,Salbutamol,4,0,S4,District Hospital Jaipur,0.713,0.752,6,2.09,2.44,10,0.75,7,92,1,1
+C1911,Salbutamol,4,0,S1,Medical College Kota,0.952,0.947,3,4.35,0.89,5,1.15,19,73,0,1
+C1912,Adrenaline Injection,5,0,S9,PHC Sikar,0.526,0.747,7,3.34,0.0,10,1.38,2,52,6,1
+C1913,Rabies Vaccine,5,1,S8,District Hospital Ajmer,0.638,0.898,4,1.26,0.0,5,0.5,9,98,0,1
+C1914,Rabies Vaccine,5,1,S10,PHC Sikar,0.78,0.941,11,2.63,0.05,0,1.11,22,65,0,0
+C1915,Adrenaline Injection,5,0,S3,Medical College Kota,0.928,0.766,11,3.41,3.56,3,0.5,8,83,0,0
+C1916,Salbutamol,4,0,S10,District Hospital Ajmer,0.612,0.867,5,4.5,3.47,10,1.21,13,99,0,1
+C1917,Insulin,5,1,S8,CHC Bikaner,0.867,0.82,4,6.77,0.66,9,0.53,7,52,1,1
+C1918,Paracetamol Injection,3,0,S3,CHC Bikaner,0.801,0.846,9,2.23,1.08,10,1.36,12,62,0,1
+C1919,Paracetamol Injection,3,0,S1,PHC Sikar,0.757,0.996,4,2.86,3.49,6,1.22,24,97,0,0
+C1920,Salbutamol,4,0,S8,PHC Sikar,0.975,0.77,9,4.29,4.27,9,0.68,15,85,0,1
+C1921,Salbutamol,4,0,S8,District Hospital Jaipur,0.927,0.832,9,2.31,3.44,10,1.02,1,94,7,0
+C1922,Oxytocin,5,0,S6,District Hospital Jaipur,0.947,1.0,8,2.08,3.25,2,0.78,16,66,0,0
+C1923,Adrenaline Injection,5,0,S3,District Hospital Ajmer,0.978,0.78,8,3.53,2.5,0,1.1,20,96,0,1
+C1924,Insulin,5,1,S3,CHC Bikaner,0.815,1.0,5,5.4,2.56,5,1.24,16,54,0,1
+C1925,Insulin,5,1,S6,PHC Sikar,0.891,0.835,4,6.46,1.97,5,1.53,19,80,0,0
+C1926,Oxytocin,5,0,S4,District Hospital Jodhpur,0.665,0.929,7,2.89,3.54,1,0.51,15,90,0,1
+C1927,Anti-snake Venom,5,1,S9,Medical College Kota,0.727,0.784,8,3.07,2.97,8,0.95,5,52,3,1
+C1928,Amoxicillin,4,0,S2,Medical College Kota,0.883,0.792,7,2.27,0.0,7,0.5,9,68,0,1
+C1929,Iron Folic Acid,2,0,S7,District Hospital Jaipur,0.759,0.719,8,2.08,0.0,10,1.19,22,87,0,0
+C1930,Oxytocin,5,0,S7,CHC Udaipur,0.887,0.743,9,4.05,0.89,2,0.5,9,52,0,0
+C1931,Paracetamol Injection,3,0,S6,District Hospital Jaipur,0.853,1.0,7,3.17,0.0,5,1.14,3,69,5,0
+C1932,Rabies Vaccine,5,1,S4,PHC Alwar,0.572,0.85,11,0.0,2.51,7,0.5,3,79,5,1
+C1933,Insulin,5,1,S9,Medical College Kota,0.99,0.768,5,1.7,4.54,6,0.9,8,95,0,1
+C1934,Ceftriaxone,4,0,S5,PHC Sikar,0.58,0.996,2,2.25,1.24,6,1.36,12,92,0,0
+C1935,Ceftriaxone,4,0,S9,CHC Bikaner,0.681,1.0,6,2.3,0.0,10,0.9,10,68,0,1
+C1936,Oxytocin,5,0,S9,District Hospital Ajmer,0.827,0.968,6,2.79,1.42,4,0.86,22,97,0,0
+C1937,Ceftriaxone,4,0,S2,PHC Alwar,0.89,0.829,7,3.18,1.88,2,1.45,21,74,0,0
+C1938,Insulin,5,1,S9,District Hospital Jaipur,0.827,0.94,7,2.32,4.22,0,0.99,15,51,0,0
+C1939,ORS,3,0,S6,Medical College Kota,0.796,0.677,9,4.12,4.96,9,0.61,13,90,0,1
+C1940,Adrenaline Injection,5,0,S10,CHC Bikaner,0.738,0.858,5,5.12,2.3,1,1.01,19,100,0,1
+C1941,Rabies Vaccine,5,1,S9,CHC Bikaner,0.688,0.878,11,3.0,1.23,1,1.06,22,95,0,0
+C1942,Adrenaline Injection,5,0,S7,PHC Sikar,0.818,0.792,7,3.54,1.98,2,0.74,19,70,0,1
+C1943,Salbutamol,4,0,S4,District Hospital Ajmer,0.735,0.843,4,2.04,2.75,3,1.77,23,52,0,0
+C1944,Salbutamol,4,0,S5,Medical College Kota,0.601,0.874,3,3.05,5.32,5,0.9,24,81,0,0
+C1945,Adrenaline Injection,5,0,S5,CHC Udaipur,0.837,0.93,5,0.89,3.65,6,0.73,5,54,3,0
+C1946,ORS,3,0,S2,District Hospital Jodhpur,0.821,1.0,11,1.53,4.09,1,0.77,14,67,0,0
+C1947,Ceftriaxone,4,0,S10,CHC Udaipur,0.884,1.0,7,1.0,3.87,2,1.65,12,98,0,1
+C1948,Ceftriaxone,4,0,S4,District Hospital Ajmer,0.889,0.74,7,2.25,0.0,6,0.94,3,58,5,0
+C1949,Amoxicillin,4,0,S5,CHC Udaipur,0.803,0.782,5,4.33,0.0,8,0.88,14,64,0,0
+C1950,Pentavalent Vaccine,5,1,S10,CHC Udaipur,0.695,0.788,4,3.39,0.09,0,1.36,2,69,6,0
+C1951,Salbutamol,4,0,S5,PHC Alwar,0.856,0.903,4,2.55,6.08,10,1.41,13,96,0,1
+C1952,Iron Folic Acid,2,0,S6,District Hospital Ajmer,0.91,0.774,4,1.39,0.0,2,0.5,3,73,5,0
+C1953,Ceftriaxone,4,0,S8,PHC Sikar,0.863,0.73,7,3.9,0.0,8,0.57,17,99,0,0
+C1954,Iron Folic Acid,2,0,S7,CHC Udaipur,0.772,0.939,4,0.77,3.04,10,1.47,18,60,0,0
+C1955,Insulin,5,1,S4,District Hospital Jaipur,0.791,0.819,9,3.07,2.32,3,1.18,23,72,0,0
+C1956,Pentavalent Vaccine,5,1,S1,District Hospital Ajmer,0.99,0.946,9,0.84,1.97,2,0.66,16,59,0,0
+C1957,Iron Folic Acid,2,0,S3,District Hospital Jaipur,0.699,0.794,2,4.94,3.49,5,0.94,15,63,0,1
+C1958,Anti-snake Venom,5,1,S1,District Hospital Jodhpur,0.773,0.86,11,2.13,0.47,5,0.81,15,50,0,0
+C1959,Insulin,5,1,S6,PHC Sikar,0.74,0.861,10,2.29,3.77,1,0.56,11,82,0,1
+C1960,Anti-snake Venom,5,1,S10,CHC Udaipur,0.727,0.855,8,2.46,1.75,7,0.73,12,56,0,0
+C1961,Rabies Vaccine,5,1,S1,District Hospital Jodhpur,0.815,0.873,6,4.65,3.7,6,1.2,17,76,0,0
+C1962,Anti-snake Venom,5,1,S8,CHC Bikaner,0.853,0.777,6,0.0,0.0,5,1.15,1,74,7,0
+C1963,Salbutamol,4,0,S10,District Hospital Ajmer,0.749,1.0,8,0.18,1.38,9,0.5,18,75,0,0
+C1964,Insulin,5,1,S10,District Hospital Ajmer,0.837,0.941,7,1.65,0.0,9,0.75,4,70,4,0
+C1965,Anti-snake Venom,5,1,S8,District Hospital Jaipur,0.755,0.853,5,0.13,3.57,4,0.55,14,63,0,0
+C1966,Ceftriaxone,4,0,S9,CHC Bikaner,0.774,0.916,6,3.04,4.06,9,1.36,12,51,0,1
+C1967,Paracetamol Injection,3,0,S10,PHC Alwar,0.771,0.948,6,1.69,1.09,10,1.48,2,72,6,1
+C1968,Ceftriaxone,4,0,S4,District Hospital Jaipur,0.871,0.791,2,1.55,3.23,4,0.9,6,73,2,0
+C1969,Salbutamol,4,0,S5,District Hospital Jodhpur,0.791,0.75,11,1.45,0.6,8,0.99,9,75,0,0
+C1970,Amoxicillin,4,0,S5,CHC Udaipur,0.736,0.885,11,1.69,4.78,2,0.74,3,69,5,1
+C1971,Anti-snake Venom,5,1,S1,District Hospital Ajmer,0.777,0.965,9,3.82,3.01,6,0.92,10,57,0,0
+C1972,Anti-snake Venom,5,1,S4,District Hospital Jaipur,0.94,0.79,6,4.82,1.81,9,0.8,7,51,1,0
+C1973,Adrenaline Injection,5,0,S6,CHC Udaipur,0.808,0.817,2,0.0,0.0,6,0.69,16,53,0,0
+C1974,Anti-snake Venom,5,1,S1,District Hospital Jodhpur,0.897,0.938,10,2.54,2.59,7,0.52,3,97,5,1
+C1975,Anti-snake Venom,5,1,S1,CHC Udaipur,0.615,0.906,7,0.29,1.07,9,0.92,20,100,0,0
+C1976,Salbutamol,4,0,S3,District Hospital Jodhpur,0.624,0.84,3,3.63,1.9,4,1.52,8,76,0,0
+C1977,Iron Folic Acid,2,0,S6,PHC Alwar,0.85,0.684,4,0.97,1.13,10,1.67,14,78,0,1
+C1978,Amoxicillin,4,0,S3,District Hospital Ajmer,0.99,0.826,10,0.8,1.85,8,0.68,3,55,5,1
+C1979,Iron Folic Acid,2,0,S8,District Hospital Jaipur,0.921,0.679,3,1.67,3.55,8,0.79,14,62,0,0
+C1980,Paracetamol Injection,3,0,S1,District Hospital Jaipur,0.905,0.796,10,3.36,2.24,10,1.16,16,81,0,0
+C1981,Amoxicillin,4,0,S7,PHC Sikar,0.873,0.81,9,2.65,1.09,3,1.11,6,58,2,0
+C1982,Amoxicillin,4,0,S7,District Hospital Ajmer,0.854,1.0,11,1.35,0.67,1,1.13,16,89,0,0
+C1983,Iron Folic Acid,2,0,S6,PHC Sikar,0.99,0.936,9,4.07,1.77,4,1.17,15,96,0,1
+C1984,Rabies Vaccine,5,1,S10,CHC Bikaner,0.784,0.845,8,3.01,0.0,5,0.99,22,53,0,0
+C1985,Amoxicillin,4,0,S9,PHC Alwar,0.768,0.813,3,1.28,2.61,9,1.11,15,58,0,0
+C1986,Ceftriaxone,4,0,S4,District Hospital Jodhpur,0.805,0.846,7,3.51,4.37,7,1.06,17,74,0,1
+C1987,Ceftriaxone,4,0,S10,Medical College Kota,0.918,0.837,11,1.52,1.94,10,1.05,12,88,0,1
+C1988,Adrenaline Injection,5,0,S2,CHC Udaipur,0.707,0.881,9,4.66,0.88,3,1.14,7,66,1,0
+C1989,Anti-snake Venom,5,1,S6,District Hospital Jodhpur,0.978,0.894,4,2.72,3.75,7,0.94,10,88,0,1
+C1990,Insulin,5,1,S3,District Hospital Ajmer,0.681,1.0,3,0.0,1.7,7,1.84,5,65,3,1
+C1991,Adrenaline Injection,5,0,S5,District Hospital Ajmer,0.829,0.887,11,2.28,1.32,0,1.23,12,76,0,0
+C1992,Iron Folic Acid,2,0,S8,Medical College Kota,0.771,0.934,8,1.7,2.55,8,1.7,11,53,0,0
+C1993,Amoxicillin,4,0,S9,District Hospital Jodhpur,0.914,0.691,5,4.29,4.36,7,1.23,16,95,0,1
+C1994,Anti-snake Venom,5,1,S6,District Hospital Jodhpur,0.913,0.823,6,1.9,0.0,9,1.3,24,78,0,1
+C1995,Adrenaline Injection,5,0,S7,CHC Udaipur,0.899,0.958,9,4.25,1.99,4,1.17,9,73,0,1
+C1996,Insulin,5,1,S4,PHC Alwar,0.604,0.756,10,3.63,1.05,8,1.51,9,76,0,0
+C1997,Insulin,5,1,S6,District Hospital Ajmer,0.842,0.96,4,0.8,1.15,7,0.87,8,60,0,0
+C1998,Pentavalent Vaccine,5,1,S3,District Hospital Jodhpur,0.708,0.883,9,2.58,3.18,5,0.79,23,65,0,1
+C1999,Insulin,5,1,S1,PHC Sikar,0.803,0.824,2,3.79,2.75,6,0.95,9,99,0,1
+C2000,Insulin,5,1,S4,District Hospital Jaipur,0.69,0.871,2,0.67,0.54,5,1.27,11,57,0,0

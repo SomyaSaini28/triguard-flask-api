@@ -1,0 +1,4 @@
+model,accuracy,precision,recall,f1,roc_auc,brier_score
+Logistic Regression,0.69,0.556886,0.65035,0.6,0.703056,0.217348
+Random Forest,0.7,0.6,0.482517,0.534884,0.732388,0.210267
+Calibrated RF (Isotonic),0.6975,0.671875,0.300699,0.415459,0.728538,0.19787

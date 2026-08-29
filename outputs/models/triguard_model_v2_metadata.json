@@ -1,0 +1,34 @@
+{
+  "model_version": "v2",
+  "feature_columns": [
+    "medicine_name",
+    "medicine_criticality",
+    "cold_chain_required",
+    "supplier_id",
+    "destination_facility",
+    "supplier_on_time_rate",
+    "supplier_fill_rate",
+    "lead_time_days",
+    "lead_time_variability",
+    "route_delay_days",
+    "weather_risk_score",
+    "demand_spike_factor",
+    "current_stock_days",
+    "warehouse_utilization"
+  ],
+  "removed_features": [
+    "safety_stock_gap"
+  ],
+  "calibration": "isotonic",
+  "cv_folds": 3,
+  "operating_threshold": 0.35,
+  "threshold_note": "Selected as the maximum-F1 candidate on the fixed prototype holdout. Must be revalidated on real operational data before deployment.",
+  "metrics": {
+    "accuracy": 0.665,
+    "precision": 0.5238095238095238,
+    "recall": 0.6923076923076923,
+    "f1": 0.5963855421686747,
+    "roc_auc": 0.7285924192538978,
+    "brier_score": 0.19705771533185495
+  }
+}

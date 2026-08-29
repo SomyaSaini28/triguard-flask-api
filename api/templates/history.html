@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="TriGuard planner assessment history.">
+    <title>Assessment history | TriGuard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css', v='20260829.1') }}">
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="{{ url_for('api.index') }}" aria-label="TriGuard dashboard home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>TriGuard</span></a>
+        <div class="topbar-actions">
+          <a class="button button-ghost" href="{{ url_for('api.index') }}">New assessment</a>
+          <form class="logout-form" action="{{ url_for('api.logout') }}" method="post"><input type="hidden" name="_csrf_token" value="{{ csrf_token() }}"><button class="button button-ghost" type="submit">Sign out</button></form>
+        </div>
+      </header>
+      <main class="history-page">
+        <section class="history-hero"><div><p class="eyebrow">Planner workspace</p><h1>Assessment history</h1><p>Review up to 100 of your most recent disruption-risk assessments.</p></div><span class="history-count">{{ records|length }} saved</span></section>
+        {% if records %}
+        <section class="history-table-wrap" aria-label="Saved assessments"><table class="history-table"><thead><tr><th>Assessment</th><th>Medicine</th><th>Risk</th><th>Planner response</th><th>Response target</th><th>Scored</th></tr></thead><tbody>{% for record in records %}<tr><td><strong>{{ record.case_id or 'Unassigned' }}</strong><span>{{ record.id[:8] }}</span></td><td>{{ record.medicine_name }}</td><td><span class="history-risk history-risk-{{ record.risk_band }}">{{ '%.0f'|format(record.risk_probability * 100) }}% · {{ record.risk_band }}</span></td><td><strong>{{ record.triage_action }}</strong><span>{{ record.severity }} severity</span></td><td>{{ record.response_sla }}</td><td>{{ record.created_at.strftime('%d %b %Y, %H:%M') }}</td></tr>{% endfor %}</tbody></table></section>
+        {% else %}
+        <section class="history-empty"><div class="empty-orbit" aria-hidden="true"><span></span><span></span><span></span><b>+</b></div><h2>No saved assessments yet.</h2><p>Complete your first shipment assessment to build a secure planner history.</p><a class="button button-primary" href="{{ url_for('api.index') }}">Create assessment <span aria-hidden="true">→</span></a></section>
+        {% endif %}
+      </main>
+      <footer><span>TriGuard decision support</span><span>Model outputs require human review before action.</span></footer>
+    </div>
+  </body>
+</html>

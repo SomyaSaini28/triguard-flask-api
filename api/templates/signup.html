@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Create a TriGuard planner account.">
+    <title>Create account | TriGuard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css', v='20260829.2') }}">
+  </head>
+  <body class="auth-page">
+    <main class="auth-shell">
+      <a class="brand" href="{{ url_for('api.login') }}" aria-label="TriGuard sign in">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>TriGuard</span>
+      </a>
+      <section class="auth-card" aria-labelledby="signup-title">
+        <p class="eyebrow">Planner workspace</p>
+        <h1 id="signup-title">Create your account.</h1>
+        <p>Your future assessments and their history stay private to this account.</p>
+        {% if error %}<div class="auth-error" role="alert">{{ error }}</div>{% endif %}
+        <form method="post" class="auth-form">
+          <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+          <label class="field"><span>Email address</span><input type="email" name="email" autocomplete="email" required autofocus value="{{ request.form.get('email', '') }}"></label>
+          <label class="field"><span>Password</span><input type="password" name="password" autocomplete="new-password" minlength="12" required><small>Minimum 12 characters, including a letter and a number.</small></label>
+          <label class="field"><span>Confirm password</span><input type="password" name="confirm_password" autocomplete="new-password" minlength="12" required></label>
+          <button class="button button-primary" type="submit">Create account <span aria-hidden="true">→</span></button>
+        </form>
+        <p class="auth-link">Already have an account? <a href="{{ url_for('api.login') }}">Sign in</a></p>
+      </section>
+      <p class="auth-note">A verification email is required before your planner account can be used.</p>
+    </main>
+  </body>
+</html>

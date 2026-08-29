@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Verify your email | TriGuard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css', v='20260829.3') }}">
+  </head>
+  <body class="auth-page">
+    <main class="auth-shell">
+      <a class="brand" href="{{ url_for('api.login') }}" aria-label="TriGuard sign in"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>TriGuard</span></a>
+      <section class="auth-card" aria-labelledby="verification-title">
+        <p class="eyebrow">One last step</p>
+        <h1 id="verification-title">Verify your email.</h1>
+        <p>We sent a verification link to <strong>{{ email }}</strong>. Open it within 24 hours, then you can sign in.</p>
+        {% if development_verification_url %}<div class="dev-link"><strong>Local development link</strong><a href="{{ development_verification_url }}">Verify this local account</a></div>{% endif %}
+        <a class="button button-primary" href="{{ url_for('api.login') }}">Back to sign in <span aria-hidden="true">→</span></a>
+      </section>
+    </main>
+  </body>
+</html>

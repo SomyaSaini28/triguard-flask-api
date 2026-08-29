@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="TriGuard planner workspace for essential-medicine supply-chain disruption triage.">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>TriGuard | Supply continuity workspace</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css', v='20260829.1') }}">
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="/" aria-label="TriGuard dashboard home">
+          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span>TriGuard</span>
+        </a>
+        <div class="topbar-actions">
+          <span class="connection" id="connection-status" role="status">
+            <span class="status-dot" aria-hidden="true"></span>
+            Checking service
+          </span>
+          <a class="button button-ghost" href="{{ url_for('api.assessment_history') }}">Assessment history</a>
+          <form class="logout-form" action="{{ url_for('api.logout') }}" method="post">
+            <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+            <button class="button button-ghost" type="submit">Sign out</button>
+          </form>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="page-title">
+          <div>
+            <p class="eyebrow">Supply continuity command center</p>
+            <h1 id="page-title">Decide sooner. Protect every delivery.</h1>
+            <p class="hero-copy">Assess a medicine shipment, see its calibrated disruption risk, and move directly to the right operating response.</p>
+          </div>
+          <aside class="model-pill" aria-label="Model information">
+            <span class="model-pill-icon" aria-hidden="true">AI</span>
+            <div>
+              <strong id="model-version">Risk model loading</strong>
+              <span>Decision support · human review required</span>
+            </div>
+          </aside>
+        </section>
+
+        <section class="workspace" aria-label="Prediction workspace">
+          <form class="case-form" id="prediction-form" novalidate>
+            <div class="panel-heading">
+              <div>
+                <p class="section-label">New assessment</p>
+                <h2>Shipment profile</h2>
+                <p>Enter the latest operational signals. All fields marked <span class="required">*</span> are required.</p>
+              </div>
+              <button class="text-button" type="button" id="load-sample">Load sample</button>
+            </div>
+
+            <div class="form-section">
+              <div class="form-section-title"><span>01</span><h3>Medicine &amp; destination</h3></div>
+              <div class="field-grid">
+                <label class="field"><span>Case reference <em>Optional</em></span><input name="case_id" maxlength="80" placeholder="e.g. JAIPUR-2408" autocomplete="off"></label>
+                <label class="field"><span>Medicine name <b>*</b></span><input name="medicine_name" minlength="2" maxlength="100" placeholder="e.g. Insulin" required></label>
+                <label class="field"><span>Supplier ID <b>*</b></span><input name="supplier_id" maxlength="80" placeholder="e.g. S2" required></label>
+                <label class="field"><span>Destination facility <b>*</b></span><input name="destination_facility" minlength="2" maxlength="160" placeholder="e.g. District Hospital Jaipur" required></label>
+              </div>
+              <div class="field-grid field-grid-2">
+                <fieldset class="field fieldset-field"><legend>Medicine criticality <b>*</b></legend><div class="choice-scale" id="criticality-scale"><label><input type="radio" name="medicine_criticality" value="1" required><span>1</span></label><label><input type="radio" name="medicine_criticality" value="2"><span>2</span></label><label><input type="radio" name="medicine_criticality" value="3"><span>3</span></label><label><input type="radio" name="medicine_criticality" value="4"><span>4</span></label><label><input type="radio" name="medicine_criticality" value="5" checked><span>5</span></label></div><small>1 = lower priority · 5 = life-critical</small></fieldset>
+                <fieldset class="field fieldset-field"><legend>Cold chain required <b>*</b></legend><div class="toggle-choice"><label><input type="radio" name="cold_chain_required" value="true" checked><span>Required</span></label><label><input type="radio" name="cold_chain_required" value="false"><span>Not required</span></label></div><small>Includes refrigerated storage or transport.</small></fieldset>
+              </div>
+            </div>
+
+            <div class="form-section">
+              <div class="form-section-title"><span>02</span><h3>Supplier &amp; route</h3></div>
+              <div class="field-grid field-grid-3">
+                <label class="field"><span>On-time rate <b>*</b></span><div class="input-suffix"><input type="number" name="supplier_on_time_rate" min="0" max="1" step="0.01" value="0.68" required><span>ratio</span></div><small>0.00 to 1.00</small></label>
+                <label class="field"><span>Fill rate <b>*</b></span><div class="input-suffix"><input type="number" name="supplier_fill_rate" min="0" max="1" step="0.01" value="0.72" required><span>ratio</span></div><small>0.00 to 1.00</small></label>
+                <label class="field"><span>Lead time <b>*</b></span><div class="input-suffix"><input type="number" name="lead_time_days" min="0" max="180" step="1" value="8" required><span>days</span></div></label>
+                <label class="field"><span>Lead-time variability <b>*</b></span><div class="input-suffix"><input type="number" name="lead_time_variability" min="0" max="90" step="0.1" value="4.5" required><span>days</span></div></label>
+                <label class="field"><span>Route delay <b>*</b></span><div class="input-suffix"><input type="number" name="route_delay_days" min="0" max="90" step="0.1" value="3.8" required><span>days</span></div></label>
+                <label class="field"><span>Weather exposure <b>*</b></span><div class="input-suffix"><input type="number" name="weather_risk_score" min="0" max="10" step="1" value="8" required><span>/ 10</span></div></label>
+              </div>
+            </div>
+
+            <div class="form-section form-section-last">
+              <div class="form-section-title"><span>03</span><h3>Demand &amp; inventory</h3></div>
+              <div class="field-grid field-grid-3">
+                <label class="field"><span>Demand spike factor <b>*</b></span><div class="input-suffix"><input type="number" name="demand_spike_factor" min="0" max="10" step="0.01" value="1.40" required><span>× normal</span></div></label>
+                <label class="field"><span>Current stock cover <b>*</b></span><div class="input-suffix"><input type="number" name="current_stock_days" min="0" max="365" step="1" value="3" required><span>days</span></div></label>
+                <label class="field"><span>Warehouse utilization <b>*</b></span><div class="input-suffix"><input type="number" name="warehouse_utilization" min="0" max="100" step="0.1" value="88" required><span>%</span></div></label>
+              </div>
+            </div>
+
+            <div class="form-footer">
+              <p class="form-note">TriGuard supports planning decisions. It does not replace qualified operational review.</p>
+              <button class="button button-primary" id="submit-button" type="submit"><span class="button-label">Assess disruption risk</span><span class="button-loader" aria-hidden="true"></span><span aria-hidden="true">→</span></button>
+            </div>
+          </form>
+
+          <aside class="results-panel" aria-labelledby="result-heading">
+            <div class="panel-heading results-heading">
+              <div><p class="section-label">Assessment output</p><h2 id="result-heading">Ready for a case</h2></div>
+              <span class="output-state" id="output-state">Waiting</span>
+            </div>
+
+            <div class="empty-result" id="empty-result">
+              <div class="empty-orbit" aria-hidden="true"><span></span><span></span><span></span><b>+</b></div>
+              <h3>Your next decision starts here.</h3>
+              <p>Complete the shipment profile to receive a risk band, response SLA, and recommended operating actions.</p>
+            </div>
+
+            <div class="result-content" id="result-content" hidden>
+              <div class="risk-overview" id="risk-overview">
+                <div class="risk-gauge" id="risk-gauge" style="position: relative; --risk: 0; --risk-color: #6b7280;"><div><strong id="risk-value">0%</strong><span>disruption risk</span></div></div>
+                <div class="risk-summary"><span class="risk-badge" id="risk-band">Risk band</span><h3 id="triage-action">—</h3><p id="response-sla">Response timing will appear here.</p></div>
+              </div>
+              <div class="result-meta"><div><span>Model</span><strong id="result-model">—</strong></div><div><span>Review status</span><strong id="review-status">—</strong></div><div><span>Case reference</span><strong id="result-case">—</strong></div></div>
+              <section class="result-section"><div class="result-section-head"><h3>Recommended next actions</h3><span>PLAYBOOK</span></div><ol class="action-list" id="action-list"></ol></section>
+              <section class="result-section"><div class="result-section-head"><h3>Operating signals</h3><span>CONTEXT</span></div><div class="signal-list" id="signal-list"></div></section>
+              <section class="quality-section" id="quality-section" hidden><strong>Data quality watch</strong><ul id="quality-list"></ul></section>
+              <p class="result-request" id="result-request"></p>
+            </div>
+          </aside>
+        </section>
+      </main>
+
+      <footer><span>TriGuard decision support</span><span>Model outputs require human review before action.</span><a href="/v1/openapi.json" target="_blank" rel="noreferrer">API contract ↗</a></footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='dashboard.js', v='20260829.1') }}" defer></script>
+  </body>
+</html>

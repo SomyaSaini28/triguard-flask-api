@@ -1,0 +1,26 @@
+{
+  "dataset_shape": {
+    "rows": 2000,
+    "columns": 17
+  },
+  "quality": {
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "duplicate_case_ids": 0
+  },
+  "target": {
+    "negative_count": 1283,
+    "positive_count": 717,
+    "negative_percent": 64.15,
+    "positive_percent": 35.85
+  },
+  "findings": {
+    "safety_stock_gap_is_deterministic_from_current_stock_days": true,
+    "medicine_criticality_is_fixed_by_medicine_name": true,
+    "cold_chain_required_is_fixed_by_medicine_name": true,
+    "strongest_numeric_target_correlation": {
+      "feature": "route_delay_days",
+      "correlation": 0.208
+    }
+  }
+}

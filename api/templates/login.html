@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sign in to the TriGuard planner workspace.">
+    <title>Sign in | TriGuard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css', v='20260829.1') }}">
+  </head>
+  <body class="auth-page">
+    <main class="auth-shell">
+      <a class="brand" href="{{ url_for('api.login') }}" aria-label="TriGuard sign in">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>TriGuard</span>
+      </a>
+      <section class="auth-card" aria-labelledby="login-title">
+        <p class="eyebrow">Protected planner workspace</p>
+        <h1 id="login-title">Sign in to continue.</h1>
+        <p>Use the planner account configured for this deployment. Your assessments are stored in your private history.</p>
+        {% if error %}<div class="auth-error" role="alert">{{ error }}</div>{% endif %}
+        <form method="post" class="auth-form">
+          <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+          <label class="field"><span>Email address</span><input type="email" name="email" autocomplete="email" required autofocus></label>
+          <label class="field"><span>Password</span><input type="password" name="password" autocomplete="current-password" required></label>
+          <button class="button button-primary" type="submit">Sign in <span aria-hidden="true">→</span></button>
+        </form>
+        {% if verification_needed_email %}<form class="auth-resend" action="{{ url_for('api.resend_verification') }}" method="post"><input type="hidden" name="_csrf_token" value="{{ csrf_token() }}"><input type="hidden" name="email" value="{{ verification_needed_email }}"><button class="text-button" type="submit">Resend verification email</button></form>{% endif %}
+        {% if signup_enabled %}<p class="auth-link">New to TriGuard? <a href="{{ url_for('api.signup') }}">Create an account</a></p>{% endif %}
+      </section>
+      <p class="auth-note">TriGuard is decision support only. Clinical and operational judgement remains essential.</p>
+    </main>
+  </body>
+</html>
