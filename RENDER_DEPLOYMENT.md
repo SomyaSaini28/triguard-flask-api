@@ -17,6 +17,7 @@ This project is prepared for a free Render preview in Singapore. Self-signup is 
 
 - Keep SMTP, database, administrator, API-key, and session-secret values only in Render's secret settings—never in GitHub or `.env.example`.
 - The blueprint chooses Render's Free web service and Free PostgreSQL tier for a preview. Free services are not a production data-retention plan.
+- The preview runs one Gunicorn worker to stay within the Free service's memory limit; increase `WEB_CONCURRENCY` only after moving to a larger service tier.
 - For public signup, change the plans to paid tiers, set `TRIGUARD_ALLOW_SELF_SIGNUP=true`, and add the HTTPS public URL plus SMTP variables from `.env.example`.
 - After the first deployment, add your custom domain in Render. Then update `TRIGUARD_PUBLIC_BASE_URL` to that exact `https://` domain before enabling public signup.
 - The database retains account and assessment data. The local JSON audit file is not durable on a hosted container; use Render logs or a managed logging service for long-term audit retention.

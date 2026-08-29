@@ -9,7 +9,7 @@ from pathlib import Path
 
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import DateTime, Float, ForeignKey, Index, JSON, String, Text, select
+from sqlalchemy import DateTime, Float, ForeignKey, Index, JSON, String, Text, select, text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from werkzeug.security import generate_password_hash
 
@@ -85,16 +85,29 @@ def initialize_database(app: Flask, app_settings: Settings) -> None:
 
     db.init_app(app)
     with app.app_context():
-        db.create_all()
-        _mark_legacy_accounts_verified()
-        _bootstrap_administrator(app_settings)
+        if db.engine.dialect.name == "postgresql":
+            # Gunicorn workers import the app concurrently. Hold a transaction-level
+            # advisory lock so only one worker can run CREATE TABLE/bootstrap logic.
+            with db.session.begin():
+                connection = db.session.connection()
+                connection.execute(
+                    text("SELECT pg_advisory_xact_lock(hashtext(:lock_name))"),
+                    {"lock_name": "triguard-schema-bootstrap"},
+                )
+                db.metadata.create_all(bind=connection)
+                _mark_legacy_accounts_verified(commit=False)
+                _bootstrap_administrator(app_settings, commit=False)
+        else:
+            db.create_all()
+            _mark_legacy_accounts_verified()
+            _bootstrap_administrator(app_settings)
         if app_settings.environment == "production" and not app.testing and not db.session.scalar(select(User.id).limit(1)):
             raise RuntimeError(
                 "TRIGUARD_ADMIN_EMAIL and TRIGUARD_ADMIN_PASSWORD must be set for a new production database."
             )
 
 
-def _bootstrap_administrator(app_settings: Settings) -> None:
+def _bootstrap_administrator(app_settings: Settings, *, commit: bool = True) -> None:
     """Create one initial account from deployment secrets, never from source code."""
     if not app_settings.admin_email or not app_settings.admin_password:
         return
@@ -109,17 +122,15 @@ def _bootstrap_administrator(app_settings: Settings) -> None:
         # passwords are intentionally never changed by an environment restart.
         if app_settings.environment == "development":
             existing_user.password_hash = generate_password_hash(app_settings.admin_password)
-            db.session.commit()
-        _mark_email_verified(existing_user)
+        _mark_email_verified(existing_user, commit=commit)
         return
 
     user = User(email=email, password_hash=generate_password_hash(app_settings.admin_password))
     db.session.add(user)
-    db.session.commit()
-    _mark_email_verified(user)
+    _mark_email_verified(user, commit=commit)
 
 
-def _mark_legacy_accounts_verified() -> None:
+def _mark_legacy_accounts_verified(*, commit: bool = True) -> None:
     """Preserve access for accounts created before email verification was introduced."""
     migration_key = "email-verification-v1"
     if db.session.get(ApplicationState, migration_key):
@@ -130,16 +141,18 @@ def _mark_legacy_accounts_verified() -> None:
         if user.email_verification is None:
             db.session.add(EmailVerification(user=user, verified_at=verified_at))
     db.session.add(ApplicationState(key=migration_key, value="completed"))
-    db.session.commit()
+    if commit:
+        db.session.commit()
 
 
-def _mark_email_verified(user: User) -> None:
+def _mark_email_verified(user: User, *, commit: bool = True) -> None:
     verification = user.email_verification or EmailVerification(user=user)
     verification.token_hash = None
     verification.expires_at = None
     verification.verified_at = datetime.now(UTC)
     db.session.add(verification)
-    db.session.commit()
+    if commit:
+        db.session.commit()
 
 
 def is_email_verified(user: User) -> bool:
