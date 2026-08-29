@@ -129,7 +129,7 @@ For a production release, use a secret manager and identity-aware gateway instea
 
 ## Render deployment
 
-The repository includes [`render.yaml`](render.yaml) for a paid Render Web Service, managed PostgreSQL, SMTP email verification, and a Singapore region. Follow [RENDER_DEPLOYMENT.md](RENDER_DEPLOYMENT.md) after pushing the project to GitHub. The free Render plan is not suitable for this configuration because it blocks outbound SMTP port `587` and its free PostgreSQL database expires after 30 days.
+The repository includes [`render.yaml`](render.yaml) for a free Render preview with administrator-only sign-in and managed PostgreSQL in Singapore. Follow [RENDER_DEPLOYMENT.md](RENDER_DEPLOYMENT.md) after pushing the project to GitHub. For a public launch, switch to paid service/database tiers, enable self-signup, and configure HTTPS plus SMTP email verification as described in `.env.example`.
 
 ## Decision policy and governance
 
